@@ -1,5 +1,7 @@
 # Icarus_Mods
 
+4/14/22 Updated explosive Arrows for week 19.
+
 4/8/22 Updated Explosive Arrows for week 18. Kryptic camo mod does not need any update.
 
 4/6/22 Added New Kryptic camo mod. 
