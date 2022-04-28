@@ -1,5 +1,7 @@
 # Icarus_Mods
 
+4/28/22 Uploaded new mods. Use gravity/jump mods with caution as a fall from high may kill! Also added Friendly wolf mod. They will attack and kill anything in the wild. They have been bread to be friendly with humans but dont attack or they will turn!
+
 4/14/22 Updated explosive Arrows for week 19.
 
 4/8/22 Updated Explosive Arrows for week 18. Kryptic camo mod does not need any update.
