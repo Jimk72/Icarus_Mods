@@ -1,5 +1,7 @@
 # Icarus_Mods
 
+5/6/22  Updated Mods to latest game data. Added More variety for the jump mods. The default jump height is 525. My old high jump was 900 so you now have options.
+
 4/28/22 Uploaded new mods. Use gravity/jump mods with caution as a fall from high may kill! Also added Friendly wolf mod. They will attack and kill anything in the wild. They have been bread to be friendly with humans but dont attack or they will turn!
 
 4/14/22 Updated explosive Arrows for week 19.
