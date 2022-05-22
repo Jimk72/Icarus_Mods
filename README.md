@@ -4,9 +4,13 @@
 5/22/22 Updated mods to week 24. Added new weapons mod. This mod adds 2 new handguns,3 assault rifles, and a sniper rifle. They are all tier 4 items. The weapons mod uses D_ProcessorRecipes, D_ItemsStatic, D_ItemTemplate, D_AmmoTypes, D_FirearmData, D_Actionable, D_Ballistic, D_Itemable, D_Meshable. So unfortunately will prob be incompatible with other mods. If another mod creator wishes to add all or one of these weapons to their mod  they are free to do so. Enjoy
 
 -No custom animations so I had to get creative with polishing them and getting them to reload/aim the right way. 
+
 -Sniper and 1 assault rifle use custom overlay for the binoc to resemble looking through a scope. Works nicely.
+
 -Hand guns use same ammo as pistol doing same damage but are semi-auto with 10 round mag. Reloads the 10 rounds in one animation. 
+
 -2 assault rifles use iron sights and all 3 rifles use 10 round mag but have to be loaded 1 round at a time as there are no mag reload animations for rifles.
+
 -Sniper rifle uses sniper ammo that does more damage than any other round but also is more difficult to craft. 1 shot then reload.
 
 5/6/22  Updated Mods to latest game data. Added More variety for the jump mods. The default jump height is 525. My old high jump was 900 so you now have options.
