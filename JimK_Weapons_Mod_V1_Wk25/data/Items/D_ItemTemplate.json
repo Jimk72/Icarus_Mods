@@ -1,0 +1,5576 @@
+{
+    "RowStruct": "/Script/Icarus.ItemData",
+    "Defaults": {
+        "ItemStaticData": {
+            "RowName": "None",
+            "DataTableName": "D_ItemsStatic"
+        },
+        "ItemDynamicData": [],
+        "ItemStats": {
+            "StaticWorldStats": [],
+            "StaticWorldHeldStats": [],
+            "AdditionalStats": []
+        },
+        "DatabaseGUID": "",
+        "RuntimeTags": {
+            "GameplayTags": []
+        }
+    },
+    "Rows": [
+        {
+            "Name": "Fiber",
+            "ItemStaticData": {
+                "RowName": "Fiber"
+            }
+        },
+        {
+            "Name": "Stone",
+            "ItemStaticData": {
+                "RowName": "Stone"
+            }
+        },
+        {
+            "Name": "Wood",
+            "ItemStaticData": {
+                "RowName": "Wood"
+            }
+        },
+        {
+            "Name": "Stick",
+            "ItemStaticData": {
+                "RowName": "Stick"
+            }
+        },
+        {
+            "Name": "Wood_Wall",
+            "ItemStaticData": {
+                "RowName": "Wood_Wall"
+            }
+        },
+        {
+            "Name": "Wood_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Wood_Halfpiece"
+            }
+        },
+        {
+            "Name": "Wood_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Wood_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Wood_Floor",
+            "ItemStaticData": {
+                "RowName": "Wood_Floor"
+            }
+        },
+        {
+            "Name": "Campfire",
+            "ItemStaticData": {
+                "RowName": "Campfire"
+            }
+        },
+        {
+            "Name": "Crafting_Bench",
+            "ItemStaticData": {
+                "RowName": "Crafting_Bench"
+            }
+        },
+        {
+            "Name": "Wood_Door",
+            "ItemStaticData": {
+                "RowName": "Wood_Door"
+            }
+        },
+        {
+            "Name": "Wood_Frame",
+            "ItemStaticData": {
+                "RowName": "Wood_Frame"
+            }
+        },
+        {
+            "Name": "Sulfur",
+            "ItemStaticData": {
+                "RowName": "Sulfur"
+            }
+        },
+        {
+            "Name": "Stone_Axe",
+            "ItemStaticData": {
+                "RowName": "Stone_Axe"
+            }
+        },
+        {
+            "Name": "Dev_Thor_Hammer",
+            "ItemStaticData": {
+                "RowName": "Dev_Thor_Hammer"
+            }
+        },
+        {
+            "Name": "Stone_Knife",
+            "ItemStaticData": {
+                "RowName": "Stone_Knife"
+            }
+        },
+        {
+            "Name": "Carbon_Spear",
+            "ItemStaticData": {
+                "RowName": "Carbon_Spear"
+            }
+        },
+        {
+            "Name": "Wood_Flare",
+            "ItemStaticData": {
+                "RowName": "Wood_Flare"
+            }
+        },
+        {
+            "Name": "Wood_Ramp",
+            "ItemStaticData": {
+                "RowName": "Wood_Ramp"
+            }
+        },
+        {
+            "Name": "Berry",
+            "ItemStaticData": {
+                "RowName": "Berry"
+            }
+        },
+        {
+            "Name": "Waterskin",
+            "ItemStaticData": {
+                "RowName": "Waterskin"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Oxygen_Bladder",
+            "ItemStaticData": {
+                "RowName": "Oxygen_Bladder"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Bow",
+            "ItemStaticData": {
+                "RowName": "Wood_Bow"
+            }
+        },
+        {
+            "Name": "Stone_Arrow",
+            "ItemStaticData": {
+                "RowName": "Stone_Arrow"
+            }
+        },
+        {
+            "Name": "Charcoal",
+            "ItemStaticData": {
+                "RowName": "Charcoal"
+            }
+        },
+        {
+            "Name": "Refined_Metal",
+            "ItemStaticData": {
+                "RowName": "Refined_Metal"
+            }
+        },
+        {
+            "Name": "Stone_Furnace",
+            "ItemStaticData": {
+                "RowName": "Kit_Stone_Furnace"
+            }
+        },
+        {
+            "Name": "Connector",
+            "ItemStaticData": {
+                "RowName": "Connector"
+            }
+        },
+        {
+            "Name": "Wood_Crate_Small",
+            "ItemStaticData": {
+                "RowName": "Wood_Crate_Small"
+            }
+        },
+        {
+            "Name": "Raw_Meat",
+            "ItemStaticData": {
+                "RowName": "Raw_Meat"
+            }
+        },
+        {
+            "Name": "Tree_Sap",
+            "ItemStaticData": {
+                "RowName": "Tree_Sap"
+            }
+        },
+        {
+            "Name": "Metal_Ore",
+            "ItemStaticData": {
+                "RowName": "Metal_Ore"
+            }
+        },
+        {
+            "Name": "Copper_Ore",
+            "ItemStaticData": {
+                "RowName": "Copper_Ore"
+            }
+        },
+        {
+            "Name": "Gold_Ore",
+            "ItemStaticData": {
+                "RowName": "Gold_Ore"
+            }
+        },
+        {
+            "Name": "Bauxite",
+            "ItemStaticData": {
+                "RowName": "Bauxite"
+            }
+        },
+        {
+            "Name": "Silica",
+            "ItemStaticData": {
+                "RowName": "Silica"
+            }
+        },
+        {
+            "Name": "Leather",
+            "ItemStaticData": {
+                "RowName": "Leather"
+            }
+        },
+        {
+            "Name": "Bone",
+            "ItemStaticData": {
+                "RowName": "Bone"
+            }
+        },
+        {
+            "Name": "Organic_Resin",
+            "ItemStaticData": {
+                "RowName": "Organic_Resin"
+            }
+        },
+        {
+            "Name": "Fur",
+            "ItemStaticData": {
+                "RowName": "Fur"
+            }
+        },
+        {
+            "Name": "Oxite",
+            "ItemStaticData": {
+                "RowName": "Oxite"
+            }
+        },
+        {
+            "Name": "Rope",
+            "ItemStaticData": {
+                "RowName": "Rope"
+            }
+        },
+        {
+            "Name": "Glass",
+            "ItemStaticData": {
+                "RowName": "Glass"
+            }
+        },
+        {
+            "Name": "Refined_Copper",
+            "ItemStaticData": {
+                "RowName": "Refined_Copper"
+            }
+        },
+        {
+            "Name": "Cooked_Meat",
+            "ItemStaticData": {
+                "RowName": "Cooked_Meat"
+            }
+        },
+        {
+            "Name": "Epoxy",
+            "ItemStaticData": {
+                "RowName": "Epoxy"
+            }
+        },
+        {
+            "Name": "Gunpowder",
+            "ItemStaticData": {
+                "RowName": "Gunpowder"
+            }
+        },
+        {
+            "Name": "Electronics",
+            "ItemStaticData": {
+                "RowName": "Electronics"
+            }
+        },
+        {
+            "Name": "Concrete_Mix",
+            "ItemStaticData": {
+                "RowName": "Concrete_Mix"
+            }
+        },
+        {
+            "Name": "Bone_Knife",
+            "ItemStaticData": {
+                "RowName": "Bone_Knife"
+            }
+        },
+        {
+            "Name": "Bone_Spear",
+            "ItemStaticData": {
+                "RowName": "Bone_Spear"
+            }
+        },
+        {
+            "Name": "Bone_Arrow",
+            "ItemStaticData": {
+                "RowName": "Bone_Arrow"
+            }
+        },
+        {
+            "Name": "Longbow",
+            "ItemStaticData": {
+                "RowName": "Longbow"
+            }
+        },
+        {
+            "Name": "Oxygen_Tank",
+            "ItemStaticData": {
+                "RowName": "Oxygen_Tank"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Metal_Knife",
+            "ItemStaticData": {
+                "RowName": "Metal_Knife"
+            }
+        },
+        {
+            "Name": "Metal_Spear",
+            "ItemStaticData": {
+                "RowName": "Metal_Spear"
+            }
+        },
+        {
+            "Name": "Metal_Axe",
+            "ItemStaticData": {
+                "RowName": "Metal_Axe"
+            }
+        },
+        {
+            "Name": "Metal_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Metal_Pickaxe"
+            }
+        },
+        {
+            "Name": "Metal_Bolt",
+            "ItemStaticData": {
+                "RowName": "Metal_Bolt"
+            }
+        },
+        {
+            "Name": "Copper_Bolt",
+            "ItemStaticData": {
+                "RowName": "Copper_Bolt"
+            }
+        },
+        {
+            "Name": "Canteen",
+            "ItemStaticData": {
+                "RowName": "Canteen"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Crossbow",
+            "ItemStaticData": {
+                "RowName": "Crossbow"
+            }
+        },
+        {
+            "Name": "Lantern",
+            "ItemStaticData": {
+                "RowName": "Lantern"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 3
+                }
+            ]
+        },
+        {
+            "Name": "Rifle_Hunting",
+            "ItemStaticData": {
+                "RowName": "Rifle_Hunting"
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round"
+            }
+        },
+        {
+            "Name": "Machete",
+            "ItemStaticData": {
+                "RowName": "Machete"
+            }
+        },
+        {
+            "Name": "Battery_Cell",
+            "ItemStaticData": {
+                "RowName": "Battery_Cell"
+            }
+        },
+        {
+            "Name": "Pneumatic_Drill",
+            "ItemStaticData": {
+                "RowName": "Pneumatic_Drill"
+            }
+        },
+        {
+            "Name": "Chainsaw",
+            "ItemStaticData": {
+                "RowName": "Chainsaw"
+            }
+        },
+        {
+            "Name": "Kit_Mortar_And_Pestle",
+            "ItemStaticData": {
+                "RowName": "Kit_Mortar_And_Pestle"
+            }
+        },
+        {
+            "Name": "Kit_Oxite_Dissolver",
+            "ItemStaticData": {
+                "RowName": "Kit_Oxite_Dissolver"
+            }
+        },
+        {
+            "Name": "Concrete_Furnace",
+            "ItemStaticData": {
+                "RowName": "Kit_Concrete_Furnace"
+            }
+        },
+        {
+            "Name": "Electric_Furnace",
+            "ItemStaticData": {
+                "RowName": "Kit_Electric_Furnace"
+            }
+        },
+        {
+            "Name": "Kit_Generator",
+            "ItemStaticData": {
+                "RowName": "Kit_Generator"
+            }
+        },
+        {
+            "Name": "Shotgun",
+            "ItemStaticData": {
+                "RowName": "Shotgun"
+            }
+        },
+        {
+            "Name": "Meta_Resource",
+            "ItemStaticData": {
+                "RowName": "MetaResource"
+            }
+        },
+        {
+            "Name": "Refined_Gold",
+            "ItemStaticData": {
+                "RowName": "Refined_Gold"
+            }
+        },
+        {
+            "Name": "Aluminium",
+            "ItemStaticData": {
+                "RowName": "Aluminium"
+            }
+        },
+        {
+            "Name": "Carbon_Fiber",
+            "ItemStaticData": {
+                "RowName": "Carbon_Fiber"
+            }
+        },
+        {
+            "Name": "Carbon_Paste",
+            "ItemStaticData": {
+                "RowName": "Carbon_Paste"
+            }
+        },
+        {
+            "Name": "Composites",
+            "ItemStaticData": {
+                "RowName": "Composites"
+            }
+        },
+        {
+            "Name": "Composite_Paste",
+            "ItemStaticData": {
+                "RowName": "Composite_Paste"
+            }
+        },
+        {
+            "Name": "Stone_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Stone_Pickaxe"
+            }
+        },
+        {
+            "Name": "Wood_Spear",
+            "ItemStaticData": {
+                "RowName": "Wood_Spear"
+            }
+        },
+        {
+            "Name": "Flint_Arrow",
+            "ItemStaticData": {
+                "RowName": "Flint_Arrow"
+            }
+        },
+        {
+            "Name": "Leather_Head",
+            "ItemStaticData": {
+                "RowName": "Leather_Head"
+            }
+        },
+        {
+            "Name": "Leather_Chest",
+            "ItemStaticData": {
+                "RowName": "Leather_Chest"
+            }
+        },
+        {
+            "Name": "Leather_Feet",
+            "ItemStaticData": {
+                "RowName": "Leather_Feet"
+            }
+        },
+        {
+            "Name": "Leather_Arms",
+            "ItemStaticData": {
+                "RowName": "Leather_Arms"
+            }
+        },
+        {
+            "Name": "Leather_Legs",
+            "ItemStaticData": {
+                "RowName": "Leather_Legs"
+            }
+        },
+        {
+            "Name": "Fur_Head",
+            "ItemStaticData": {
+                "RowName": "Fur_Head"
+            }
+        },
+        {
+            "Name": "Fur_Chest",
+            "ItemStaticData": {
+                "RowName": "Fur_Chest"
+            }
+        },
+        {
+            "Name": "Fur_Arms",
+            "ItemStaticData": {
+                "RowName": "Fur_Arms"
+            }
+        },
+        {
+            "Name": "Fur_Feet",
+            "ItemStaticData": {
+                "RowName": "Fur_Feet"
+            }
+        },
+        {
+            "Name": "Fur_Legs",
+            "ItemStaticData": {
+                "RowName": "Fur_Legs"
+            }
+        },
+        {
+            "Name": "Wood_Ladder",
+            "ItemStaticData": {
+                "RowName": "Wood_Ladder"
+            }
+        },
+        {
+            "Name": "Stone_Frame",
+            "ItemStaticData": {
+                "RowName": "Stone_Frame"
+            }
+        },
+        {
+            "Name": "Stone_Wall",
+            "ItemStaticData": {
+                "RowName": "Stone_Wall"
+            }
+        },
+        {
+            "Name": "Stone_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Stone_Halfpiece"
+            }
+        },
+        {
+            "Name": "Stone_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Stone_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Stone_Floor",
+            "ItemStaticData": {
+                "RowName": "Stone_Floor"
+            }
+        },
+        {
+            "Name": "Reinforced_Door",
+            "ItemStaticData": {
+                "RowName": "Reinforced_Door"
+            }
+        },
+        {
+            "Name": "Kit_Machining_Bench",
+            "ItemStaticData": {
+                "RowName": "Kit_Machining_Bench"
+            }
+        },
+        {
+            "Name": "Oxygen_Bladder_Full",
+            "ItemStaticData": {
+                "RowName": "Oxygen_Bladder"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 1000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Oxygen_Tank_Full",
+            "ItemStaticData": {
+                "RowName": "Oxygen_Tank"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 5000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "Envirosuit",
+            "ItemStaticData": {
+                "RowName": "Envirosuit"
+            }
+        },
+        {
+            "Name": "Envirosuit_Deluxe",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Deluxe"
+            }
+        },
+        {
+            "Name": "Envirosuit_Shengong",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Shengong"
+            }
+        },
+        {
+            "Name": "Envirosuit_Shengong2",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Shengong_2"
+            }
+        },
+        {
+            "Name": "Fire_Arrow",
+            "ItemStaticData": {
+                "RowName": "Fire_Arrow"
+            }
+        },
+        {
+            "Name": "Vehicle_Rover",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Rover"
+            }
+        },
+        {
+            "Name": "Stone_Ramp",
+            "ItemStaticData": {
+                "RowName": "Stone_Ramp"
+            }
+        },
+        {
+            "Name": "Combat_Knife",
+            "ItemStaticData": {
+                "RowName": "Combat_Knife"
+            }
+        },
+        {
+            "Name": "Vehicle_Engine",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Engine"
+            }
+        },
+        {
+            "Name": "Vehicle_Gearbox",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Gearbox"
+            }
+        },
+        {
+            "Name": "Vehicle_Drivetrain",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Drivetrain"
+            }
+        },
+        {
+            "Name": "Vehicle_Fueltank",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Fueltank"
+            }
+        },
+        {
+            "Name": "Vehicle_Suspension",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Suspension"
+            }
+        },
+        {
+            "Name": "Vehicle_Tire_1",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Tire_1"
+            }
+        },
+        {
+            "Name": "Recurve_Bow",
+            "ItemStaticData": {
+                "RowName": "Recurve_Bow"
+            }
+        },
+        {
+            "Name": "Compound_Bow",
+            "ItemStaticData": {
+                "RowName": "Compound_Bow"
+            }
+        },
+        {
+            "Name": "Aluminium_Arrow",
+            "ItemStaticData": {
+                "RowName": "Aluminium_Arrow"
+            }
+        },
+        {
+            "Name": "Carbon_Arrow",
+            "ItemStaticData": {
+                "RowName": "Carbon_Arrow"
+            }
+        },
+        {
+            "Name": "Composite_Arrow",
+            "ItemStaticData": {
+                "RowName": "Composite_Arrow"
+            }
+        },
+        {
+            "Name": "Composite_Spear",
+            "ItemStaticData": {
+                "RowName": "Composite_Spear"
+            }
+        },
+        {
+            "Name": "Flare_Arrow",
+            "ItemStaticData": {
+                "RowName": "Flare_Arrow"
+            }
+        },
+        {
+            "Name": "Flour",
+            "ItemStaticData": {
+                "RowName": "Flour"
+            }
+        },
+        {
+            "Name": "Wheat",
+            "ItemStaticData": {
+                "RowName": "Wheat"
+            }
+        },
+        {
+            "Name": "Flashlight",
+            "ItemStaticData": {
+                "RowName": "Flashlight"
+            }
+        },
+        {
+            "Name": "Vehicle_Wheel_1",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Wheel_1"
+            }
+        },
+        {
+            "Name": "Fabricator",
+            "ItemStaticData": {
+                "RowName": "Fabricator"
+            }
+        },
+        {
+            "Name": "Cooking_Station",
+            "ItemStaticData": {
+                "RowName": "Cooking_Station"
+            }
+        },
+        {
+            "Name": "Concrete_Floor",
+            "ItemStaticData": {
+                "RowName": "Concrete_Floor"
+            }
+        },
+        {
+            "Name": "Concrete_Frame",
+            "ItemStaticData": {
+                "RowName": "Concrete_Frame"
+            }
+        },
+        {
+            "Name": "Concrete_Wall",
+            "ItemStaticData": {
+                "RowName": "Concrete_Wall"
+            }
+        },
+        {
+            "Name": "Concrete_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Concrete_Halfpiece"
+            }
+        },
+        {
+            "Name": "Concrete_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Concrete_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Concrete_Ramp",
+            "ItemStaticData": {
+                "RowName": "Concrete_Ramp"
+            }
+        },
+        {
+            "Name": "Binoculars",
+            "ItemStaticData": {
+                "RowName": "Binoculars"
+            }
+        },
+        {
+            "Name": "Dev_WaterBackpack",
+            "ItemStaticData": {
+                "RowName": "Dev_WaterBackpack"
+            }
+        },
+        {
+            "Name": "Kit_Water_Barrel",
+            "ItemStaticData": {
+                "RowName": "Kit_Water_Barrel"
+            }
+        },
+        {
+            "Name": "Kit_Road",
+            "ItemStaticData": {
+                "RowName": "Kit_Road"
+            }
+        },
+        {
+            "Name": "Vehicle_Trailer_Extractor",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Trailer_Extractor"
+            }
+        },
+        {
+            "Name": "Composter",
+            "ItemStaticData": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Kit_Oxygen_Barrel",
+            "ItemStaticData": {
+                "RowName": "Kit_Oxygen_Barrel"
+            }
+        },
+        {
+            "Name": "Kit_Everything_Barrel",
+            "ItemStaticData": {
+                "RowName": "Kit_Everything_Barrel"
+            }
+        },
+        {
+            "Name": "Kit_Metal_Cupboard",
+            "ItemStaticData": {
+                "RowName": "Kit_Metal_Cupboard"
+            }
+        },
+        {
+            "Name": "Kit_Wood_Cupboard",
+            "ItemStaticData": {
+                "RowName": "Kit_Wood_Cupboard"
+            }
+        },
+        {
+            "Name": "Dev_Fireball",
+            "ItemStaticData": {
+                "RowName": "Dev_Fireball"
+            }
+        },
+        {
+            "Name": "Frag_Grenade",
+            "ItemStaticData": {
+                "RowName": "Frag_Grenade"
+            }
+        },
+        {
+            "Name": "Molotov",
+            "ItemStaticData": {
+                "RowName": "Molotov"
+            }
+        },
+        {
+            "Name": "Ammo_Shell_Buckshot",
+            "ItemStaticData": {
+                "RowName": "Ammo_Shell_Buckshot"
+            }
+        },
+        {
+            "Name": "Dev_Inspection_Tool",
+            "ItemStaticData": {
+                "RowName": "Dev_Inspection_Tool"
+            }
+        },
+        {
+            "Name": "Smoke_Grenade",
+            "ItemStaticData": {
+                "RowName": "Smoke_Grenade"
+            }
+        },
+        {
+            "Name": "Vehicle_DevBoat",
+            "ItemStaticData": {
+                "RowName": "Vehicle_DevBoat"
+            }
+        },
+        {
+            "Name": "Item_Proxy_Dropship",
+            "ItemStaticData": {
+                "RowName": "DropShip"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Engine",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Engine"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Gearbox",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Gearbox"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Drivetrain",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Drivetrain"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Fueltank",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Fueltank"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Suspension_R",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Suspension_R"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Suspension_F",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Suspension_F"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Tire",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Tire"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy_Wheel",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy_Wheel"
+            }
+        },
+        {
+            "Name": "Vehicle_BackBuggy",
+            "ItemStaticData": {
+                "RowName": "Vehicle_BackBuggy"
+            }
+        },
+        {
+            "Name": "Container_10ft",
+            "ItemStaticData": {
+                "RowName": "Container_10ft"
+            }
+        },
+        {
+            "Name": "Vehicle_Trailer_Container_10ft",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Trailer_Container_10ft"
+            }
+        },
+        {
+            "Name": "Vehicle_Tire_Offroad_Mk1",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Tire_Offroad_Mk1"
+            }
+        },
+        {
+            "Name": "Vehicle_Tire_Offroad_Mk4",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Tire_Offroad_Mk4"
+            }
+        },
+        {
+            "Name": "Vehicle_Tire_Sand_Mk1",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Tire_Sand_Mk1"
+            }
+        },
+        {
+            "Name": "Vehicle_Tire_Sand_Mk4",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Tire_Sand_Mk4"
+            }
+        },
+        {
+            "Name": "Vehicle_Rover_Wheel_Standard",
+            "ItemStaticData": {
+                "RowName": "Vehicle_Rover_Wheel_Standard"
+            }
+        },
+        {
+            "Name": "Kit_Water_Pump",
+            "ItemStaticData": {
+                "RowName": "Water_Pump"
+            }
+        },
+        {
+            "Name": "Waterskin_Full",
+            "ItemStaticData": {
+                "RowName": "Waterskin"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 1000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Carbon_Chest",
+            "ItemStaticData": {
+                "RowName": "Carbon_Chest"
+            }
+        },
+        {
+            "Name": "Composite_Chest",
+            "ItemStaticData": {
+                "RowName": "Composite_Chest"
+            }
+        },
+        {
+            "Name": "Bed_Bedroll",
+            "ItemStaticData": {
+                "RowName": "Bed_Bedroll"
+            }
+        },
+        {
+            "Name": "Bed_Wood",
+            "ItemStaticData": {
+                "RowName": "Bed_Wood"
+            }
+        },
+        {
+            "Name": "Fireplace",
+            "ItemStaticData": {
+                "RowName": "Fireplace"
+            }
+        },
+        {
+            "Name": "Carcass_Deer",
+            "ItemStaticData": {
+                "RowName": "AnimalCarcass_Deer"
+            }
+        },
+        {
+            "Name": "Skinning_Bench",
+            "ItemStaticData": {
+                "RowName": "Kit_Skinning_Bench"
+            }
+        },
+        {
+            "Name": "Sickle",
+            "ItemStaticData": {
+                "RowName": "Sickle"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_T3",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T3"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_T4",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T4"
+            }
+        },
+        {
+            "Name": "Farming_CropPlot_T5",
+            "ItemStaticData": {
+                "RowName": "Farming_CropPlot_T5"
+            }
+        },
+        {
+            "Name": "Material_Processor",
+            "ItemStaticData": {
+                "RowName": "Material_Processor"
+            }
+        },
+        {
+            "Name": "Kit_Wall_Torch",
+            "ItemStaticData": {
+                "RowName": "Kit_Wall_Torch"
+            }
+        },
+        {
+            "Name": "Kit_Floor_Torch",
+            "ItemStaticData": {
+                "RowName": "Kit_Floor_Torch"
+            }
+        },
+        {
+            "Name": "Meta_Axe",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe"
+            }
+        },
+        {
+            "Name": "Meta_Knife",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife"
+            }
+        },
+        {
+            "Name": "Wood_Window",
+            "ItemStaticData": {
+                "RowName": "Wood_Window"
+            }
+        },
+        {
+            "Name": "Fishing_Trap",
+            "ItemStaticData": {
+                "RowName": "Fishing_Trap"
+            }
+        },
+        {
+            "Name": "Raw_Fish",
+            "ItemStaticData": {
+                "RowName": "Raw_Fish"
+            }
+        },
+        {
+            "Name": "Wood_Rag_Torch",
+            "ItemStaticData": {
+                "RowName": "Wood_Rag_Torch"
+            }
+        },
+        {
+            "Name": "Fishing_Rod",
+            "ItemStaticData": {
+                "RowName": "Fishing_Rod"
+            }
+        },
+        {
+            "Name": "Shovel",
+            "ItemStaticData": {
+                "RowName": "Shovel"
+            }
+        },
+        {
+            "Name": "Carpentry_Bench",
+            "ItemStaticData": {
+                "RowName": "Carpentry_Bench"
+            }
+        },
+        {
+            "Name": "Wood_Floor_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Floor_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Frame_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Frame_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Wall_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Wall_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Refined_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Refined_Halfpiece"
+            }
+        },
+        {
+            "Name": "Wood_Refined_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Refined_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Wood_Ramp_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Ramp_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Refined"
+            }
+        },
+        {
+            "Name": "Cooked_Fish",
+            "ItemStaticData": {
+                "RowName": "Cooked_Fish"
+            }
+        },
+        {
+            "Name": "Wood_Door_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Door_Refined"
+            }
+        },
+        {
+            "Name": "Oxygen_Tank_Rack",
+            "ItemStaticData": {
+                "RowName": "Oxygen_Tank_Rack"
+            }
+        },
+        {
+            "Name": "Ice",
+            "ItemStaticData": {
+                "RowName": "Ice"
+            }
+        },
+        {
+            "Name": "FireExtinguisher",
+            "ItemStaticData": {
+                "RowName": "FireExtinguisher"
+            }
+        },
+        {
+            "Name": "Reinforced_Window",
+            "ItemStaticData": {
+                "RowName": "Reinforced_Window"
+            }
+        },
+        {
+            "Name": "Wood_Table",
+            "ItemStaticData": {
+                "RowName": "Wood_Table"
+            }
+        },
+        {
+            "Name": "FireWhacker",
+            "ItemStaticData": {
+                "RowName": "FireWhacker"
+            }
+        },
+        {
+            "Name": "Wood_Crate_Medium",
+            "ItemStaticData": {
+                "RowName": "Wood_Crate_Medium"
+            }
+        },
+        {
+            "Name": "Wood_Chair",
+            "ItemStaticData": {
+                "RowName": "Wood_Chair"
+            }
+        },
+        {
+            "Name": "Battery_Cell_Full",
+            "ItemStaticData": {
+                "RowName": "Battery_Cell"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ]
+        },
+        {
+            "Name": "Fireplace_Chimney_Ext",
+            "ItemStaticData": {
+                "RowName": "Fireplace_Chimney_Ext"
+            }
+        },
+        {
+            "Name": "Fireplace_Chimney_Cap",
+            "ItemStaticData": {
+                "RowName": "Fireplace_Chimney_Cap"
+            }
+        },
+        {
+            "Name": "Fireplace_Chimney_Cap_Half",
+            "ItemStaticData": {
+                "RowName": "Fireplace_Chimney_Cap_Half"
+            }
+        },
+        {
+            "Name": "Wood_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Wood_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Wood_Wall_Angle_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Wall_Angle_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Railing",
+            "ItemStaticData": {
+                "RowName": "Wood_Railing"
+            }
+        },
+        {
+            "Name": "Wood_Railing_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Railing_Refined"
+            }
+        },
+        {
+            "Name": "Wood_Railing_Gate_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_Railing_Gate_Refined"
+            }
+        },
+        {
+            "Name": "Light_Spotlight",
+            "ItemStaticData": {
+                "RowName": "Light_Spotlight"
+            }
+        },
+        {
+            "Name": "Worklamp_Directional",
+            "ItemStaticData": {
+                "RowName": "Light_Worklamp_Directional"
+            }
+        },
+        {
+            "Name": "Worklamp_OmniDirectional",
+            "ItemStaticData": {
+                "RowName": "Light_Worklamp_Omnidirectional"
+            }
+        },
+        {
+            "Name": "Wood_TrapDoor",
+            "ItemStaticData": {
+                "RowName": "Wood_TrapDoor"
+            }
+        },
+        {
+            "Name": "Wood_TrapDoor_Refined",
+            "ItemStaticData": {
+                "RowName": "Wood_TrapDoor_Refined"
+            }
+        },
+        {
+            "Name": "Turret_Basic",
+            "ItemStaticData": {
+                "RowName": "Turret_Basic"
+            }
+        },
+        {
+            "Name": "OreScanner",
+            "ItemStaticData": {
+                "RowName": "Ore_Scanner"
+            }
+        },
+        {
+            "Name": "Spoiled_Meat",
+            "ItemStaticData": {
+                "RowName": "Spoiled_Meat"
+            }
+        },
+        {
+            "Name": "Sponge",
+            "ItemStaticData": {
+                "RowName": "Sponge"
+            }
+        },
+        {
+            "Name": "Sponge_Filled",
+            "ItemStaticData": {
+                "RowName": "Sponge"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 500
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Sign_Small",
+            "ItemStaticData": {
+                "RowName": "Wood_Sign_Small"
+            }
+        },
+        {
+            "Name": "Module_Compass",
+            "ItemStaticData": {
+                "RowName": "Module_Compass"
+            }
+        },
+        {
+            "Name": "Module_Player_Status",
+            "ItemStaticData": {
+                "RowName": "Module_Player_Status"
+            }
+        },
+        {
+            "Name": "Lily",
+            "ItemStaticData": {
+                "RowName": "Lily"
+            }
+        },
+        {
+            "Name": "Reed_Flower",
+            "ItemStaticData": {
+                "RowName": "Reed_Flower"
+            }
+        },
+        {
+            "Name": "Canteen_Lightweight",
+            "ItemStaticData": {
+                "RowName": "Canteen_Lightweight"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Module_Vision_Headlamp",
+            "ItemStaticData": {
+                "RowName": "Module_Vision_Headlamp"
+            }
+        },
+        {
+            "Name": "Module_Vision_ThermalImager",
+            "ItemStaticData": {
+                "RowName": "Module_Vision_ThermalImager"
+            }
+        },
+        {
+            "Name": "Carcass_Raccoon",
+            "ItemStaticData": {
+                "RowName": "AnimalCarcass_Raccoon"
+            }
+        },
+        {
+            "Name": "Carcass_Chamois",
+            "ItemStaticData": {
+                "RowName": "AnimalCarcass_Chamois_M"
+            }
+        },
+        {
+            "Name": "Carcass_Bear",
+            "ItemStaticData": {
+                "RowName": "AnimalCarcass_Bear"
+            }
+        },
+        {
+            "Name": "DEV_Meta_Reveal",
+            "ItemStaticData": {
+                "RowName": "DEV_Meta_Reveal"
+            }
+        },
+        {
+            "Name": "Rocket_Part_Top_Mk1",
+            "ItemStaticData": {
+                "RowName": "Rocket_Part_Top_Mk1"
+            }
+        },
+        {
+            "Name": "Rocket_Part_Mid_Mk1",
+            "ItemStaticData": {
+                "RowName": "Rocket_Part_Mid_Mk1"
+            }
+        },
+        {
+            "Name": "Rocket_Part_Bot_Mk1",
+            "ItemStaticData": {
+                "RowName": "Rocket_Part_Bot_Mk1"
+            }
+        },
+        {
+            "Name": "Herb_Scanner",
+            "ItemStaticData": {
+                "RowName": "Herb_Scanner"
+            }
+        },
+        {
+            "Name": "Refrigerator",
+            "ItemStaticData": {
+                "RowName": "Refrigerator"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier2",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier2"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier3",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier3"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier4",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier4"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier5",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier5"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier6",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier6"
+            }
+        },
+        {
+            "Name": "Envirosuit_Tier7",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Tier7"
+            }
+        },
+        {
+            "Name": "Ore_Scanner_MK1",
+            "ItemStaticData": {
+                "RowName": "Ore_Scanner_MK1"
+            }
+        },
+        {
+            "Name": "Metal_Frame",
+            "ItemStaticData": {
+                "RowName": "Metal_Frame"
+            }
+        },
+        {
+            "Name": "Storm_Warning_Radar_Mk1",
+            "ItemStaticData": {
+                "RowName": "Storm_Warning_Radar_Mk1"
+            }
+        },
+        {
+            "Name": "Building_UpgradeTool",
+            "ItemStaticData": {
+                "RowName": "Building_UpgradeTool"
+            }
+        },
+        {
+            "Name": "Ghillie_Head",
+            "ItemStaticData": {
+                "RowName": "Ghillie_Head"
+            }
+        },
+        {
+            "Name": "Ghillie_Chest",
+            "ItemStaticData": {
+                "RowName": "Ghillie_Chest"
+            }
+        },
+        {
+            "Name": "Ghillie_Feet",
+            "ItemStaticData": {
+                "RowName": "Ghillie_Feet"
+            }
+        },
+        {
+            "Name": "Ghillie_Arms",
+            "ItemStaticData": {
+                "RowName": "Ghillie_Arms"
+            }
+        },
+        {
+            "Name": "Ghillie_Legs",
+            "ItemStaticData": {
+                "RowName": "Ghillie_Legs"
+            }
+        },
+        {
+            "Name": "Yeast",
+            "ItemStaticData": {
+                "RowName": "Yeast"
+            }
+        },
+        {
+            "Name": "Food_Bread",
+            "ItemStaticData": {
+                "RowName": "Food_Bread"
+            }
+        },
+        {
+            "Name": "Food_Flatbread",
+            "ItemStaticData": {
+                "RowName": "Food_Flatbread"
+            }
+        },
+        {
+            "Name": "Dough_Bread",
+            "ItemStaticData": {
+                "RowName": "Dough_Bread"
+            }
+        },
+        {
+            "Name": "Dough_Flatbread",
+            "ItemStaticData": {
+                "RowName": "Dough_Flatbread"
+            }
+        },
+        {
+            "Name": "Beer",
+            "ItemStaticData": {
+                "RowName": "Beer"
+            }
+        },
+        {
+            "Name": "Wine",
+            "ItemStaticData": {
+                "RowName": "Wine"
+            }
+        },
+        {
+            "Name": "Glass_Bottle_Beer",
+            "ItemStaticData": {
+                "RowName": "Glass_Bottle_Beer"
+            }
+        },
+        {
+            "Name": "Dev_Bug_Tool",
+            "ItemStaticData": {
+                "RowName": "DEV_Bug_Tool"
+            }
+        },
+        {
+            "Name": "Pistol_Handgun",
+            "ItemStaticData": {
+                "RowName": "Pistol_Handgun"
+            }
+        },
+        {
+            "Name": "Ammo_Pistol_Round",
+            "ItemStaticData": {
+                "RowName": "Ammo_Pistol_Round"
+            }
+        },
+        {
+            "Name": "Glass_Bottle_Wine",
+            "ItemStaticData": {
+                "RowName": "Glass_Bottle_Wine"
+            }
+        },
+        {
+            "Name": "Thermos",
+            "ItemStaticData": {
+                "RowName": "Thermos"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Jerrycan",
+            "ItemStaticData": {
+                "RowName": "Jerrycan"
+            }
+        },
+        {
+            "Name": "Cloth_Head",
+            "ItemStaticData": {
+                "RowName": "Cloth_Head"
+            }
+        },
+        {
+            "Name": "Cloth_Chest",
+            "ItemStaticData": {
+                "RowName": "Cloth_Chest"
+            }
+        },
+        {
+            "Name": "Cloth_Legs",
+            "ItemStaticData": {
+                "RowName": "Cloth_Legs"
+            }
+        },
+        {
+            "Name": "Cloth_Arms",
+            "ItemStaticData": {
+                "RowName": "Cloth_Arms"
+            }
+        },
+        {
+            "Name": "Cloth_Feet",
+            "ItemStaticData": {
+                "RowName": "Cloth_Feet"
+            }
+        },
+        {
+            "Name": "Metal_Crate_Small",
+            "ItemStaticData": {
+                "RowName": "Metal_Crate_Small"
+            }
+        },
+        {
+            "Name": "Biofuel_Lamp",
+            "ItemStaticData": {
+                "RowName": "Biofuel_Lamp"
+            }
+        },
+        {
+            "Name": "Carbon_Arms",
+            "ItemStaticData": {
+                "RowName": "Carbon_Arms"
+            }
+        },
+        {
+            "Name": "Carbon_Legs",
+            "ItemStaticData": {
+                "RowName": "Carbon_Legs"
+            }
+        },
+        {
+            "Name": "Carbon_Feet",
+            "ItemStaticData": {
+                "RowName": "Carbon_Feet"
+            }
+        },
+        {
+            "Name": "Carbon_Head",
+            "ItemStaticData": {
+                "RowName": "Carbon_Head"
+            }
+        },
+        {
+            "Name": "Stone_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Stone_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Module_Player_Tracker",
+            "ItemStaticData": {
+                "RowName": "Module_Player_Tracker"
+            }
+        },
+        {
+            "Name": "Module_Waypoint",
+            "ItemStaticData": {
+                "RowName": "Module_Waypoint"
+            }
+        },
+        {
+            "Name": "Module_Creature_Tracker",
+            "ItemStaticData": {
+                "RowName": "Module_Creature_Tracker"
+            }
+        },
+        {
+            "Name": "PotBellyStove",
+            "ItemStaticData": {
+                "RowName": "PotBellyStove"
+            }
+        },
+        {
+            "Name": "WoodBarrel",
+            "ItemStaticData": {
+                "RowName": "WoodBarrel"
+            }
+        },
+        {
+            "Name": "Brazier",
+            "ItemStaticData": {
+                "RowName": "Brazier"
+            }
+        },
+        {
+            "Name": "Rain_Reservoir",
+            "ItemStaticData": {
+                "RowName": "Rain_Reservoir"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Concrete_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Charcoal_From_Wood",
+            "ItemStaticData": {
+                "RowName": "Charcoal"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 8
+                }
+            ]
+        },
+        {
+            "Name": "Composite_Arms",
+            "ItemStaticData": {
+                "RowName": "Composite_Arms"
+            }
+        },
+        {
+            "Name": "Composite_Head",
+            "ItemStaticData": {
+                "RowName": "Composite_Head"
+            }
+        },
+        {
+            "Name": "Composite_Feet",
+            "ItemStaticData": {
+                "RowName": "Composite_Feet"
+            }
+        },
+        {
+            "Name": "Composite_Legs",
+            "ItemStaticData": {
+                "RowName": "Composite_Legs"
+            }
+        },
+        {
+            "Name": "Metal_Oxite_Dissolver",
+            "ItemStaticData": {
+                "RowName": "Metal_Oxite_Dissolver"
+            }
+        },
+        {
+            "Name": "Building_RepairTool",
+            "ItemStaticData": {
+                "RowName": "Building_RepairTool"
+            }
+        },
+        {
+            "Name": "Composter_Wood",
+            "ItemStaticData": {
+                "RowName": "Composter_Wood"
+            }
+        },
+        {
+            "Name": "DebugVikingFood",
+            "ItemStaticData": {
+                "RowName": "DebugViking"
+            }
+        },
+        {
+            "Name": "Wood_Hedgehog_Medium",
+            "ItemStaticData": {
+                "RowName": "Wood_Hedgehog_Medium"
+            }
+        },
+        {
+            "Name": "Scorpion_Hedgehog_Medium",
+            "ItemStaticData": {
+                "RowName": "Scorpion_Hedgehog_Medium"
+            }
+        },
+        {
+            "Name": "Scorpion_Trap_Medium",
+            "ItemStaticData": {
+                "RowName": "Scorpion_Trap_Medium"
+            }
+        },
+        {
+            "Name": "Wood_Beam",
+            "ItemStaticData": {
+                "RowName": "Wood_Beam"
+            }
+        },
+        {
+            "Name": "SplineTool_Electricity",
+            "ItemStaticData": {
+                "RowName": "SplineTool_Electricity"
+            }
+        },
+        {
+            "Name": "SplineTool_Water",
+            "ItemStaticData": {
+                "RowName": "SplineTool_Water"
+            }
+        },
+        {
+            "Name": "SplineTool_Fuel",
+            "ItemStaticData": {
+                "RowName": "SplineTool_Fuel"
+            }
+        },
+        {
+            "Name": "Jerrycan_Full",
+            "ItemStaticData": {
+                "RowName": "Jerrycan"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 3
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ]
+        },
+        {
+            "Name": "PRV_Head",
+            "ItemStaticData": {
+                "RowName": "PRV_Head"
+            }
+        },
+        {
+            "Name": "PRV_Chest",
+            "ItemStaticData": {
+                "RowName": "PRV_Chest"
+            }
+        },
+        {
+            "Name": "PRV_Feet",
+            "ItemStaticData": {
+                "RowName": "PRV_Feet"
+            }
+        },
+        {
+            "Name": "PRV_Legs",
+            "ItemStaticData": {
+                "RowName": "PRV_Legs"
+            }
+        },
+        {
+            "Name": "PRV_Arms",
+            "ItemStaticData": {
+                "RowName": "PRV_Arms"
+            }
+        },
+        {
+            "Name": "Thatch_Frame",
+            "ItemStaticData": {
+                "RowName": "Thatch_Frame"
+            }
+        },
+        {
+            "Name": "Thatch_Floor",
+            "ItemStaticData": {
+                "RowName": "Thatch_Floor"
+            }
+        },
+        {
+            "Name": "Thatch_Wall",
+            "ItemStaticData": {
+                "RowName": "Thatch_Wall"
+            }
+        },
+        {
+            "Name": "Thatch_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Thatch_Halfpiece"
+            }
+        },
+        {
+            "Name": "Thatch_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Thatch_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Thatch_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Thatch_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Thatch_Ramp",
+            "ItemStaticData": {
+                "RowName": "Thatch_Ramp"
+            }
+        },
+        {
+            "Name": "Bandage_Basic",
+            "ItemStaticData": {
+                "RowName": "Bandage_Basic"
+            }
+        },
+        {
+            "Name": "Player_Fist",
+            "ItemStaticData": {
+                "RowName": "Player_Fist"
+            }
+        },
+        {
+            "Name": "Basic_Oxite_Dissolver",
+            "ItemStaticData": {
+                "RowName": "Basic_Oxite_Dissolver"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 4
+                }
+            ]
+        },
+        {
+            "Name": "ResourceStack_Wood",
+            "ItemStaticData": {
+                "RowName": "ResourceStack_Wood"
+            }
+        },
+        {
+            "Name": "ResourceStack_Stone",
+            "ItemStaticData": {
+                "RowName": "ResourceStack_Stone"
+            }
+        },
+        {
+            "Name": "Collision_Projectile",
+            "ItemStaticData": {
+                "RowName": "Collision_Projectile"
+            }
+        },
+        {
+            "Name": "Platinum_Ore",
+            "ItemStaticData": {
+                "RowName": "Platinum_Ore"
+            }
+        },
+        {
+            "Name": "Platinum_Ingot",
+            "ItemStaticData": {
+                "RowName": "Platinum_Ingot"
+            }
+        },
+        {
+            "Name": "Titanium_Ore",
+            "ItemStaticData": {
+                "RowName": "Titanium_Ore"
+            }
+        },
+        {
+            "Name": "Titanium_Ingot",
+            "ItemStaticData": {
+                "RowName": "Titanium_Ingot"
+            }
+        },
+        {
+            "Name": "Coal_Ore",
+            "ItemStaticData": {
+                "RowName": "Coal_Ore"
+            }
+        },
+        {
+            "Name": "Meta_Coal",
+            "ItemStaticData": {
+                "RowName": "Meta_Coal"
+            }
+        },
+        {
+            "Name": "Meta_Coal_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Coal"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Coal_Set",
+            "ItemStaticData": {
+                "RowName": "Meta_Coal_Set"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Beam",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Beam"
+            }
+        },
+        {
+            "Name": "Stone_Beam",
+            "ItemStaticData": {
+                "RowName": "Stone_Beam"
+            }
+        },
+        {
+            "Name": "Concrete_Beam",
+            "ItemStaticData": {
+                "RowName": "Concrete_Beam"
+            }
+        },
+        {
+            "Name": "Thatch_Beam",
+            "ItemStaticData": {
+                "RowName": "Thatch_Beam"
+            }
+        },
+        {
+            "Name": "AnimalTrap_Small",
+            "ItemStaticData": {
+                "RowName": "AnimalTrap_Small"
+            }
+        },
+        {
+            "Name": "FlameThrower_Small",
+            "ItemStaticData": {
+                "RowName": "FlameThrower_Small"
+            }
+        },
+        {
+            "Name": "Dev_Pyromancy_Flame",
+            "ItemStaticData": {
+                "RowName": "DEV_Pyromancy_Flame"
+            }
+        },
+        {
+            "Name": "Solar_Panel",
+            "ItemStaticData": {
+                "RowName": "Solar_Panel"
+            }
+        },
+        {
+            "Name": "LightningRod_Basic",
+            "ItemStaticData": {
+                "RowName": "LightningRod_Basic"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Ladder",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Ladder"
+            }
+        },
+        {
+            "Name": "Thatch_Ladder",
+            "ItemStaticData": {
+                "RowName": "Thatch_Ladder"
+            }
+        },
+        {
+            "Name": "Reinforced_Ladder",
+            "ItemStaticData": {
+                "RowName": "Reinforced_Ladder"
+            }
+        },
+        {
+            "Name": "Metal_Ladder",
+            "ItemStaticData": {
+                "RowName": "Metal_Ladder"
+            }
+        },
+        {
+            "Name": "Thatch_Window",
+            "ItemStaticData": {
+                "RowName": "Thatch_Window"
+            }
+        },
+        {
+            "Name": "Thatch_Door",
+            "ItemStaticData": {
+                "RowName": "Thatch_Door"
+            }
+        },
+        {
+            "Name": "Thatch_Railing",
+            "ItemStaticData": {
+                "RowName": "Thatch_Railing"
+            }
+        },
+        {
+            "Name": "Thatch_TrapDoor",
+            "ItemStaticData": {
+                "RowName": "Thatch_TrapDoor"
+            }
+        },
+        {
+            "Name": "Armor_Bench",
+            "ItemStaticData": {
+                "RowName": "Armor_Bench"
+            }
+        },
+        {
+            "Name": "Masonry_Bench",
+            "ItemStaticData": {
+                "RowName": "Masonry_Bench"
+            }
+        },
+        {
+            "Name": "Cement_Mixer",
+            "ItemStaticData": {
+                "RowName": "Cement_Mixer"
+            }
+        },
+        {
+            "Name": "Metal_Crate_Medium",
+            "ItemStaticData": {
+                "RowName": "Metal_Crate_Medium"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Crate_Small",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Crate_Small"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Crate_Medium",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Crate_Medium"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Cupboard",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Cupboard"
+            }
+        },
+        {
+            "Name": "Herbalism_Bench",
+            "ItemStaticData": {
+                "RowName": "Herbalism_Bench"
+            }
+        },
+        {
+            "Name": "Jackhammer",
+            "ItemStaticData": {
+                "RowName": "Jackhammer"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Male",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Male"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Female",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Female"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Male_01",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Male_01"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Female_01",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Female_01"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Male_02",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Male_02"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Female_02",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Female_02"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Male_03",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Male_03"
+            }
+        },
+        {
+            "Name": "Spacesuit_Cap_Female_03",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Cap_Female_03"
+            }
+        },
+        {
+            "Name": "WildSeed_Lily",
+            "ItemStaticData": {
+                "RowName": "WildSeed_Lily"
+            }
+        },
+        {
+            "Name": "Spacesuit_Female",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Female"
+            }
+        },
+        {
+            "Name": "Spacesuit_Male",
+            "ItemStaticData": {
+                "RowName": "Spacesuit_Male"
+            }
+        },
+        {
+            "Name": "Titanium_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Titanium_Pickaxe"
+            }
+        },
+        {
+            "Name": "Titanium_Axe",
+            "ItemStaticData": {
+                "RowName": "Titanium_Axe"
+            }
+        },
+        {
+            "Name": "Rug_Deer",
+            "ItemStaticData": {
+                "RowName": "Rug_Deer"
+            }
+        },
+        {
+            "Name": "Rug_Weave_Thin",
+            "ItemStaticData": {
+                "RowName": "Rug_Weave_Thin"
+            }
+        },
+        {
+            "Name": "Rug_Weave_Thick",
+            "ItemStaticData": {
+                "RowName": "Rug_Weave_Thick"
+            }
+        },
+        {
+            "Name": "Trophy_Bench",
+            "ItemStaticData": {
+                "RowName": "Trophy_Bench"
+            }
+        },
+        {
+            "Name": "Deer_Trophy",
+            "ItemStaticData": {
+                "RowName": "Deer_Trophy"
+            }
+        },
+        {
+            "Name": "Bear_Trophy",
+            "ItemStaticData": {
+                "RowName": "Bear_Trophy"
+            }
+        },
+        {
+            "Name": "PolarBear_Trophy",
+            "ItemStaticData": {
+                "RowName": "PolarBear_Trophy"
+            }
+        },
+        {
+            "Name": "Cougar_Trophy",
+            "ItemStaticData": {
+                "RowName": "Cougar_Trophy"
+            }
+        },
+        {
+            "Name": "Jaguar_Trophy",
+            "ItemStaticData": {
+                "RowName": "Jaguar_Trophy"
+            }
+        },
+        {
+            "Name": "Jaguar_Black_Trophy",
+            "ItemStaticData": {
+                "RowName": "Jaguar_Black_Trophy"
+            }
+        },
+        {
+            "Name": "Deer_Head",
+            "ItemStaticData": {
+                "RowName": "Deer_Head"
+            }
+        },
+        {
+            "Name": "Bear_Head",
+            "ItemStaticData": {
+                "RowName": "Bear_Head"
+            }
+        },
+        {
+            "Name": "PolarBear_Head",
+            "ItemStaticData": {
+                "RowName": "PolarBear_Head"
+            }
+        },
+        {
+            "Name": "Cougar_Head",
+            "ItemStaticData": {
+                "RowName": "Cougar_Head"
+            }
+        },
+        {
+            "Name": "Jaguar_Head",
+            "ItemStaticData": {
+                "RowName": "Jaguar_Head"
+            }
+        },
+        {
+            "Name": "Jaguar_Black_Head",
+            "ItemStaticData": {
+                "RowName": "Jaguar_Black_Head"
+            }
+        },
+        {
+            "Name": "Taxidermy_Knife",
+            "ItemStaticData": {
+                "RowName": "Taxidermy_Knife"
+            }
+        },
+        {
+            "Name": "Iron_Floor",
+            "ItemStaticData": {
+                "RowName": "Iron_Floor"
+            }
+        },
+        {
+            "Name": "Iron_Wall",
+            "ItemStaticData": {
+                "RowName": "Iron_Wall"
+            }
+        },
+        {
+            "Name": "Iron_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Iron_Halfpiece"
+            }
+        },
+        {
+            "Name": "Iron_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Iron_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Iron_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Iron_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Iron_Ramp",
+            "ItemStaticData": {
+                "RowName": "Iron_Ramp"
+            }
+        },
+        {
+            "Name": "Iron_Beam",
+            "ItemStaticData": {
+                "RowName": "Iron_Beam"
+            }
+        },
+        {
+            "Name": "Iron_Door",
+            "ItemStaticData": {
+                "RowName": "Iron_Door"
+            }
+        },
+        {
+            "Name": "Iron_TrapDoor",
+            "ItemStaticData": {
+                "RowName": "Iron_TrapDoor"
+            }
+        },
+        {
+            "Name": "Iron_Window",
+            "ItemStaticData": {
+                "RowName": "Iron_Window"
+            }
+        },
+        {
+            "Name": "Paste_Health_Regen",
+            "ItemStaticData": {
+                "RowName": "Paste_Health_Regen"
+            }
+        },
+        {
+            "Name": "Paste_Health_Buff",
+            "ItemStaticData": {
+                "RowName": "Paste_Health_Buff"
+            }
+        },
+        {
+            "Name": "Paste_Health_Restore",
+            "ItemStaticData": {
+                "RowName": "Paste_Health_Restore"
+            }
+        },
+        {
+            "Name": "Paste_Stamina_Regen",
+            "ItemStaticData": {
+                "RowName": "Paste_Stamina_Regen"
+            }
+        },
+        {
+            "Name": "Paste_Stamina_Buff",
+            "ItemStaticData": {
+                "RowName": "Paste_Stamina_Buff"
+            }
+        },
+        {
+            "Name": "Paste_Stamina_Restore",
+            "ItemStaticData": {
+                "RowName": "Paste_Stamina_Restore"
+            }
+        },
+        {
+            "Name": "Paste_Stamina_Consumption",
+            "ItemStaticData": {
+                "RowName": "Paste_Stamina_Consumption"
+            }
+        },
+        {
+            "Name": "Paste_Oxygen_Buff",
+            "ItemStaticData": {
+                "RowName": "Paste_Oxygen_Buff"
+            }
+        },
+        {
+            "Name": "Paste_Oxygen_Consumption",
+            "ItemStaticData": {
+                "RowName": "Paste_Oxygen_Consumption"
+            }
+        },
+        {
+            "Name": "Paste_Oxygen_Restore",
+            "ItemStaticData": {
+                "RowName": "Paste_Oxygen_Restore"
+            }
+        },
+        {
+            "Name": "Paste_Food_Consumption",
+            "ItemStaticData": {
+                "RowName": "Paste_Food_Consumption"
+            }
+        },
+        {
+            "Name": "Paste_Water_Consumption",
+            "ItemStaticData": {
+                "RowName": "Paste_Water_Consumption"
+            }
+        },
+        {
+            "Name": "Debug_Target",
+            "ItemStaticData": {
+                "RowName": "Debug_Target"
+            }
+        },
+        {
+            "Name": "Reinforced_TrapDoor",
+            "ItemStaticData": {
+                "RowName": "Reinforced_TrapDoor"
+            }
+        },
+        {
+            "Name": "IceBox",
+            "ItemStaticData": {
+                "RowName": "IceBox"
+            }
+        },
+        {
+            "Name": "Bed_Interior_Wood",
+            "ItemStaticData": {
+                "RowName": "Bed_Interior_Wood"
+            }
+        },
+        {
+            "Name": "Glass_Beam",
+            "ItemStaticData": {
+                "RowName": "Glass_Beam"
+            }
+        },
+        {
+            "Name": "Glass_Wall",
+            "ItemStaticData": {
+                "RowName": "Glass_Wall"
+            }
+        },
+        {
+            "Name": "Glass_Halfpiece",
+            "ItemStaticData": {
+                "RowName": "Glass_Halfpiece"
+            }
+        },
+        {
+            "Name": "Glass_Half_Pitch",
+            "ItemStaticData": {
+                "RowName": "Glass_Half_Pitch"
+            }
+        },
+        {
+            "Name": "Glass_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Glass_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Glass_Ramp",
+            "ItemStaticData": {
+                "RowName": "Glass_Ramp"
+            }
+        },
+        {
+            "Name": "Glass_Door",
+            "ItemStaticData": {
+                "RowName": "Glass_Door"
+            }
+        },
+        {
+            "Name": "Glass_Window",
+            "ItemStaticData": {
+                "RowName": "Glass_Window"
+            }
+        },
+        {
+            "Name": "Heavy_Glass_Window",
+            "ItemStaticData": {
+                "RowName": "Concrete_Window"
+            }
+        },
+        {
+            "Name": "Corn",
+            "ItemStaticData": {
+                "RowName": "Corn"
+            }
+        },
+        {
+            "Name": "Titanium_Arrow",
+            "ItemStaticData": {
+                "RowName": "Titanium_Arrow"
+            }
+        },
+        {
+            "Name": "Titanium_Knife",
+            "ItemStaticData": {
+                "RowName": "Titanium_Knife"
+            }
+        },
+        {
+            "Name": "Titanium_Sickle",
+            "ItemStaticData": {
+                "RowName": "Titanium_Sickle"
+            }
+        },
+        {
+            "Name": "Titanium_Spear",
+            "ItemStaticData": {
+                "RowName": "Titanium_Spear"
+            }
+        },
+        {
+            "Name": "Raw_Prime_Meat",
+            "ItemStaticData": {
+                "RowName": "Raw_Prime_Meat"
+            }
+        },
+        {
+            "Name": "Cooked_Prime_Meat",
+            "ItemStaticData": {
+                "RowName": "Cooked_Prime_Meat"
+            }
+        },
+        {
+            "Name": "Repair_Bench",
+            "ItemStaticData": {
+                "RowName": "Repair_Bench"
+            }
+        },
+        {
+            "Name": "Waterbomb",
+            "ItemStaticData": {
+                "RowName": "WaterBomb"
+            }
+        },
+        {
+            "Name": "Coconut_young",
+            "ItemStaticData": {
+                "RowName": "Coconut_young"
+            }
+        },
+        {
+            "Name": "Coconut_mid",
+            "ItemStaticData": {
+                "RowName": "Coconut_mid"
+            }
+        },
+        {
+            "Name": "Coconut_mature",
+            "ItemStaticData": {
+                "RowName": "Coconut_mature"
+            }
+        },
+        {
+            "Name": "Bandage_Heat",
+            "ItemStaticData": {
+                "RowName": "Bandage_Heat"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_01",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_01"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_02",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_02"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_03",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_03"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_04",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_04"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_05",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_05"
+            }
+        },
+        {
+            "Name": "Skin_Head_Male_06",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Male_06"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_01",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_01"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_02",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_02"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_03",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_03"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_04",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_04"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_05",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_05"
+            }
+        },
+        {
+            "Name": "Skin_Head_Female_06",
+            "ItemStaticData": {
+                "RowName": "Skin_Head_Female_06"
+            }
+        },
+        {
+            "Name": "Poison_Arrow",
+            "ItemStaticData": {
+                "RowName": "Poison_Arrow"
+            }
+        },
+        {
+            "Name": "Poison_Paste",
+            "ItemStaticData": {
+                "RowName": "Poison_Paste"
+            }
+        },
+        {
+            "Name": "Anvil_Bench",
+            "ItemStaticData": {
+                "RowName": "Anvil_Bench"
+            }
+        },
+        {
+            "Name": "Steel_Spear",
+            "ItemStaticData": {
+                "RowName": "Steel_Spear"
+            }
+        },
+        {
+            "Name": "Steel_Axe",
+            "ItemStaticData": {
+                "RowName": "Steel_Axe"
+            }
+        },
+        {
+            "Name": "Steel_Ingot",
+            "ItemStaticData": {
+                "RowName": "Steel_Ingot"
+            }
+        },
+        {
+            "Name": "Steel_Bloom",
+            "ItemStaticData": {
+                "RowName": "Steel_Bloom"
+            }
+        },
+        {
+            "Name": "Steel_Knife",
+            "ItemStaticData": {
+                "RowName": "Steel_Knife"
+            }
+        },
+        {
+            "Name": "Steel_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Steel_Pickaxe"
+            }
+        },
+        {
+            "Name": "Steel_Bolt",
+            "ItemStaticData": {
+                "RowName": "Steel_Bolt"
+            }
+        },
+        {
+            "Name": "Trap_Tripwire_FragGrenade",
+            "ItemStaticData": {
+                "RowName": "Trap_Tripwire_FragGrenade"
+            }
+        },
+        {
+            "Name": "Suture_Kit",
+            "ItemStaticData": {
+                "RowName": "Suture_Kit"
+            }
+        },
+        {
+            "Name": "Wood_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Wood_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Stone_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Stone_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Concrete_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Concrete_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Thatch_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Thatch_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Iron_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Iron_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Glass_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Glass_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Firepit",
+            "ItemStaticData": {
+                "RowName": "FirePit"
+            }
+        },
+        {
+            "Name": "Rifle_BoltAction",
+            "ItemStaticData": {
+                "RowName": "Rifle_BoltAction"
+            }
+        },
+        {
+            "Name": "Dehumidifier",
+            "ItemStaticData": {
+                "RowName": "Dehumidifier"
+            }
+        },
+        {
+            "Name": "Electric_Dehumidifier",
+            "ItemStaticData": {
+                "RowName": "Electric_Dehumidifier"
+            }
+        },
+        {
+            "Name": "Portable_Beacon",
+            "ItemStaticData": {
+                "RowName": "Portable_Beacon"
+            }
+        },
+        {
+            "Name": "Crushed_Bone",
+            "ItemStaticData": {
+                "RowName": "Crushed_Bone"
+            }
+        },
+        {
+            "Name": "Glassworking_Bench",
+            "ItemStaticData": {
+                "RowName": "Glassworking_Bench"
+            }
+        },
+        {
+            "Name": "Leather_Curtain_Door",
+            "ItemStaticData": {
+                "RowName": "Leather_Curtain_Door"
+            }
+        },
+        {
+            "Name": "Kitchen_Bench",
+            "ItemStaticData": {
+                "RowName": "Kitchen_Bench"
+            }
+        },
+        {
+            "Name": "Kitchen_Stove",
+            "ItemStaticData": {
+                "RowName": "Kitchen_Stove"
+            }
+        },
+        {
+            "Name": "Kitchen_Storage",
+            "ItemStaticData": {
+                "RowName": "Kitchen_Storage"
+            }
+        },
+        {
+            "Name": "Mammoth_Tusk",
+            "ItemStaticData": {
+                "RowName": "Mammoth_Tusk"
+            }
+        },
+        {
+            "Name": "Bone_Sickle",
+            "ItemStaticData": {
+                "RowName": "Bone_Sickle"
+            }
+        },
+        {
+            "Name": "Glass_Jar",
+            "ItemStaticData": {
+                "RowName": "Glass_Jar"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Jar_Jam",
+            "ItemStaticData": {
+                "RowName": "Glass_Jar_Jam"
+            }
+        },
+        {
+            "Name": "Polarbear_Pelt",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Pelt"
+            }
+        },
+        {
+            "Name": "Polarbear_Head_Armor",
+            "ItemStaticData": {
+                "RowName": "PolarBear_Armor_Head"
+            }
+        },
+        {
+            "Name": "Polarbear_Chest_Armor",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Chest"
+            }
+        },
+        {
+            "Name": "Polarbear_Feet_Armor",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Feet"
+            }
+        },
+        {
+            "Name": "Polarbear_Leg_Armor",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Legs"
+            }
+        },
+        {
+            "Name": "Polarbear_Arm_Armor",
+            "ItemStaticData": {
+                "RowName": "Polarbear_Arms"
+            }
+        },
+        {
+            "Name": "Iron_Nail",
+            "ItemStaticData": {
+                "RowName": "Iron_Nail"
+            }
+        },
+        {
+            "Name": "Copper_Nail",
+            "ItemStaticData": {
+                "RowName": "Copper_Nail"
+            }
+        },
+        {
+            "Name": "Steel_Screw",
+            "ItemStaticData": {
+                "RowName": "Steel_Screw"
+            }
+        },
+        {
+            "Name": "Iron_Hammer",
+            "ItemStaticData": {
+                "RowName": "Iron_Hammer"
+            }
+        },
+        {
+            "Name": "Steel_Hammer",
+            "ItemStaticData": {
+                "RowName": "Steel_Hammer"
+            }
+        },
+        {
+            "Name": "Ammo_Rifle_Round_Incendiary",
+            "ItemStaticData": {
+                "RowName": "Ammo_Rifle_Round_Incendiary"
+            }
+        },
+        {
+            "Name": "Steel_Rebar",
+            "ItemStaticData": {
+                "RowName": "Steel_Rebar"
+            }
+        },
+        {
+            "Name": "Platinum_Bolt",
+            "ItemStaticData": {
+                "RowName": "Platinum_Bolt"
+            }
+        },
+        {
+            "Name": "Titanium_Bolt",
+            "ItemStaticData": {
+                "RowName": "Titanium_Bolt"
+            }
+        },
+        {
+            "Name": "Bio_Needle",
+            "ItemStaticData": {
+                "RowName": "Bio_Needle"
+            }
+        },
+        {
+            "Name": "Splint",
+            "ItemStaticData": {
+                "RowName": "Splint"
+            }
+        },
+        {
+            "Name": "Antibiotic_Paste",
+            "ItemStaticData": {
+                "RowName": "Antibiotic_Paste"
+            }
+        },
+        {
+            "Name": "Antiparasitic_Paste",
+            "ItemStaticData": {
+                "RowName": "Antiparasitic_Paste"
+            }
+        },
+        {
+            "Name": "Antipoison_Paste",
+            "ItemStaticData": {
+                "RowName": "Antipoison_Paste"
+            }
+        },
+        {
+            "Name": "Blood_Thinning_Paste",
+            "ItemStaticData": {
+                "RowName": "Blood_Thinning_Paste"
+            }
+        },
+        {
+            "Name": "Antibiotic_Tonic",
+            "ItemStaticData": {
+                "RowName": "Antibiotic_Tonic"
+            }
+        },
+        {
+            "Name": "Antiparasitic_Tonic",
+            "ItemStaticData": {
+                "RowName": "Antiparasitic_Tonic"
+            }
+        },
+        {
+            "Name": "Antipoison_Tonic",
+            "ItemStaticData": {
+                "RowName": "Antipoison_Tonic"
+            }
+        },
+        {
+            "Name": "Blood_Thinning_Tonic",
+            "ItemStaticData": {
+                "RowName": "Blood_Thinning_Tonic"
+            }
+        },
+        {
+            "Name": "Antibiotic_Pill",
+            "ItemStaticData": {
+                "RowName": "Antibiotic_Pill"
+            }
+        },
+        {
+            "Name": "Anitparasitic_Pill",
+            "ItemStaticData": {
+                "RowName": "Antiparasitic_Pill"
+            }
+        },
+        {
+            "Name": "Antipoison_Pill",
+            "ItemStaticData": {
+                "RowName": "Antipoison_Pill"
+            }
+        },
+        {
+            "Name": "Blood_Thinning_Pill",
+            "ItemStaticData": {
+                "RowName": "Blood_Thinning_Pill"
+            }
+        },
+        {
+            "Name": "Platinum_Spear",
+            "ItemStaticData": {
+                "RowName": "Platinum_Spear"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Drill",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_Drill"
+            }
+        },
+        {
+            "Name": "Platinum_Knife",
+            "ItemStaticData": {
+                "RowName": "Platinum_Knife"
+            }
+        },
+        {
+            "Name": "Sandworm_Scale",
+            "ItemStaticData": {
+                "RowName": "Sandworm_Scale"
+            }
+        },
+        {
+            "Name": "Platinum_Axe",
+            "ItemStaticData": {
+                "RowName": "Platinum_Axe"
+            }
+        },
+        {
+            "Name": "Platinum_Sickle",
+            "ItemStaticData": {
+                "RowName": "Platinum_Sickle"
+            }
+        },
+        {
+            "Name": "Platinum_Hammer",
+            "ItemStaticData": {
+                "RowName": "Platinum_Hammer"
+            }
+        },
+        {
+            "Name": "Platinum_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Platinum_Pickaxe"
+            }
+        },
+        {
+            "Name": "Leather_Curtain_Window",
+            "ItemStaticData": {
+                "RowName": "Leather_Curtain_Window"
+            }
+        },
+        {
+            "Name": "Wood_Build_HalfPitch",
+            "ItemStaticData": {
+                "RowName": "Wood_Build_HalfPitch"
+            }
+        },
+        {
+            "Name": "Wood_Build_HalfNormal",
+            "ItemStaticData": {
+                "RowName": "Wood_Build_HalfNormal"
+            }
+        },
+        {
+            "Name": "Sandworm_Knife",
+            "ItemStaticData": {
+                "RowName": "Sandworm_Knife"
+            }
+        },
+        {
+            "Name": "Sandworm_Spear",
+            "ItemStaticData": {
+                "RowName": "Sandworm_Spear"
+            }
+        },
+        {
+            "Name": "Sandworm_Arrow",
+            "ItemStaticData": {
+                "RowName": "Sandworm_Arrow"
+            }
+        },
+        {
+            "Name": "Sandworm_Bow",
+            "ItemStaticData": {
+                "RowName": "Sandworm_Bow"
+            }
+        },
+        {
+            "Name": "Caveworm_Knife",
+            "ItemStaticData": {
+                "RowName": "Caveworm_Knife"
+            }
+        },
+        {
+            "Name": "Caveworm_Spear",
+            "ItemStaticData": {
+                "RowName": "Caveworm_Spear"
+            }
+        },
+        {
+            "Name": "Caveworm_Arrow",
+            "ItemStaticData": {
+                "RowName": "Caveworm_Arrow"
+            }
+        },
+        {
+            "Name": "Caveworm_Bow",
+            "ItemStaticData": {
+                "RowName": "Caveworm_Bow"
+            }
+        },
+        {
+            "Name": "Concrete_Railing",
+            "ItemStaticData": {
+                "RowName": "Concrete_Railing"
+            }
+        },
+        {
+            "Name": "Iron_Railing",
+            "ItemStaticData": {
+                "RowName": "Iron_Railing"
+            }
+        },
+        {
+            "Name": "Reinforced_Railing",
+            "ItemStaticData": {
+                "RowName": "Reinforced_Railing"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Tech1",
+            "ItemStaticData": {
+                "RowName": "FactionMission_Tech1"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Tech2",
+            "ItemStaticData": {
+                "RowName": "FactionMission_Tech2"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Tech3",
+            "ItemStaticData": {
+                "RowName": "FactionMission_Tech3"
+            }
+        },
+        {
+            "Name": "Faction_Mission_RecombinedTech",
+            "ItemStaticData": {
+                "RowName": "FactionMission_TechRecombined"
+            }
+        },
+        {
+            "Name": "Survey_Radar",
+            "ItemStaticData": {
+                "RowName": "Survey_Radar"
+            }
+        },
+        {
+            "Name": "Survey_Transmitter",
+            "ItemStaticData": {
+                "RowName": "Survey_Transmitter"
+            }
+        },
+        {
+            "Name": "Meta_Ration",
+            "ItemStaticData": {
+                "RowName": "Meta_Ration"
+            }
+        },
+        {
+            "Name": "Meta_Soda",
+            "ItemStaticData": {
+                "RowName": "Meta_Soda"
+            }
+        },
+        {
+            "Name": "Meta_Super_Ration",
+            "ItemStaticData": {
+                "RowName": "Meta_Super_Ration"
+            }
+        },
+        {
+            "Name": "Meta_Module_PlayerTracker",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_PlayerTracker"
+            }
+        },
+        {
+            "Name": "Meta_Module_Movement",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Movement"
+            }
+        },
+        {
+            "Name": "Meta_Module_Carry_Weight",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Carry_Weight"
+            }
+        },
+        {
+            "Name": "Meta_Module_Poison_Resistance",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Poison_Resistance"
+            }
+        },
+        {
+            "Name": "Meta_Module_Fire_Resistance",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Fire_Resistance"
+            }
+        },
+        {
+            "Name": "Meta_Module_Inventory_Slots",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Inventory_Slots"
+            }
+        },
+        {
+            "Name": "Meta_Module_Inventory_Slots_2",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Inventory_Slots_2"
+            }
+        },
+        {
+            "Name": "Meta_Module_Consumption",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Consumption"
+            }
+        },
+        {
+            "Name": "Meta_Module_Fall_Damage",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Fall_Damage"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Shengong_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Shengong_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Shengong_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Shengong_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Shengong_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Shengong_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Shengong_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Shengong_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Shengong_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Shengong_Delta"
+            }
+        },
+        {
+            "Name": "Pumpkin",
+            "ItemStaticData": {
+                "RowName": "Pumpkin"
+            }
+        },
+        {
+            "Name": "Squash",
+            "ItemStaticData": {
+                "RowName": "Squash"
+            }
+        },
+        {
+            "Name": "Carrot",
+            "ItemStaticData": {
+                "RowName": "Carrot"
+            }
+        },
+        {
+            "Name": "Mushroom",
+            "ItemStaticData": {
+                "RowName": "Mushroom"
+            }
+        },
+        {
+            "Name": "Watermelon",
+            "ItemStaticData": {
+                "RowName": "Watermelon"
+            }
+        },
+        {
+            "Name": "Cooked_Corn",
+            "ItemStaticData": {
+                "RowName": "Cooked_Corn"
+            }
+        },
+        {
+            "Name": "Cooked_Squash",
+            "ItemStaticData": {
+                "RowName": "Cooked_Squash"
+            }
+        },
+        {
+            "Name": "Cooked_Pumpkin",
+            "ItemStaticData": {
+                "RowName": "Cooked_Pumpkin"
+            }
+        },
+        {
+            "Name": "Cooked_Carrot",
+            "ItemStaticData": {
+                "RowName": "Cooked_Carrot"
+            }
+        },
+        {
+            "Name": "Cooked_Mushroom",
+            "ItemStaticData": {
+                "RowName": "Cooked_Mushroom"
+            }
+        },
+        {
+            "Name": "Corn_Soup",
+            "ItemStaticData": {
+                "RowName": "Food_Corn_Soup"
+            }
+        },
+        {
+            "Name": "Fruit_Salad",
+            "ItemStaticData": {
+                "RowName": "Food_Fruit_Salad"
+            }
+        },
+        {
+            "Name": "Mushroom_Soup",
+            "ItemStaticData": {
+                "RowName": "Food_Mushroom_Soup"
+            }
+        },
+        {
+            "Name": "Wild_Salad",
+            "ItemStaticData": {
+                "RowName": "Food_Wild_Salad"
+            }
+        },
+        {
+            "Name": "Meat_Stew",
+            "ItemStaticData": {
+                "RowName": "Food_Meat_Stew"
+            }
+        },
+        {
+            "Name": "Fried_Soy_Beans",
+            "ItemStaticData": {
+                "RowName": "Food_Fried_Soy_Beans"
+            }
+        },
+        {
+            "Name": "Fish_Dish",
+            "ItemStaticData": {
+                "RowName": "Food_Fish_Dish"
+            }
+        },
+        {
+            "Name": "Creamed_Corn",
+            "ItemStaticData": {
+                "RowName": "Food_Creamed_Corn"
+            }
+        },
+        {
+            "Name": "Roasted_Vegetables",
+            "ItemStaticData": {
+                "RowName": "Food_Roasted_Vegetables"
+            }
+        },
+        {
+            "Name": "Animal_Fat",
+            "ItemStaticData": {
+                "RowName": "Animal_Fat"
+            }
+        },
+        {
+            "Name": "Pastry",
+            "ItemStaticData": {
+                "RowName": "Pastry"
+            }
+        },
+        {
+            "Name": "Fruit_Pie",
+            "ItemStaticData": {
+                "RowName": "Food_Fruit_Pie"
+            }
+        },
+        {
+            "Name": "Meat_Pie",
+            "ItemStaticData": {
+                "RowName": "Food_Meat_Pie"
+            }
+        },
+        {
+            "Name": "Vegetable_Pie",
+            "ItemStaticData": {
+                "RowName": "Food_Vegetable_Pie"
+            }
+        },
+        {
+            "Name": "Pumpkin_Bread",
+            "ItemStaticData": {
+                "RowName": "Food_Pumpkin_Bread"
+            }
+        },
+        {
+            "Name": "Crumbed_Fish",
+            "ItemStaticData": {
+                "RowName": "Food_Crumbed_Fish_Fillet"
+            }
+        },
+        {
+            "Name": "Pickled_Carrot",
+            "ItemStaticData": {
+                "RowName": "Food_Pickled_Carrot"
+            }
+        },
+        {
+            "Name": "Chemistry_Bench",
+            "ItemStaticData": {
+                "RowName": "Chemistry_Bench"
+            }
+        },
+        {
+            "Name": "Electric_Armour_Bench"
+        },
+        {
+            "Name": "Electric_Heater"
+        },
+        {
+            "Name": "Air_Conditioner"
+        },
+        {
+            "Name": "Masonry_Bench_T4",
+            "ItemStaticData": {
+                "RowName": "Masonry_Bench_T4"
+            }
+        },
+        {
+            "Name": "Carpentry_Bench_T4",
+            "ItemStaticData": {
+                "RowName": "Carpentry_Bench_T4"
+            }
+        },
+        {
+            "Name": "Waterwheel_Generator",
+            "ItemStaticData": {
+                "RowName": "WaterWheel_Generator"
+            }
+        },
+        {
+            "Name": "Electric_Stove"
+        },
+        {
+            "Name": "Advanced_Kitchen_Sink"
+        },
+        {
+            "Name": "Advanced_Kitchen_Storage"
+        },
+        {
+            "Name": "Advanced_Kitchen_Bench"
+        },
+        {
+            "Name": "Hunter_Head",
+            "ItemStaticData": {
+                "RowName": "Hunter_Head"
+            }
+        },
+        {
+            "Name": "Hunter_Chest",
+            "ItemStaticData": {
+                "RowName": "Hunter_Chest"
+            }
+        },
+        {
+            "Name": "Hunter_Arms",
+            "ItemStaticData": {
+                "RowName": "Hunter_Arms"
+            }
+        },
+        {
+            "Name": "Hunter_Legs",
+            "ItemStaticData": {
+                "RowName": "Hunter_Legs"
+            }
+        },
+        {
+            "Name": "Hunter_Feet",
+            "ItemStaticData": {
+                "RowName": "Hunter_Feet"
+            }
+        },
+        {
+            "Name": "Bean",
+            "ItemStaticData": {
+                "RowName": "Bean"
+            }
+        },
+        {
+            "Name": "Cocoa",
+            "ItemStaticData": {
+                "RowName": "Cocoa"
+            }
+        },
+        {
+            "Name": "Coffee",
+            "ItemStaticData": {
+                "RowName": "Coffee"
+            }
+        },
+        {
+            "Name": "GreenTea",
+            "ItemStaticData": {
+                "RowName": "GreenTea"
+            }
+        },
+        {
+            "Name": "WildTea",
+            "ItemStaticData": {
+                "RowName": "WildTea"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Shengong_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Shengong_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Shengong_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Shengong_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Hammer_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Hammer_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Hammer_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Hammer_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Bow_Shengong_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Shengong_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Bow_Shengong_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Shengong_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Bow_Shengong_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Shengong_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Shengong",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Shengong"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Shengong",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Shengong"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Shengong_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Shengong"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Canteen_Shengong",
+            "ItemStaticData": {
+                "RowName": "Meta_Canteen_Shengong"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Bandage_Shengong",
+            "ItemStaticData": {
+                "RowName": "Meta_Bandage_Shengong"
+            }
+        },
+        {
+            "Name": "Meta_Oxygen_Tank_Shengong",
+            "ItemStaticData": {
+                "RowName": "Meta_Oxygen_Tank_Shengong"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Firewhacker_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Firewhacker_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Alpha_x5",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Alpha"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Beta_x5",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Beta"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Arrow_Printed_Charlie_x5",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Printed_Charlie"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Arrow_Set_Printed_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Printed_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Printed_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Printed_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Printed_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Printed_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Antibiotic_Vaccine_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Antibiotic_Vaccine_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Antibiotic_Vaccine_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Antibiotic_Vaccine_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Antibiotic_Vaccine_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Antibiotic_Vaccine_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Antiparasitic_Vaccine_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Antiparasitic_Vaccine_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Antiparasitic_Vaccine_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Antiparasitic_Vaccine_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Antiparasitic_Vaccine_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Antiparasitic_Vaccine_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Antipoison_Vaccine_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Antipoison_Vaccine_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Antipoison_Vaccine_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Antipoison_Vaccine_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Antipoison_Vaccine_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Antipoison_Vaccine_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Blood_Thinning_Vaccine_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Blood_Thinning_Vaccine_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Blood_Thinning_Vaccine_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Blood_Thinning_Vaccine_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Blood_Thinning_Vaccine_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Blood_Thinning_Vaccine_Charlie"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Radar",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_Radar"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Laser",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_Laser"
+            }
+        },
+        {
+            "Name": "Mission_Sonic_Disrupter",
+            "ItemStaticData": {
+                "RowName": "Mission_Sonic_Disrupter"
+            }
+        },
+        {
+            "Name": "Heater_Large",
+            "ItemStaticData": {
+                "RowName": "Heater_Large"
+            }
+        },
+        {
+            "Name": "Cooler_Large",
+            "ItemStaticData": {
+                "RowName": "Cooler_Large"
+            }
+        },
+        {
+            "Name": "Mission_High_Tech_1",
+            "ItemStaticData": {
+                "RowName": "Mission_HighTech_1"
+            }
+        },
+        {
+            "Name": "Mission_High_Tech_2",
+            "ItemStaticData": {
+                "RowName": "Mission_HighTech_2"
+            }
+        },
+        {
+            "Name": "Mission_High_Tech_3",
+            "ItemStaticData": {
+                "RowName": "Mission_HighTech_3"
+            }
+        },
+        {
+            "Name": "Mission_High_Tech_Assembled",
+            "ItemStaticData": {
+                "RowName": "Mission_HighTech_Assembled"
+            }
+        },
+        {
+            "Name": "Meta_Cot_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Cot_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Oxygen_Gel",
+            "ItemStaticData": {
+                "RowName": "Meta_Oxygen_Gel"
+            }
+        },
+        {
+            "Name": "Meta_Stamina_Gel",
+            "ItemStaticData": {
+                "RowName": "Meta_Stamina_Gel"
+            }
+        },
+        {
+            "Name": "Basic_Wall_Light",
+            "ItemStaticData": {
+                "RowName": "Basic_Wall_Light"
+            }
+        },
+        {
+            "Name": "Basic_Ceiling_Light",
+            "ItemStaticData": {
+                "RowName": "Basic_Ceiling_Light"
+            }
+        },
+        {
+            "Name": "Composter_Electric",
+            "ItemStaticData": {
+                "RowName": "Composter_Electric"
+            }
+        },
+        {
+            "Name": "Concrete_TrapDoor",
+            "ItemStaticData": {
+                "RowName": "Concrete_TrapDoor"
+            }
+        },
+        {
+            "Name": "Faction_Mission_WallDrill",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_WallDrill"
+            }
+        },
+        {
+            "Name": "Thermos_GreenTea",
+            "ItemStaticData": {
+                "RowName": "Thermos_GreenTea"
+            }
+        },
+        {
+            "Name": "Thermos_WildTea",
+            "ItemStaticData": {
+                "RowName": "Thermos_WildTea"
+            }
+        },
+        {
+            "Name": "Thermos_Cocoa",
+            "ItemStaticData": {
+                "RowName": "Thermos_Cocoa"
+            }
+        },
+        {
+            "Name": "Thermos_Coffee",
+            "ItemStaticData": {
+                "RowName": "Thermos_Coffee"
+            }
+        },
+        {
+            "Name": "Thermos_IceWater",
+            "ItemStaticData": {
+                "RowName": "Thermos_IceWater"
+            }
+        },
+        {
+            "Name": "Basic_Backpack",
+            "ItemStaticData": {
+                "RowName": "Basic_Backpack"
+            }
+        },
+        {
+            "Name": "Delivery_Object",
+            "ItemStaticData": {
+                "RowName": "Delivery_Object"
+            }
+        },
+        {
+            "Name": "Mining_Backpack",
+            "ItemStaticData": {
+                "RowName": "Mining_Backpack"
+            }
+        },
+        {
+            "Name": "Basic_Quiver",
+            "ItemStaticData": {
+                "RowName": "Basic_Quiver"
+            }
+        },
+        {
+            "Name": "Basic_Bandolier",
+            "ItemStaticData": {
+                "RowName": "Basic_Bandolier"
+            }
+        },
+        {
+            "Name": "Bait",
+            "ItemStaticData": {
+                "RowName": "Bait"
+            }
+        },
+        {
+            "Name": "Poisoned_Bait",
+            "ItemStaticData": {
+                "RowName": "Poisoned_Bait"
+            }
+        },
+        {
+            "Name": "Wood_Cupboard_Small",
+            "ItemStaticData": {
+                "RowName": "Wood_Cupboard_Small"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Cupboard_Small",
+            "ItemStaticData": {
+                "RowName": "Interior_Wood_Cupboard_Small"
+            }
+        },
+        {
+            "Name": "Metal_Cupboard_Small",
+            "ItemStaticData": {
+                "RowName": "Metal_Cupboard_Small"
+            }
+        },
+        {
+            "Name": "Meta_Campfire_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Campfire_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Hammer_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Hammer_Printed"
+            }
+        },
+        {
+            "Name": "Deep_Mining_Drill_Electric",
+            "ItemStaticData": {
+                "RowName": "Deep_Mining_Drill_Electric"
+            }
+        },
+        {
+            "Name": "Deep_Mining_Drill_Biofuel",
+            "ItemStaticData": {
+                "RowName": "Deep_Mining_Drill_Biofuel"
+            }
+        },
+        {
+            "Name": "Mission_Thruster",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Thruster"
+            }
+        },
+        {
+            "Name": "Mission_Thruster_Salvaged",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Thruster_Salvaged"
+            }
+        },
+        {
+            "Name": "Mission_Navigation",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Navigation"
+            }
+        },
+        {
+            "Name": "Mission_Thruster_Part",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Thruster_Part"
+            }
+        },
+        {
+            "Name": "Mission_Navigation_Part",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Navigation_Part"
+            }
+        },
+        {
+            "Name": "Mission_Ship_Cargo",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Cargo"
+            }
+        },
+        {
+            "Name": "Buffalo_Trophy",
+            "ItemStaticData": {
+                "RowName": "Buffalo_Trophy"
+            }
+        },
+        {
+            "Name": "Mammoth_Trophy",
+            "ItemStaticData": {
+                "RowName": "Mammoth_Trophy"
+            }
+        },
+        {
+            "Name": "AlphaWolf_Trophy",
+            "ItemStaticData": {
+                "RowName": "Alphawolf_Trophy"
+            }
+        },
+        {
+            "Name": "SnowLeopard_Trophy",
+            "ItemStaticData": {
+                "RowName": "SnowLeopard_Trophy"
+            }
+        },
+        {
+            "Name": "Buffalo_Head",
+            "ItemStaticData": {
+                "RowName": "Buffalo_Head"
+            }
+        },
+        {
+            "Name": "Mammoth_Head",
+            "ItemStaticData": {
+                "RowName": "Mammoth_Head"
+            }
+        },
+        {
+            "Name": "AlphaWolf_Head",
+            "ItemStaticData": {
+                "RowName": "Alphawolf_Head"
+            }
+        },
+        {
+            "Name": "SnowLeopard_Head",
+            "ItemStaticData": {
+                "RowName": "SnowLeopard_Head"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Bravo"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Bravo"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Inaris_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Bravo"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Inaris_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Bravo"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Inaris_Delta"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Bravo",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Bravo"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Charlie",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Charlie"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Inaris_Delta",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Inaris_Delta"
+            }
+        },
+        {
+            "Name": "Water_Sprinkler",
+            "ItemStaticData": {
+                "RowName": "Water_Sprinkler"
+            }
+        },
+        {
+            "Name": "Titanium_Hammer",
+            "ItemStaticData": {
+                "RowName": "Titanium_Hammer"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Inaris_Alpha_x25",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Inaris_Alpha"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 25
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Furnace_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Furnace_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Crate_Printed",
+            "ItemStaticData": {
+                "RowName": "Meta_Crate_Printed"
+            }
+        },
+        {
+            "Name": "Meta_Corn_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Corn_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Pumpkin_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Pumpkin_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Squash_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Squash_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Carrot_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Carrot_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Mushroom_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Mushroom_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Berry_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Berry_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Wheat_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Wheat_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Watermelon_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Watermelon_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Bean_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Bean_Seed"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Set_Inaris_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Set_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Module_Animal_Healthbar",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Animal_Healthbar"
+            }
+        },
+        {
+            "Name": "Meta_Module_Animal_Highlighting",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Animal_Highlighting"
+            }
+        },
+        {
+            "Name": "Corn_Pack",
+            "ItemStaticData": {
+                "RowName": "Corn"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Pumpkin_Pack",
+            "ItemStaticData": {
+                "RowName": "Pumpkin"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Squash_Pack",
+            "ItemStaticData": {
+                "RowName": "Squash"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Carrot_Pack",
+            "ItemStaticData": {
+                "RowName": "Carrot"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Mushroom_Pack",
+            "ItemStaticData": {
+                "RowName": "Mushroom"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Berry_Pack",
+            "ItemStaticData": {
+                "RowName": "Berry"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Wheat_Pack",
+            "ItemStaticData": {
+                "RowName": "Wheat"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Watermelon_Pack",
+            "ItemStaticData": {
+                "RowName": "Watermelon"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Bean_Pack",
+            "ItemStaticData": {
+                "RowName": "Bean"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Survival_Backpack",
+            "ItemStaticData": {
+                "RowName": "Survival_Backpack"
+            }
+        },
+        {
+            "Name": "Scale_Head",
+            "ItemStaticData": {
+                "RowName": "Scale_Head"
+            }
+        },
+        {
+            "Name": "Scale_Chest",
+            "ItemStaticData": {
+                "RowName": "Scale_Chest"
+            }
+        },
+        {
+            "Name": "Scale_Arms",
+            "ItemStaticData": {
+                "RowName": "Scale_Arms"
+            }
+        },
+        {
+            "Name": "Scale_Legs",
+            "ItemStaticData": {
+                "RowName": "Scale_Legs"
+            }
+        },
+        {
+            "Name": "Scale_Feet",
+            "ItemStaticData": {
+                "RowName": "Scale_Feet"
+            }
+        },
+        {
+            "Name": "Basic_Fertilizer",
+            "ItemStaticData": {
+                "RowName": "Basic_Fertilizer"
+            }
+        },
+        {
+            "Name": "Yield_Fertilizer",
+            "ItemStaticData": {
+                "RowName": "Yield_Fertilizer"
+            }
+        },
+        {
+            "Name": "Speed_Fertilizer",
+            "ItemStaticData": {
+                "RowName": "Speed_Fertilizer"
+            }
+        },
+        {
+            "Name": "Spoiled_Plants",
+            "ItemStaticData": {
+                "RowName": "Spoiled_Plants"
+            }
+        },
+        {
+            "Name": "Farmers_Shotgun",
+            "ItemStaticData": {
+                "RowName": "Farmers_Shotgun"
+            }
+        },
+        {
+            "Name": "Drying_Rack",
+            "ItemStaticData": {
+                "RowName": "Drying_Rack"
+            }
+        },
+        {
+            "Name": "Giant_Steak",
+            "ItemStaticData": {
+                "RowName": "Giant_Steak"
+            }
+        },
+        {
+            "Name": "Giant_Steak_Cooked",
+            "ItemStaticData": {
+                "RowName": "Giant_Steak_Cooked"
+            }
+        },
+        {
+            "Name": "Giant_Steak_Dried",
+            "ItemStaticData": {
+                "RowName": "Giant_Steak_Dried"
+            }
+        },
+        {
+            "Name": "Fatty_TBone",
+            "ItemStaticData": {
+                "RowName": "Fatty_Tbone"
+            }
+        },
+        {
+            "Name": "Fatty_TBone_Cooked",
+            "ItemStaticData": {
+                "RowName": "Fatty_Tbone_Cooked"
+            }
+        },
+        {
+            "Name": "Fatty_TBone_Dried",
+            "ItemStaticData": {
+                "RowName": "Fatty_Tbone_Dried"
+            }
+        },
+        {
+            "Name": "Gamey_Meat",
+            "ItemStaticData": {
+                "RowName": "Gamey_Meat"
+            }
+        },
+        {
+            "Name": "Gamey_Meat_Cooked",
+            "ItemStaticData": {
+                "RowName": "Gamey_Meat_Cooked"
+            }
+        },
+        {
+            "Name": "Gamey_Meat_Dried",
+            "ItemStaticData": {
+                "RowName": "Gamey_Meat_Dried"
+            }
+        },
+        {
+            "Name": "Soft_Meat",
+            "ItemStaticData": {
+                "RowName": "Soft_Meat"
+            }
+        },
+        {
+            "Name": "Soft_Meat_Cooked",
+            "ItemStaticData": {
+                "RowName": "Soft_Meat_Cooked"
+            }
+        },
+        {
+            "Name": "Soft_Meat_Dried",
+            "ItemStaticData": {
+                "RowName": "Soft_Meat_Dried"
+            }
+        },
+        {
+            "Name": "Stringy_Meat",
+            "ItemStaticData": {
+                "RowName": "Stringy_Meat"
+            }
+        },
+        {
+            "Name": "Stringy_Meat_Cooked",
+            "ItemStaticData": {
+                "RowName": "Stringy_Meat_Cooked"
+            }
+        },
+        {
+            "Name": "Stringy_Meat_Dried",
+            "ItemStaticData": {
+                "RowName": "Stringy_Meat_Dried"
+            }
+        },
+        {
+            "Name": "White_Meat",
+            "ItemStaticData": {
+                "RowName": "White_Meat"
+            }
+        },
+        {
+            "Name": "White_Meat_Cooked",
+            "ItemStaticData": {
+                "RowName": "White_Meat_Cooked"
+            }
+        },
+        {
+            "Name": "White_Meat_Dried",
+            "ItemStaticData": {
+                "RowName": "White_Meat_Dried"
+            }
+        },
+        {
+            "Name": "Raw_Bacon",
+            "ItemStaticData": {
+                "RowName": "Raw_Bacon"
+            }
+        },
+        {
+            "Name": "Cooked_Bacon",
+            "ItemStaticData": {
+                "RowName": "Cooked_Bacon"
+            }
+        },
+        {
+            "Name": "Crispy_Bacon",
+            "ItemStaticData": {
+                "RowName": "Crispy_Bacon"
+            }
+        },
+        {
+            "Name": "Caveworm_Scale",
+            "ItemStaticData": {
+                "RowName": "Caveworm_Scale"
+            }
+        },
+        {
+            "Name": "Poison_Sack",
+            "ItemStaticData": {
+                "RowName": "Poison_Sack"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Mammoth_Sample",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_Mammoth_Sample"
+            }
+        },
+        {
+            "Name": "Faction_Mission_Frozen_Mammoth_Sample",
+            "ItemStaticData": {
+                "RowName": "Faction_Mission_Frozen_Mammoth_Sample"
+            }
+        },
+        {
+            "Name": "Mission_Laser_Part_1",
+            "ItemStaticData": {
+                "RowName": "Mission_Laser_Part_1"
+            }
+        },
+        {
+            "Name": "Mission_Laser_Part_2",
+            "ItemStaticData": {
+                "RowName": "Mission_Laser_Part_2"
+            }
+        },
+        {
+            "Name": "Mission_Laser_Part_3",
+            "ItemStaticData": {
+                "RowName": "Mission_Laser_Part_3"
+            }
+        },
+        {
+            "Name": "Mission_Broken_Solar_Panel",
+            "ItemStaticData": {
+                "RowName": "Mission_Broken_Solar_Panel"
+            }
+        },
+        {
+            "Name": "Bandage_Cooling",
+            "ItemStaticData": {
+                "RowName": "Bandage_Cooling"
+            }
+        },
+        {
+            "Name": "Meta_Axe_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Axe_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Pickaxe_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Pickaxe_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Hammer_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Hammer_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Knife_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Knife_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Spear_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Spear_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Canteen_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Canteen_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Frag_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Frag_Larkwell"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Standard",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Standard"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Bait",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Bait"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Ballistic",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Ballistic"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Bleed",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Bleed"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Tazer",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Tazer"
+            }
+        },
+        {
+            "Name": "Meta_Arrow_Larkwell_Whistling",
+            "ItemStaticData": {
+                "RowName": "Meta_Arrow_Larkwell_Whistling"
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Standard",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Standard"
+            }
+        },
+        {
+            "Name": "Meta_Bolt_Larkwell_Whistling",
+            "ItemStaticData": {
+                "RowName": "Meta_Bolt_Larkwell_Whistling"
+            }
+        },
+        {
+            "Name": "Scanner_DeepOre",
+            "ItemStaticData": {
+                "RowName": "Scanner_DeepOre"
+            }
+        },
+        {
+            "Name": "Scanner_Cave",
+            "ItemStaticData": {
+                "RowName": "Scanner_Cave"
+            }
+        },
+        {
+            "Name": "Meta_Scanner_DeepOre",
+            "ItemStaticData": {
+                "RowName": "Meta_Scanner_DeepOre"
+            }
+        },
+        {
+            "Name": "Meta_Bow_Larkwell",
+            "ItemStaticData": {
+                "RowName": "Meta_Bow_Larkwell"
+            }
+        },
+        {
+            "Name": "Mission_Exotic_Pickaxe",
+            "ItemStaticData": {
+                "RowName": "Metal_Exotic_Infused_Pickaxe"
+            }
+        },
+        {
+            "Name": "Scorpion_Pincer",
+            "ItemStaticData": {
+                "RowName": "Scorpion_Pincer"
+            }
+        },
+        {
+            "Name": "Scorpion_Tail",
+            "ItemStaticData": {
+                "RowName": "Scorpion_Tail"
+            }
+        },
+        {
+            "Name": "Mission_Gyro",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Gyro"
+            }
+        },
+        {
+            "Name": "Mission_Gyro_Broken",
+            "ItemStaticData": {
+                "RowName": "Mission_Ship_Gyro_Broken"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Helmet_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Head_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Chest_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Chest_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Arms_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Arms_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Legs_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Legs_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Feet_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Feet_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Helmet_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Head_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Chest_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Chest_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Arms_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Arms_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Legs_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Legs_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Carbon_Armor_Feet_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Carbon_Feet_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Envirosuit_Inaris",
+            "ItemStaticData": {
+                "RowName": "Envirosuit_Inaris_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Module_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Module_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Larkwell_Backpack_Alpha",
+            "ItemStaticData": {
+                "RowName": "Meta_Backpack_Larkwell_Alpha"
+            }
+        },
+        {
+            "Name": "Meta_Larkwell_Backpack_Beta",
+            "ItemStaticData": {
+                "RowName": "Meta_Backpack_Larkwell_Beta"
+            }
+        },
+        {
+            "Name": "Meta_Repair_Item",
+            "ItemStaticData": {
+                "RowName": "Meta_Repair_Item"
+            }
+        },
+        {
+            "Name": "Meta_Repair_Item_Pack",
+            "ItemStaticData": {
+                "RowName": "Meta_Repair_Item_Pack"
+            }
+        },
+        {
+            "Name": "Meta_Repair_Item_x5",
+            "ItemStaticData": {
+                "RowName": "Meta_Repair_Item"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ]
+        },
+        {
+            "Name": "Rustic_Decoration_Bench",
+            "ItemStaticData": {
+                "RowName": "Rustic_Decoration_Bench"
+            }
+        },
+        {
+            "Name": "Rustic_Bench",
+            "ItemStaticData": {
+                "RowName": "Rustic_Bench"
+            }
+        },
+        {
+            "Name": "Rustic_Bookshelf",
+            "ItemStaticData": {
+                "RowName": "Rustic_Bookshelf"
+            }
+        },
+        {
+            "Name": "Rustic_Cabinet",
+            "ItemStaticData": {
+                "RowName": "Rustic_Cabinet"
+            }
+        },
+        {
+            "Name": "Rustic_Candles",
+            "ItemStaticData": {
+                "RowName": "Rustic_Candles"
+            }
+        },
+        {
+            "Name": "Rustic_CoffeeTable",
+            "ItemStaticData": {
+                "RowName": "Rustic_CoffeeTable"
+            }
+        },
+        {
+            "Name": "Rustic_CouchLarge",
+            "ItemStaticData": {
+                "RowName": "Rustic_CouchLarge"
+            }
+        },
+        {
+            "Name": "Rustic_CouchMedium",
+            "ItemStaticData": {
+                "RowName": "Rustic_CouchMedium"
+            }
+        },
+        {
+            "Name": "Rustic_DiningChair",
+            "ItemStaticData": {
+                "RowName": "Rustic_DiningChair"
+            }
+        },
+        {
+            "Name": "Rustic_LivingChair",
+            "ItemStaticData": {
+                "RowName": "Rustic_LivingChair"
+            }
+        },
+        {
+            "Name": "Rustic_NightStand",
+            "ItemStaticData": {
+                "RowName": "Rustic_NightStand"
+            }
+        },
+        {
+            "Name": "Rustic_Pot",
+            "ItemStaticData": {
+                "RowName": "Rustic_Pot"
+            }
+        },
+        {
+            "Name": "Rustic_Stool",
+            "ItemStaticData": {
+                "RowName": "Rustic_Stool"
+            }
+        },
+        {
+            "Name": "Rustic_Table",
+            "ItemStaticData": {
+                "RowName": "Rustic_Table"
+            }
+        },
+        {
+            "Name": "Rustic_TableLarge",
+            "ItemStaticData": {
+                "RowName": "Rustic_TableLarge"
+            }
+        },
+        {
+            "Name": "Rustic_TableRound",
+            "ItemStaticData": {
+                "RowName": "Rustic_TableRound"
+            }
+        },
+        {
+            "Name": "Rustic_Wardrobe",
+            "ItemStaticData": {
+                "RowName": "Rustic_Wardrobe"
+            }
+        },
+        {
+            "Name": "Rustic_WardrobeNarrow",
+            "ItemStaticData": {
+                "RowName": "Rustic_WardrobeNarrow"
+            }
+        },
+        {
+            "Name": "Rustic_Bed",
+            "ItemStaticData": {
+                "RowName": "Rustic_Bed"
+            }
+        },
+        {
+            "Name": "Rustic_Statue",
+            "ItemStaticData": {
+                "RowName": "Rustic_Statue"
+            }
+        },
+        {
+            "Name": "Rustic_Dresser",
+            "ItemStaticData": {
+                "RowName": "Rustic_Dresser"
+            }
+        },
+        {
+            "Name": "Mission_Explosive",
+            "ItemStaticData": {
+                "RowName": "Mission_Explosive"
+            }
+        },
+        {
+            "Name": "Radar_Biofuel",
+            "ItemStaticData": {
+                "RowName": "Radar_Biofuel"
+            }
+        },
+        {
+            "Name": "Radar_Electric",
+            "ItemStaticData": {
+                "RowName": "Radar_Electric"
+            }
+        },
+        {
+            "Name": "Radar_Meta",
+            "ItemStaticData": {
+                "RowName": "Radar_Meta"
+            }
+        },
+        {
+            "Name": "Extractor_Biofuel",
+            "ItemStaticData": {
+                "RowName": "Extractor_Biofuel"
+            }
+        },
+        {
+            "Name": "Extractor_Electric",
+            "ItemStaticData": {
+                "RowName": "Extractor_Electric"
+            }
+        },
+        {
+            "Name": "Extractor_Meta",
+            "ItemStaticData": {
+                "RowName": "Extractor_Meta"
+            }
+        },
+        {
+            "Name": "Biofuel_Can_Meta",
+            "ItemStaticData": {
+                "RowName": "Biofuel_Can_Meta"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 3
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10000
+                }
+            ]
+        },
+        {
+            "Name": "Mission_Prototype_Laser",
+            "ItemStaticData": {
+                "RowName": "Mission_Prototype_Laser"
+            }
+        },
+        {
+            "Name": "Mission_Broken_Prototype_Laser",
+            "ItemStaticData": {
+                "RowName": "Mission_Broken_Prototype_Laser"
+            }
+        },
+        {
+            "Name": "Meta_Power_Source",
+            "ItemStaticData": {
+                "RowName": "Meta_Power_Source"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                },
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 45000
+                }
+            ]
+        },
+        {
+            "Name": "Mission_Knife_Lion",
+            "ItemStaticData": {
+                "RowName": "Mission_Knife_Lion"
+            }
+        },
+        {
+            "Name": "Meta_Module_World_Boss",
+            "ItemStaticData": {
+                "RowName": "Meta_Module_WorldBoss"
+            }
+        },
+        {
+            "Name": "Mission_Analyzer_Egg",
+            "ItemStaticData": {
+                "RowName": "Mission_Analyzer_Egg"
+            }
+        },
+        {
+            "Name": "Mission_CaveWormEgg",
+            "ItemStaticData": {
+                "RowName": "Mission_CaveWormEgg"
+            }
+        },
+        {
+            "Name": "Delivery_Object_Temperature",
+            "ItemStaticData": {
+                "RowName": "Delivery_Object_Temperature"
+            }
+        },
+        {
+            "Name": "Steel_Arrow",
+            "ItemStaticData": {
+                "RowName": "Steel_Arrow"
+            }
+        },
+        {
+            "Name": "Jimk_PistolA",
+            "ItemStaticData": {
+                "RowName": "Jimk_PistolA"
+            }
+        },
+        {
+            "Name": "Jimk_PistolB",
+            "ItemStaticData": {
+                "RowName": "Jimk_PistolB"
+            }
+        },
+        {
+            "Name": "Jimk_Sniper_Rifle",
+            "ItemStaticData": {
+                "RowName": "Jimk_Sniper_Rifle"
+            }
+        },
+        {
+            "Name": "Jimk_Assault_Rifle",
+            "ItemStaticData": {
+                "RowName": "Jimk_Assault_Rifle"
+            }
+        },
+        {
+            "Name": "Jimk_Assault_RifleA",
+            "ItemStaticData": {
+                "RowName": "Jimk_Assault_RifleA"
+            }
+        },
+        {
+            "Name": "Jimk_Assault_RifleB",
+            "ItemStaticData": {
+                "RowName": "Jimk_Assault_RifleB"
+            }
+        },
+        {
+            "Name": "Jimk_Ammo_Sniper_Round",
+            "ItemStaticData": {
+                "RowName": "Jimk_Ammo_Sniper_Round"
+            }
+        }
+    ]
+}

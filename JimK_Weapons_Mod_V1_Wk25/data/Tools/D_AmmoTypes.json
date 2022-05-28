@@ -1,0 +1,54 @@
+{
+    "RowStruct": "/Script/Icarus.AmmoTypeData",
+    "Defaults": {
+        "ProjectileCount": 1,
+        "ProjectileDamage": 5,
+        "ProjectileAccuracy": {
+            "X": 0,
+            "Y": 0
+        },
+        "Stats": {}
+    },
+    "Rows": [
+        {
+            "Name": "Buckshot",
+            "ProjectileCount": 9,
+            "ProjectileDamage": 30,
+            "ProjectileAccuracy": {
+                "X": 2,
+                "Y": 2
+            },
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
+            }
+        },
+        {
+            "Name": "Rifle_Round",
+            "ProjectileDamage": 300,
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
+            }
+        },
+        {
+            "Name": "Rifle_Round_Incendiary",
+            "ProjectileDamage": 250,
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
+            }
+        },
+        {
+            "Name": "Pistol_Round",
+            "ProjectileDamage": 100,
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
+            }
+        },
+        {
+            "Name": "Sniper_Round",
+            "ProjectileDamage": 450,
+            "Stats": {
+                "(Value=\"BaseChanceProjectilesBreak_%\")": 100
+            }
+        }
+    ]
+}

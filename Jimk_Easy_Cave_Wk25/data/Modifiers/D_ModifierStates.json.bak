@@ -1,0 +1,4285 @@
+{
+    "RowStruct": "/Script/Icarus.ModifierStateData",
+    "Defaults": {
+        "ModifierIcon": "None",
+        "Type": "Buff",
+        "ModifierName": "Name",
+        "ModifierDescription": "Description",
+        "VisibleToPlayer": true,
+        "CosmeticAttachComponent": "None",
+        "AudioData": {
+            "RowName": "None",
+            "DataTableName": "D_ModifierStateAudioData"
+        },
+        "GrantedStats": {},
+        "bAura": false,
+        "AuraRange": 100,
+        "AuraFlags": {
+            "EffectsSelf": true,
+            "EffectsPlayers": true,
+            "EffectsNPCs": false
+        },
+        "ModifierGrantedByAura": {
+            "RowName": "None",
+            "DataTableName": "D_ModifierStates"
+        },
+        "bEscalates": false,
+        "Escalation": {
+            "RowName": "None",
+            "DataTableName": "D_AfflictionChance"
+        },
+        "EscalationTime": 30,
+        "bRemovedOnEscalation": true,
+        "Behaviour": "/Script/Icarus.ModifierStateComponent",
+        "ModifierVariables": {},
+        "ShouldTick": false,
+        "TickOnApply": false,
+        "ModifierTickRate": 1,
+        "ModifierLifetimeAffectors": [],
+        "RemovedOnDeath": true,
+        "MergeType": "EModifierMergeType_MAX",
+        "MaxStackNum": 1,
+        "ModifierTags": {
+            "GameplayTags": []
+        },
+        "ModifierAllowedQuery": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+        },
+        "bEffectsObjects": false,
+        "bEffectsNPCs": true,
+        "bEffectsPlayers": true,
+        "SaveToDatabase": true
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "DamageOverTime_Physical",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Physical-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Physical-ModifierDescription\", \"Legacy.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+\")": -20
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 2,
+                    "Deviation": 1
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "Stack",
+            "MaxStackNum": 4
+        },
+        {
+            "Name": "DamageOverTime_Burning",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BurningBuff.Icon_BurningBuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Burning-ModifierName\", \"On Fire\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Burning-ModifierDescription\", \"Slowly drains health.\")",
+            "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_Flaming.ModifierCosmetic_Flaming_C",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 100
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage_Fire.BP_ModifierStateBehaviour_TickDamage_Fire_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 10,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FireModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "UserDescription": "Not wet",
+                "AutoDescription": " NONE( ModifierState.Wet )"
+            },
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "DamageOverTime_Bleeding",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BleedingDebuff.Icon_BleedingDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Bleeding-ModifierName\", \"Bleeding\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DamageOverTime_Bleeding-ModifierDescription\", \"Slowly drains health.\")",
+            "VisibleToPlayer": false,
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage_Bleed.BP_ModifierStateBehaviour_TickDamage_Bleed_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 5,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "WoundModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 3,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Health_Regen",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen-ModifierName\", \"Health Regen\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen-ModifierDescription\", \"Increases health restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 100
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Health_Buff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthBuff.Icon_HealthBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Buff-ModifierName\", \"Health Buff\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Buff-ModifierDescription\", \"Increases maximum health\")",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 10
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Stamina_Regen",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StaminaRegenBuff.Icon_StaminaRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Regen-ModifierName\", \"Stamina Regen\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Regen-ModifierDescription\", \"Increases stamina restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 100
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Stamina_Buff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StaminaBuff.Icon_StaminaBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Buff-ModifierName\", \"Stamina Buff\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Buff-ModifierDescription\", \"Increases maximum stamina\")",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumStamina_+%\")": 10
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Stamina_Consumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StaminaBuff.Icon_StaminaBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Consumption-ModifierName\", \"Stamina Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Consumption-ModifierDescription\", \"Decreases stamina consumption\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaConsumed_+%\")": -5
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Food_Consumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HungryDebuff.Icon_HungryDebuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Food_Consumption-ModifierName\", \"Food Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Food_Consumption-ModifierDescription\", \"Decreases food consumption rate\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodConsumption_+%\")": -5
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Water_Consumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WaterBuff.Icon_WaterBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Water_Consumption-ModifierName\", \"Water Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Water_Consumption-ModifierDescription\", \"Decreases water consumption rate\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -5
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Oxygen_Buff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_OxygenBuff.Icon_OxygenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Oxygen_Buff-ModifierName\", \"Oxygen Buff\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Oxygen_Buff-ModifierDescription\", \"Increases maximum oxygen\")",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumOxygen_+%\")": 10
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Oxygen_Consumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_OxygenBuff.Icon_OxygenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Oxygen_Consumption-ModifierName\", \"Oxygen Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Oxygen_Consumption-ModifierDescription\", \"Decreases oxygen consumption rate\")",
+            "GrantedStats": {
+                "(Value=\"BaseOxygenConsumption_+%\")": -5
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Temperature_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Temperature_Boost-ModifierName\", \"Temperature Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Temperature_Boost-ModifierDescription\", \"Increases temperature insulation\")",
+            "GrantedStats": {
+                "(Value=\"BaseDeltaTemperatureResistance_%\")": 240
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Melee_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StrengthBuff.Icon_StrengthBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Melee_Boost-ModifierName\", \"Melee Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Melee_Boost-ModifierDescription\", \"Increases melee damage\")",
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": 200
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Movement_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Speed.Icon_Speed'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Movement_Boost-ModifierName\", \"Movement Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Movement_Boost-ModifierDescription\", \"Increases movespeed\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 200
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Crafting_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ToolsBuff.Icon_ToolsBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crafting_Boost-ModifierName\", \"Crafting Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crafting_Boost-ModifierDescription\", \"Increases crafting speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": -25
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Carry_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Overencumbered.Icon_Overencumbered'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Carry_Boost-ModifierName\", \"Carry Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Carry_Boost-ModifierDescription\", \"Increases maximum carry weight\")",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+%\")": 50
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Recoil_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Strength.Icon_Strength'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Recoil_Boost-ModifierName\", \"Recoil Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Recoil_Boost-ModifierDescription\", \"NEEDS IMPLEMENTATION\")",
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "XP_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_XPBonus.Icon_XPBonus'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierName\", \"Experience Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierDescription\", \"Increases experience gained\")",
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": 200
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Stamina_Speed_Bonus",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Speed.Icon_Speed'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Speed_Bonus-ModifierName\", \"Stamina / Speed Bonus\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Speed_Bonus-ModifierDescription\", \"Increases movespeed and stamina restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 9999999,
+                "(Value=\"BaseSprintSpeed_+%\")": 200
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "FallDamage_Negate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Boots.Icon_Boots'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"FallDamage_Negate-ModifierName\", \"Reduced Fall Damage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"FallDamage_Negate-ModifierDescription\", \"The effect of gravity is temporarily lessened, due to exposure to exotics.\")",
+            "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_SmokeBoots.ModifierCosmetic_SmokeBoots_C",
+            "GrantedStats": {
+                "(Value=\"BaseFallDamageResistance_%\")": 100
+            },
+            "MergeType": "Replace",
+            "MaxStackNum": 99,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Overburdened",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Overencumbered.Icon_Overencumbered'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Overburdened-ModifierName\", \"Heavy\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Overburdened-ModifierDescription\", \"You\\'re carrying too much weight.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseOverencumberedMovementSpeed_+%\")": -70,
+                "(Value=\"IsOverencumbered_?\")": 1
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Health_Regen_Bed_Bedroll",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_Bedroll-ModifierName\", \"Health Regen Bed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_Bedroll-ModifierDescription\", \"Increases health restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 1000
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Health_Regen_Bed_SleepingBag",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_SleepingBag-ModifierName\", \"Health Regen Bed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_SleepingBag-ModifierDescription\", \"Increases health restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 5000
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Health_Regen_Bed_CaliforniaKing",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_CaliforniaKing-ModifierName\", \"Health Regen Bed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Health_Regen_Bed_CaliforniaKing-ModifierDescription\", \"Increases health restoration speed\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 10000
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Overheating",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Overheating-ModifierName\", \"Overheating\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Overheating-ModifierDescription\", \"Your body temperature is rising. Thirst has increased. You need to cool down.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 50,
+                "(Value=\"BaseStaminaConsumed_+%\")": 10
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Overheating_Escalation"
+            },
+            "EscalationTime": 600,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflictionHeat.BP_ModifierStateBehaviour_AfflictionHeat_C",
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Hot"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Affliction_Heat_Overload",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_extremeoverheat.Icon_extremeoverheat'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Heat_Overload-ModifierName\", \"Hyperthermia\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Heat_Overload-ModifierDescription\", \"Your internal temperature is too high. Your thirst rate has increased further, and you are taking damage. Find a way to cool down immediately.\")",
+            "AudioData": {
+                "RowName": "Hot"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 100,
+                "(Value=\"BaseStaminaConsumed_+%\")": 25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_HeatOverload.BP_Modifier_HeatOverload_C",
+            "ModifierVariables": {
+                "DamagePercentage": {
+                    "BaseValue": 0.6000000238418579,
+                    "Deviation": 0
+                },
+                "Damage": {
+                    "BaseValue": 1,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Hot"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Affliction_Cold",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ChilledDebuff.Icon_ChilledDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Cold-ModifierName\", \"Cold\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Cold-ModifierDescription\", \"Your core temperature is dropping. Hunger has increased. You need to warm up or find shelter.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumStamina_+%\")": -25,
+                "(Value=\"BaseStaminaRegen_+%\")": -25,
+                "(Value=\"BaseFoodConsumption_+%\")": 20,
+                "(Value=\"BaseWaterConsumption_+%\")": -10
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Cold_Escalation"
+            },
+            "EscalationTime": 600,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflictionCold.BP_ModifierStateBehaviour_AfflictionCold_C",
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Cold"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Affliction_Hypothermia",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FreezingDebuff.Icon_FreezingDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Hypothermia-ModifierName\", \"Hypothermia\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Hypothermia-ModifierDescription\", \"Your core temperature is very low. Hunger is greatly increased, and you\\'re taking damage. Find a way to warm up fast.\")",
+            "AudioData": {
+                "RowName": "Cold"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumStamina_+%\")": -50,
+                "(Value=\"BaseStaminaRegen_+%\")": -50,
+                "(Value=\"BaseFoodConsumption_+%\")": 30,
+                "(Value=\"BaseWaterConsumption_+%\")": -10,
+                "(Value=\"BaseMovementSpeed_+%\")": -10
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflictionFreezing.BP_ModifierStateBehaviour_AfflictionFreezing_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 1,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Cold"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Affliction_Disoriented",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DisorientedDebuff.Icon_DisorientedDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Disoriented-ModifierName\", \"Disorientated\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Disoriented-ModifierDescription\", \"You are running out of oxygen ...\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Suffocation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SuffocationDebuff.Icon_SuffocationDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Suffocation-ModifierName\", \"Suffocation\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Suffocation-ModifierDescription\", \"You cannot breathe!\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumStamina_+%\")": -50,
+                "(Value=\"BaseExperience_+%\")": -20
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflicationDamage.BP_ModifierStateBehaviour_AfflicationDamage_C",
+            "ModifierVariables": {
+                "DamagePercentage": {
+                    "BaseValue": 2,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Suffocating"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Thirsty",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ThirstyDebuff.Icon_ThirstyDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Thirsty-ModifierName\", \"Thirsty\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Thirsty-ModifierDescription\", \"You are thirsty and should find water.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseThirstLevel_+\")": 1,
+                "(Value=\"BaseStaminaRegen_+%\")": -25
+            },
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Dehydrated",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DehydrationDebuff.Icon_DehydrationDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Dehydrated-ModifierName\", \"Dehydrated\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Dehydrated-ModifierDescription\", \"You are dehydrated. Stamina regeneration is reduced.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseThirstLevel_+\")": 2,
+                "(Value=\"BaseStaminaRegenFromEmptyDelay_+\")": 6,
+                "(Value=\"BaseStaminaRegenDelay_+\")": 2,
+                "(Value=\"BaseStaminaRegen_+%\")": -50
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflicationDamage.BP_ModifierStateBehaviour_AfflicationDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 2,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Dehydrating"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Hungry",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HungryDebuff.Icon_HungryDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Hungry-ModifierName\", \"Hungry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Hungry-ModifierDescription\", \"You should eat.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseHungerLevel_+\")": 1
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Hunger_Escalation"
+            },
+            "EscalationTime": 300,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "ModifierTickRate": 300,
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Affliction_Famished",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FamishedDebuff.Icon_FamishedDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Famished-ModifierName\", \"Famished\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Affliction_Famished-ModifierDescription\", \"You are starving.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseHungerLevel_+\")": 2
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_AfflicationDamage.BP_ModifierStateBehaviour_AfflicationDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 2,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Starving"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Test_WaterCool",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Cooling.Icon_Cooling'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Test_WaterCool-ModifierName\", \"Cooling\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Test_WaterCool-ModifierDescription\", \"Water cools you.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCooldownDegreePerMinute_+\")": 10,
+                "(Value=\"BaseInternalTemperatureModification_+\")": -500
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Thermos_IceWater",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_IceWater-ModifierName\", \"Ice Cool Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_IceWater-ModifierDescription\", \"Refreshing ice cold water keeps you cooler for longer.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInternalTemperatureModification_+\")": -1500
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Test_FoodHot",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Test_FoodHot-ModifierName\", \"Warming\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Test_FoodHot-ModifierDescription\", \"Hot food warms you.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWarmupDegreePerMinute_+\")": 10
+            },
+            "MergeType": "Stack",
+            "MaxStackNum": 2,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Test_CampfireWarmth",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Campfire.ITEM_Campfire'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Test_CampfireWarmth-ModifierName\", \"Soothing Warmth\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Test_CampfireWarmth-ModifierDescription\", \"Fire is good, fire is warmth\")",
+            "GrantedStats": {
+                "(Value=\"BaseWarmupDegreePerMinute_+\")": 40,
+                "(Value=\"BaseColdResistance_%\")": 18,
+                "(Value=\"BaseHeatResistance_%\")": -10
+            },
+            "MergeType": "LongestDuration"
+        },
+        {
+            "Name": "Movement_Swimming",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Swimming.Icon_Swimming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Movement_Swimming-ModifierName\", \"Swimming\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Movement_Swimming-ModifierDescription\", \"Currently immersed in water.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCooldownDegreePerMinute_+\")": 10,
+                "(Value=\"IsSwimming_?\")": 1
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Swimming.BP_Modifier_Swimming_C",
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "FireExtinguished",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FireExtinguished.Icon_FireExtinguished'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"FireExtinguished-ModifierName\", \"Fire Extinguished\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"FireExtinguished-ModifierDescription\", \"Fire recently extinguished.\")",
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Grace_Period",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Grace.Icon_Grace'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Grace_Period-ModifierName\", \"Grace Period\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Grace_Period-ModifierDescription\", \"Unharmed while Spawning in\")",
+            "GrantedStats": {
+                "(Value=\"IsInGracePeriod_?\")": 1
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ]
+            },
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Stamina_Speed_Buff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Speed.Icon_Speed'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Speed_Buff-ModifierName\", \"Stamina / Speed Bonus\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stamina_Speed_Buff-ModifierDescription\", \"Increases movespeed and stamina restoration rate.\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 50,
+                "(Value=\"BaseMovementSpeed_+%\")": 35
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Well_Rested",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Rested.Icon_Rested'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Well_Rested-ModifierName\", \"Well Rested\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Well_Rested-ModifierDescription\", \"You\\'re well rested, and several physical attributes are improved for a period.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": 10,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseMaximumStamina_+%\")": 5,
+                "(Value=\"BaseStaminaRegen_+%\")": 5,
+                "(Value=\"BaseFoodConsumption_+%\")": -5,
+                "(Value=\"BaseWaterConsumption_+%\")": -5
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "TempBoostFromAlcohol",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"TempBoostFromAlcohol-ModifierName\", \"Hot Flush\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"TempBoostFromAlcohol-ModifierDescription\", \"Your temperature is increased for a period.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWarmupDegreePerMinute_+\")": 50
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "AI_Perception_Storm_Debuff",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_PerceptionDebuff.Icon_PerceptionDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AI_Perception_Storm_Debuff-ModifierName\", \"Hazy Vision\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AI_Perception_Storm_Debuff-ModifierDescription\", \"Weather is making it hard to see\")",
+            "GrantedStats": {
+                "(Value=\"BaseAIPerceptionPerceptionRadius_+%\")": -50
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Wound",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WoundedDebuff.Icon_WoundedDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wound-ModifierName\", \"Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wound-ModifierDescription\", \"You\\'re bleeding and no longer regenerating health. Use a basic bandage to stem the bleeding.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": -80,
+                "(Value=\"IsWounded_?\")": 1
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Wound_Escalation"
+            },
+            "EscalationTime": 120,
+            "ModifierTickRate": 120,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "WoundModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Bandage"
+                    },
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Bandage, Character.Player.Invincible )"
+            }
+        },
+        {
+            "Name": "Bandage",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Bandage_Basic.ITEM_Bandage_Basic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage-ModifierName\", \"Bandage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage-ModifierDescription\", \"Healing bleeding and wounds.\")",
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Bandage"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Damage_Sprained_Ankle",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Sprain.Icon_Sprain'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Damage_Sprained_Ankle-ModifierName\", \"Sprain\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Damage_Sprained_Ankle-ModifierDescription\", \"A sprained ankle from a fall. You will move slower.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -25,
+                "(Value=\"BaseWeightCapacity_+%\")": -20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "SprainModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 2,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Sprained"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Damage.Broken"
+                    },
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Damage.Broken, Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Damage_Broken_Leg",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BrokenBone.Icon_BrokenBone'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Damage_Broken_Leg-ModifierName\", \"Broken Leg\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Damage_Broken_Leg-ModifierDescription\", \"You\\'ve sustained a broken leg due to fall damage. You will move slowly.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -50,
+                "(Value=\"BaseStaminaRegen_+%\")": -25,
+                "(Value=\"BaseFoodConsumption_+%\")": 25,
+                "(Value=\"BaseWeightCapacity_+%\")": -50
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "BrokenLegModifierDuration_+%"
+                }
+            ],
+            "RemovedOnDeath": false,
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Damage.Broken"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player.Invincible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.Player.Invincible )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "MediumStorm_HeavyExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-lightning1.extremedebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_HeavyExposure-ModifierName\", \"Heavy Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_HeavyExposure-ModifierDescription\", \"Exposure to the storm slows you significantly and hurts you.\")",
+            "AudioData": {
+                "RowName": "Exposure_Heavy"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -60,
+                "(Value=\"BaseExperience_+%\")": -25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 3,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "MediumStorm_MediumExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-lightning1.mediumdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_MediumExposure-ModifierName\", \"Medium Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_MediumExposure-ModifierDescription\", \"Exposure to the storm slows you noticeably.\")",
+            "AudioData": {
+                "RowName": "Exposure_Medium"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -40,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "MediumStorm_LightExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/lightdebuff-lightning1.lightdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_LightExposure-ModifierName\", \"Light Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"MediumStorm_LightExposure-ModifierDescription\", \"Exposure to the storm slows you slightly.\")",
+            "AudioData": {
+                "RowName": "Exposure_Light"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -20
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Wet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Wet.Icon_Wet'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wet-ModifierName\", \"Wet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wet-ModifierDescription\", \"You are wet and your temperature has been decreased.\")",
+            "GrantedStats": {
+                "(Value=\"BaseExternalTemperatureModification_+\")": -1000
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Wet.BP_Modifier_Wet_C",
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Bandaging",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Bandage_Basic.ITEM_Bandage_Basic'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bandaging-ModifierName\", \"Bandaging\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bandaging-ModifierDescription\", \"You are currently bandaging.\")",
+            "AudioData": {
+                "RowName": "Bandaging"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -80
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Slow",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Slowed.Icon_Slowed'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Slow-ModifierName\", \"Slowed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Slow-ModifierDescription\", \"You are slowed \")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -50
+            },
+            "MergeType": "LongestDuration"
+        },
+        {
+            "Name": "Pinned",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Pinned.Icon_Pinned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pinned-ModifierName\", \"Pinned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pinned-ModifierDescription\", \"Your are immobilized and cannot move.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -100
+            },
+            "MergeType": "LongestDuration"
+        },
+        {
+            "Name": "StaminaRegenOnDamageTaken",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StaminaRegenBuff.Icon_StaminaRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"StaminaRegenOnDamageTaken-ModifierName\", \"Stamina Regen\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"StaminaRegenOnDamageTaken-ModifierDescription\", \"Stamina regeneration boost after taking damage.\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 20
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "GrantedAura_ReducedOxygenConsumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_OxygenConsumptionAura.Icon_OxygenConsumptionAura'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_ReducedOxygenConsumption-ModifierName\", \"Aura: Reduced Oxygen Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_ReducedOxygenConsumption-ModifierDescription\", \"Nearby allies\\' oxygen consumption is reduced.\")",
+            "bAura": true,
+            "AuraRange": 500,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_ReducedOxygenConsumption"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "MaxStackNum": 5,
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_AdditionalPhysicalDamageMitigation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DamageResAura.Icon_DamageResAura'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_AdditionalPhysicalDamageMitigation-ModifierName\", \"Aura: Reduced Physical Damage Taken\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_AdditionalPhysicalDamageMitigation-ModifierDescription\", \"Nearby allies receive additional physical damage resistance.\")",
+            "bAura": true,
+            "AuraRange": 500,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_AdditionalPhysicalDamageMitigation"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "MaxStackNum": 5,
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_ReducedOxygenConsumption",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_OxygenConsumptionEffect.Icon_OxygenConsumptionEffect'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_ReducedOxygenConsumption-ModifierName\", \"Aura Effect: Reduced Oxygen Consumption\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_ReducedOxygenConsumption-ModifierDescription\", \"Reduced oxygen consumption.\")",
+            "GrantedStats": {
+                "(Value=\"BaseOxygenConsumption_+%\")": -10
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "AuraEffect_AdditionalPhysicalDamageMitigation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DamageResEffect.Icon_DamageResEffect'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_AdditionalPhysicalDamageMitigation-ModifierName\", \"Aura Effect: Reduced Physical Damage Taken\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_AdditionalPhysicalDamageMitigation-ModifierDescription\", \"Reduced physical damage.\")",
+            "GrantedStats": {
+                "(Value=\"BasePhysicalDamageResistance_+%\")": 5
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Spore_Poison",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Spore_Poison-ModifierName\", \"Spore Poison\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Spore_Poison-ModifierDescription\", \"Your movement is slowed by the toxic spore.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -10
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 2,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "LightStorm_LightExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/lightdebuff-rain3.lightdebuff-rain3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_LightExposure-ModifierName\", \"Light Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_LightExposure-ModifierDescription\", \"You move slightly slower due to storm exposure.\")",
+            "AudioData": {
+                "RowName": "Exposure_Light"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -20
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "LightStorm_MediumExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-rain3.mediumdebuff-rain3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_MediumExposure-ModifierName\", \"Medium Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_MediumExposure-ModifierDescription\", \"You move noticeably slower due to storm exposure.\")",
+            "AudioData": {
+                "RowName": "Exposure_Medium"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -30,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "LightStorm_HeavyExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-rain3.extremedebuff-rain3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_HeavyExposure-ModifierName\", \"Heavy Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"LightStorm_HeavyExposure-ModifierDescription\", \"You move significantly slower due to storm exposure.\")",
+            "AudioData": {
+                "RowName": "Exposure_Heavy"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -40,
+                "(Value=\"BaseExperience_+%\")": -25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 1,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "HeavyStorm_LightExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/lightdebuff-lightning3.lightdebuff-lightning3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_LightExposure-ModifierName\", \"Light Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_LightExposure-ModifierDescription\", \"You move slightly slower due to storm exposure.\")",
+            "AudioData": {
+                "RowName": "Exposure_Light"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -30
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "HeavyStorm_MediumExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-lightning3.mediumdebuff-lightning3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_MediumExposure-ModifierName\", \"Medium Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_MediumExposure-ModifierDescription\", \"Exposure to the storm is slowing you significantly and hurting you\")",
+            "AudioData": {
+                "RowName": "Exposure_Medium"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -50,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 4,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "HeavyStorm_HeavyExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-lightning3.extremedebuff-lightning3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_HeavyExposure-ModifierName\", \"Heavy Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"HeavyStorm_HeavyExposure-ModifierDescription\", \"Exposure to the storm is slowing and hurting you significantly.\")",
+            "AudioData": {
+                "RowName": "Exposure_Heavy"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -70,
+                "(Value=\"BaseExperience_+%\")": -25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 9,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Bandage_Heat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Bandage_Basic.ITEM_Bandage_Basic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Heat-ModifierName\", \"Heat Bandage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Heat-ModifierDescription\", \"Healing frostbite.\")",
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.HeatBandage"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Poison_DOT",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_DOT-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_DOT-ModifierDescription\", \"Slowly drains health from poisoned targets.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -5
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 5,
+                    "Deviation": 1
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 4,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            }
+        },
+        {
+            "Name": "RevivePlayerHealthRegen",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegenBuff.Icon_HealthRegenBuff'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"RevivePlayerHealthRegen-ModifierName\", \"Health Regen\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"RevivePlayerHealthRegen-ModifierDescription\", \"Increases health restoration rate.\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 100
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Suture_Kit",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Suture_Kit.ITEM_Suture_Kit'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Suture_Kit-ModifierName\", \"Suture Kit\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Suture_Kit-ModifierDescription\", \"Healing deep wound\")",
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.SutureKit"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "DeepWound",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DeepWoundDebuff.Icon_DeepWoundDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DeepWound-ModifierName\", \"Deep Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DeepWound-ModifierDescription\", \"A severe wound from a recent attack. Remains, even after death. Heal with a Suture Kit.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -25,
+                "(Value=\"BaseMaximumStamina_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": -95
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Deep_Wound_Escalation"
+            },
+            "EscalationTime": 120,
+            "ModifierTickRate": 120,
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wounded"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.SutureKit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( ModifierState.SutureKit )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Infected_Wound",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_InfectedWoundDebuff.Icon_InfectedWoundDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Infected_Wound-ModifierName\", \"Infected Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Infected_Wound-ModifierDescription\", \"An infected wound caused by a recent attack. Counter with antibiotics. Not removed on death.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -50,
+                "(Value=\"BaseMaximumStamina_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": -80,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "ModifierTickRate": 30,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "BacterialModifierDuration_+%"
+                }
+            ],
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wound.Infected"
+                    },
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antibiotic.T2, ModifierState.Medicine.Antibiotic.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Festering_Wound",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FesteringWoundDebuff.Icon_FesteringWoundDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Festering_Wound-ModifierName\", \"Festering Wound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Festering_Wound-ModifierDescription\", \"An extemely infected wound from an attack. Counter with anti-parasitics. Not removed on death.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -25,
+                "(Value=\"BaseMaximumStamina_+%\")": -25,
+                "(Value=\"BaseWaterConsumption_+%\")": 10,
+                "(Value=\"BaseHealthRegen_+%\")": -95,
+                "(Value=\"BaseExperience_+%\")": -5
+            },
+            "ModifierTickRate": 0,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "ParasiticModifierDuration_+%"
+                }
+            ],
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Wound.Festering"
+                    },
+                    {
+                        "TagName": "ModifierState.Affliction.Parasitic"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antiparasitic.T2, ModifierState.Medicine.Antiparasitic.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Concussion",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ConcussionDebuff.Icon_ConcussionDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Concussion-ModifierName\", \"Concussion\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Concussion-ModifierDescription\", \"A head injury, reduces crafting speed. Counter with blood thinner, or heal over time.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": -25,
+                "(Value=\"BaseMovementSpeed_+%\")": -20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PhysicalTraumaModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.PhysicalTrauma"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Bloodthinner.T2, ModifierState.Medicine.Bloodthinner.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Contusion",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ContusionDebuff.Icon_ContusionDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Contusion-ModifierName\", \"Contusion\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Contusion-ModifierDescription\", \"Minor injuries reduce your XP gain. Counter with blood thinner, heal over time, and be more careful.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": -25,
+                "(Value=\"BaseMovementSpeed_+%\")": -20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PhysicalTraumaModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.PhysicalTrauma"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Bloodthinner.T2, ModifierState.Medicine.Bloodthinner.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Food_Poisoning",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FoodPoisioning.Icon_FoodPoisioning'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Food_Poisoning-ModifierName\", \"Food Contamination\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Food_Poisoning-ModifierDescription\", \"The bacterial effects of spoiled food. Slowly drains health. Counter with antibiotics, or wait it out.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMaximumHealth_+%\")": -50,
+                "(Value=\"BaseMaximumStamina_+%\")": -50,
+                "(Value=\"BaseMovementSpeed_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "BacterialModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antibiotic.T3, ModifierState.Medicine.Antibiotic.T2 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dysentery",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_DysenteryDebuff.Icon_DysenteryDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dysentery-ModifierName\", \"Dysentery\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dysentery-ModifierDescription\", \"Contaminated water has given you the runs. Food nourishes you less. Counter with anti-parasitics, or wait it out.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseFoodRecovery_+%\")": -50
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "ParasiticModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Parasitic"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antiparasitic.T2, ModifierState.Medicine.Antiparasitic.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Enfeebled",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_EnfeebledDebuff.Icon_EnfeebledDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Enfeebled-ModifierName\", \"Enfeebled\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Enfeebled-ModifierDescription\", \"You are feeling very weak. You desperately need to eat.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": -25,
+                "(Value=\"BaseWeightCapacity_+%\")": -20
+            },
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    0
+                ],
+                "AutoDescription": " NONE( )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Poison",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Poison-ModifierDescription\", \"Venom slowly drains health. Counter with anti-venom, or wait it out.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+\")": -10
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 1,
+                    "Deviation": 1
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 2,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 10,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Poison_Bait",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Bait-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+\")": -25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 10,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 2,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Underground",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Dehumidifer.ITEM_Dehumidifer'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier-ModifierName\", \"Dehumidified\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier-ModifierDescription\", \"Dried air gives you resistance to the effects of being underground.\")",
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Dehumidified"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Pneumonia",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_PneumoniaDebuff.Icon_PneumoniaDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pneumonia-ModifierName\", \"Pneumonia\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pneumonia-ModifierDescription\", \"Severe infection of the lungs. Slows health and stamina regeneration. Heals over time.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": -50,
+                "(Value=\"BaseMaximumStamina_+%\")": -50,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "ModifierTickRate": 60,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "BacterialModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antibiotic.T2, ModifierState.Medicine.Antibiotic.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Aura_Fire_Warming",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Aura_Fire_Warming-ModifierName\", \"Warming Fire\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Aura_Fire_Warming-ModifierDescription\", \"Standing near a warm fire reduces consumption rates, and quickens regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 100
+            },
+            "bAura": true,
+            "AuraRange": 1000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "Warm_Comfort"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Warm_Comfort",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Warm_Comfort-ModifierName\", \"Warm and Cozy\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Warm_Comfort-ModifierDescription\", \"You\\'re feeling warm and cozy, reducing consumption rates and increasing regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BaseStaminaRegen_+%\")": 50,
+                "(Value=\"BaseExperience_+%\")": 10,
+                "(Value=\"BaseHeatResistance_%\")": 15
+            },
+            "MergeType": "Count",
+            "MaxStackNum": 50,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Campfire"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dehumidifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Dehumidifer.ITEM_Dehumidifer'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier-ModifierName\", \"Dehumidified\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier-ModifierDescription\", \"Dried air gives you resistance to the effects of being underground.\")",
+            "AuraRange": 1000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Dehumidified"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Dehumidifier_Aura",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Dehumidifer.ITEM_Dehumidifer'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier_Aura-ModifierName\", \"Dehumidifier\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dehumidifier_Aura-ModifierDescription\", \"Proximity to a dehumidifier shields you from the dampening and bacterial effects of being underground.\")",
+            "bAura": true,
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "Dehumidifier"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Dehumidified"
+                    }
+                ]
+            },
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Frostnip",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ChilledDebuff.Icon_ChilledDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Frostnip-ModifierName\", \"Frosty\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Frostnip-ModifierDescription\", \"You\\'re cold and at risk of frostbite. Speed and stamina regen are reduced. Counter with heat bandages.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -15,
+                "(Value=\"BaseStaminaRegen_+%\")": -10
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Frostnip_Escalation"
+            },
+            "EscalationTime": 300,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_TemperatureClear.BP_Modifier_TemperatureClear_C",
+            "MergeType": "Replace",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Frostbite"
+                    },
+                    {
+                        "TagName": "ModifierState.HeatBandage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Frostbite, ModifierState.HeatBandage )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Frostbite",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_FreezingDebuff.Icon_FreezingDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Frostbite-ModifierName\", \"Frostbite\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Frostbite-ModifierDescription\", \"You\\'re freezing and suffering frostbite. Speed and stamina regen are heavily reduced. Counter with heat bandages.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -25,
+                "(Value=\"BaseStaminaRegen_+%\")": -30,
+                "(Value=\"BaseWaterConsumption_+%\")": 10,
+                "(Value=\"Experience_+%\")": -10
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Frostbite"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.HeatBandage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( ModifierState.HeatBandage )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Drowning",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SuffocationDebuff.Icon_SuffocationDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drowning-ModifierName\", \"Drowning\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drowning-ModifierDescription\", \"Slowly taking damage due to lack of oxygen, get out of the water.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 15,
+                    "Deviation": 3
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 2,
+            "MergeType": "Stack",
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Beer",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BeerBottle.ITEM_BeerBottle'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierName\", \"Beer\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Beer-ModifierDescription\", \"Boosts max stamina and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseFoodStomachSlots_+\")": 1
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Wine",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_WineBottle.ITEM_WineBottle'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wine-ModifierName\", \"Wine\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wine-ModifierDescription\", \"Boosts max stamina and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseFoodStomachSlots_+\")": 1
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "DeathRun",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Deathrun.Icon_Deathrun'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"DeathRun-ModifierName\", \"Death Run\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"DeathRun-ModifierDescription\", \"Short speed and stamina boost on respawn.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseStaminaConsumed_+%\")": -20,
+                "(Value=\"BaseStealthThreatModifier_+%\")": -15
+            },
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "IceBox_Spoil_Rate",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": -500
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Refrigerator_Spoil_Rate",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": -1000
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Minimal_Spoil_Rate",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseInventoryCannotSpoil_?\")": 1
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Faction_ShowOnMap",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing'",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"MapIsBroadcastingForMap_?\")": 1
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Faction_SatelliteActivate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing'",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"FactionSatelliteActivated_?\")": 1
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Splint",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BrokenBone.Icon_BrokenBone'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Splint-ModifierName\", \"Splint\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Splint-ModifierDescription\", \"Broken legs will heal more swiftly.\")",
+            "GrantedStats": {
+                "(Value=\"BaseBrokenLegModifierDuration_+%\")": -50
+            },
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Splint"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Damage.Broken"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Damage.Broken )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antibiotic_Paste",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antipoison.ITEM_Antipoison'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Paste-ModifierName\", \"Antibiotic Paste\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Paste-ModifierDescription\", \"Reduces the duration of infection, and gives small health buff.\")",
+            "GrantedStats": {
+                "(Value=\"BaseBacterialModifierDuration_+%\")": -50,
+                "(Value=\"BaseHealthRegen_+%\")": 15
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T1"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Bacterial )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antparasitic_Paste",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antipoison.ITEM_Antipoison'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antparasitic_Paste-ModifierName\", \"Anti-parasitic Paste\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antparasitic_Paste-ModifierDescription\", \"Reduces the duration of infection, and gives small health buff.\")",
+            "GrantedStats": {
+                "(Value=\"BaseParasiticModifierDuration_+%\")": -50,
+                "(Value=\"BaseHealthRegen_+%\")": 15
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T1"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Parasitic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Parasitic )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antipoison_Paste",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antipoison.ITEM_Antipoison'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Paste-ModifierName\", \"Anti-poison Paste\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Paste-ModifierDescription\", \"Reduces the duration of poisoning, and gives small health buff.\")",
+            "GrantedStats": {
+                "(Value=\"BasePoisonModifierDuration_+%\")": -50,
+                "(Value=\"BaseHealthRegen_+%\")": 15
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T1"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Poison )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Blood_Thinning_Paste",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antipoison.ITEM_Antipoison'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Paste-ModifierName\", \"Blood Thinning Paste\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Paste-ModifierDescription\", \"Reduces duration of concussion, gives small health buff.\")",
+            "GrantedStats": {
+                "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -50,
+                "(Value=\"BaseHealthRegen_+%\")": 15
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T1"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.PhysicalTrauma"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.PhysicalTrauma )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antibiotic_Tonic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antiparasitic.ITEM_Antiparasitic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Tonic-ModifierName\", \"Antibiotic Tonic\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Tonic-ModifierDescription\", \"Removes food poisoning, wound infections and pneumonia.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T2"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Bacterial )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antiparasitic_Tonic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antiparasitic.ITEM_Antiparasitic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antiparasitic_Tonic-ModifierName\", \"Anti-parasitic Tonic\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antiparasitic_Tonic-ModifierDescription\", \"Removes festering infections.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T2"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Parasitic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Parasitic )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antipoison_Tonic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antiparasitic.ITEM_Antiparasitic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Tonic-ModifierName\", \"Anti-poison Tonic\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Tonic-ModifierDescription\", \"Removes poisoning.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.Poison )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Blood_Thinning_Tonic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antiparasitic.ITEM_Antiparasitic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Tonic-ModifierName\", \"Blood Thinning Tonic\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Tonic-ModifierDescription\", \"Removes concussion and contusions.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T2"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Affliction.PhysicalTrauma"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Affliction.PhysicalTrauma )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antibiotic_Pill",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antibiotic_Pill.ITEM_Antibiotic_Pill'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Pill-ModifierName\", \"Antibiotic Pill\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Pill-ModifierDescription\", \"Protects against food poisoning, wound infections and pneumonia.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antiparasitic_Pill",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antiparasitic_Pill.ITEM_Antiparasitic_Pill'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antiparasitic_Pill-ModifierName\", \"Anti-parasitic Pill\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antiparasitic_Pill-ModifierDescription\", \"Protects against festering infections.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antipoison_Pill",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Antipoison_Pill.ITEM_Antipoison_Pill'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Pill-ModifierName\", \"Anti-poison Pill\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Pill-ModifierDescription\", \"Protects against poisoning.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Blood_Thinning_Pill",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Blood_Thinning_Pill.ITEM_Blood_Thinning_Pill'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Pill-ModifierName\", \"Blood Thinning Pill\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Pill-ModifierDescription\", \"Protects againsts contusions and concussions.\")",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Faction_SatelliteOverlap",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"FactionSatelliteOverlapActive_?\")": 1
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Faction_BlockerCleared",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"FactionBlockerRemoved_?\")": 1
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Sandworm_Poison",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sandworm_Poison-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sandworm_Poison-ModifierDescription\", \"Slowly drains health from poisoned targets.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -25
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 5,
+                    "Deviation": 1
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 3,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            }
+        },
+        {
+            "Name": "Desert_MediumStorm_HeavyExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-lightning1.extremedebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_HeavyExposure-ModifierName\", \"Heavy Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_HeavyExposure-ModifierDescription\", \"Exposure to the storm slows you significantly, hurts you and makes overheating more likely.\")",
+            "AudioData": {
+                "RowName": "Exposure_Heavy"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -60,
+                "(Value=\"BaseHeatResistance_%\")": -30
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage.BP_ModifierStateBehaviour_TickDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 3,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_MediumStorm_MediumExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-lightning1.mediumdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_MediumExposure-ModifierName\", \"Medium Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_MediumExposure-ModifierDescription\", \"Exposure to the storm slows you noticeably and makes overheating more likely.\")",
+            "AudioData": {
+                "RowName": "Exposure_Medium"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -40,
+                "(Value=\"BaseHeatResistance_%\")": -20
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_MediumStorm_LightExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/lightdebuff-lightning1.lightdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_LightExposure-ModifierName\", \"Light Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_MediumStorm_LightExposure-ModifierDescription\", \"Exposure to the storm slows you slightly and makes you more likely to overheat.\")",
+            "AudioData": {
+                "RowName": "Exposure_Light"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -20,
+                "(Value=\"BaseHeatResistance_%\")": -10
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_LightStorm_LightExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/lightdebuff-lightning1.lightdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_LightExposure-ModifierName\", \"Light Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_LightExposure-ModifierDescription\", \"Exposure to the storm slows you slightly and makes you more likely to overheat.\")",
+            "AudioData": {
+                "RowName": "Exposure_Light"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -20,
+                "(Value=\"BaseHeatResistance_%\")": -10
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_LightStorm_MediumExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-lightning1.mediumdebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_MediumExposure-ModifierName\", \"Medium Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_MediumExposure-ModifierDescription\", \"Exposure to the storm slows you noticeably and makes overheating more likely.\")",
+            "AudioData": {
+                "RowName": "Exposure_Medium"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -40,
+                "(Value=\"BaseHeatResistance_%\")": -20
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_LightStorm_HeavyExposure",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-lightning1.extremedebuff-lightning1'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_HeavyExposure-ModifierName\", \"Heavy Desert Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_LightStorm_HeavyExposure-ModifierDescription\", \"Exposure to the storm slows you significantly, hurts you and make you more susceptible to overheating.\")",
+            "AudioData": {
+                "RowName": "Exposure_Heavy"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -60,
+                "(Value=\"BaseHeatResistance_%\")": -30
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Cave_Worm_Poison",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cave_Worm_Poison-ModifierName\", \"Almost Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cave_Worm_Poison-ModifierDescription\", \"Close call but no poison found.\")",
+            "GrantedStats": {
+               
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 1
+            
+        },
+        {
+            "Name": "Meta_Ration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MetaRation_1.ITEM_MetaRation_1'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Ration-ModifierName\", \"Emergency Rations\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Ration-ModifierDescription\", \"Keeps hunger at bay longer.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseStaminaRegen_+%\")": 10,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseWaterConsumption_+%\")": -10,
+                "(Value=\"BaseFoodConsumption_+%\")": -10,
+                "(Value=\"BaseOxygenConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Meta_Soda",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MetaRation_10.ITEM_MetaRation_10'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierName\", \"All Go\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Soda-ModifierDescription\", \"Keeps hunger at bay longer.\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseWaterConsumption_+%\")": -10,
+                "(Value=\"BaseOxygenConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Raw_Food",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Food.Icon_Food'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Raw_Food-ModifierName\", \"Raw Food\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Raw_Food-ModifierDescription\", \"Slight health boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 30
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Coconut",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Young.ITEM_Coconut_Young'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut-ModifierName\", \"Young Coconut\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut-ModifierDescription\", \"Boosts health and stamina for a short time.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 25,
+                "(Value=\"BaseFoodConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Coconut_Mid",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Ripe.ITEM_Coconut_Ripe'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mid-ModifierName\", \"Ripe Coconut\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mid-ModifierDescription\", \"Boosts health and stamina for a short time.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseFoodConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Coconut_Mature",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Coconut_Mature.ITEM_Coconut_Mature'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mature-ModifierName\", \"Mature Coconut\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Coconut_Mature-ModifierDescription\", \"Boosts health and stamina for a short time.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Berry",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Berries.ITEM_Berries'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Berry-ModifierName\", \"Berry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Berry-ModifierDescription\", \"Boosts health and stamina for a short time.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BaseWaterConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Watermelon",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Watermelon.ITEM_Watermelon'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon-ModifierName\", \"Melon\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Watermelon-ModifierDescription\", \"Boosts health and stamina for a short time.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BaseOxygenConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "CookedFish",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Fish.ITEM_Cooked_Fish'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"CookedFish-ModifierName\", \"Steamed Fish\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedFish-ModifierDescription\", \"Lifts stamina, improves health and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "CookedMeat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Meat.ITEM_Cooked_Meat'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"CookedMeat-ModifierName\", \"Cooked Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"CookedMeat-ModifierDescription\", \"Boosts your stamina, health and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseHealthRegen_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Spoiled_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Spoiled_Meat.ITEM_Spoiled_Meat'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Spoiled_Meat-ModifierName\", \"Spoiled Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Spoiled_Meat-ModifierDescription\", \"Extends your stamina, health and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 25,
+                "(Value=\"BaseMaximumHealth_+\")": 25,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Cooked_Prime_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_Meat.ITEM_Cooked_Prime_Meat'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Prime_Meat-ModifierName\", \"Cooked Prime Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Prime_Meat-ModifierDescription\", \"Extends your stamina, health and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 100,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 20,
+                "(Value=\"BaseExperience_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Cooked_Corn",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CharredCorn.ITEM_CharredCorn'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierName\", \"Cooked Corn\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Corn-ModifierDescription\", \"Enhances stamina and improves endurance. \")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaActionCost_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Cooked_Pumpkin",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_GrilledPumpkin.ITEM_GrilledPumpkin'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Pumpkin-ModifierName\", \"Cooked Pumpkin\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Pumpkin-ModifierDescription\", \"Boosts stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseExposureResistance_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Cooked_Squash",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RoastSquash.ITEM_RoastSquash'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Squash-ModifierName\", \"Roast Squash\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Squash-ModifierDescription\", \"Boosts stamina for a period.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseMeleeDamage_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Cooked_Carrot",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_BarbequeCarrot.ITEM_BarbequeCarrot'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Carrot-ModifierName\", \"Cooked Carrot\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Carrot-ModifierDescription\", \"Lifts stamina a little.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseProjectileDamage_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Cooked_Mushroom",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SearedMushroom.ITEM_SearedMushroom'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Mushroom-ModifierName\", \"Cooked Mushroom\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Mushroom-ModifierDescription\", \"Boosts health, lifts regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Corn_Soup",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CornSoup.ITEM_CornSoup'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Corn_Soup-ModifierName\", \"Corn Soup\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Corn_Soup-ModifierDescription\", \"Boosts stamina and improve endurance noticeably.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaActionCost_+%\")": -20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Mushroom_Soup",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MushroomSoup.ITEM_MushroomSoup'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Soup-ModifierName\", \"Mushroom Soup\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Mushroom_Soup-ModifierDescription\", \"Boosts health and regeneration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Fruit_Salad",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FruitSalad.ITEM_FruitSalad'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Salad-ModifierName\", \"Fruit Salad\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Salad-ModifierDescription\", \"Lifts health and stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseOxygenConsumption_+%\")": -10,
+                "(Value=\"BaseWaterConsumption_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Wild_Salad",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FieldSalad.ITEM_FieldSalad'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wild_Salad-ModifierName\", \"Wild Salad\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wild_Salad-ModifierDescription\", \"A solid stamina boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BaseMeleeDamage_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Meat_Stew",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MeatStew.ITEM_MeatStew'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Stew-ModifierName\", \"Stew\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Stew-ModifierDescription\", \"Boosts health, lifts stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 10,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseProjectileDamage_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Fried_Soy_Beans",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FriedSoyBeans.ITEM_FriedSoyBeans'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Soy_Beans-ModifierName\", \"Soy Fry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fried_Soy_Beans-ModifierDescription\", \"Boosts health, lifts stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseProjectileDamage_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10,
+                "(Value=\"BaseHealthRegen_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Fish_Dish",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FishDish.ITEM_FishDish'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Dish-ModifierName\", \"Fish Curry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fish_Dish-ModifierDescription\", \"Large health boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Roasted_Vegetables",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_RoastVeges.ITEM_RoastVeges'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Roasted_Vegetables-ModifierName\", \"Roast Vegetables\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Roasted_Vegetables-ModifierDescription\", \"Massive stamina boost.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 225,
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"ProjectileDamage_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Creamed_Corn",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CreamedCorn.ITEM_CreamedCorn'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Creamed_Corn-ModifierName\", \"Creamed Corn\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Creamed_Corn-ModifierDescription\", \"Boosts health and stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseStaminaActionCost_+%\")": -10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "FlatBread",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Food_Flatbread.ITEM_Food_Flatbread'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"FlatBread-ModifierName\", \"Flatbread\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"FlatBread-ModifierDescription\", \"Boosts regeneration strongly for stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseWaterConsumption_+%\")": 10,
+                "(Value=\"BaseExperience_+%\")": 5
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Fruit_Pie",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_FruitPie.ITEM_FruitPie'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Pie-ModifierName\", \"Fruit Pie\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Pie-ModifierDescription\", \"Lifts health, boosts stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseOxygenConsumption_+%\")": -15,
+                "(Value=\"BaseWaterConsumption_+%\")": -15,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Meat_Pie",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_MeatPie.ITEM_MeatPie'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Pie-ModifierName\", \"Meat Pie\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meat_Pie-ModifierDescription\", \"Big health boost, reduces exposure damage.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 225,
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseHealthRegen_+%\")": 15,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Vegetable_Pie",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_VegePie.ITEM_VegePie'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Pie-ModifierName\", \"Vegetable Pie\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vegetable_Pie-ModifierDescription\", \"Solid stamina and health boost\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaActionCost_+%\")": -15,
+                "(Value=\"BaseMeleeDamage_+%\")": 15,
+                "(Value=\"HealthRegen_+%\")": 15,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Bread",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Food_Bread.ITEM_Food_Bread'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bread-ModifierName\", \"Bread\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bread-ModifierDescription\", \"Boosts health and stamina considerably.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Pumpkin_Bread",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PumpkinBread.ITEM_PumpkinBread'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Bread-ModifierName\", \"Pumpkin Bread\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Bread-ModifierDescription\", \"Health boost, reduces exposure damage.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseExperience_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Crumbed_Fish",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_CrumbedFishFillet.ITEM_CrumbedFishFillet'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Fish-ModifierName\", \"Crumbed Fish\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crumbed_Fish-ModifierDescription\", \"Boosts health and stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Picked_Carrot",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_PickledCarrot.ITEM_PickledCarrot'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Carrot-ModifierName\", \"Pickled Carrot\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Picked_Carrot-ModifierDescription\", \"Boosts max health and stamina.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseProjectileDamage_+%\")": 20,
+                "(Value=\"BaseSharedExperience_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Jar_Jam",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Jar_Jam.ITEM_Jar_Jam'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Jar_Jam-ModifierName\", \"Jammed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Jar_Jam-ModifierDescription\", \"Boosts max health and stamina hugely.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseWaterConsumption_+%\")": -20,
+                "(Value=\"BaseSharedExperience_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antibiotic_Vaccine",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Vaccine_Antibiotic.ITEM_Meta_Vaccine_Antibiotic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antibiotic_Vaccine-ModifierName\", \"Antibiotic Vaccine\")",
+            "ModifierDescription": "",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antiparasitic_Vaccine",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Vaccine_Antiparasitic.ITEM_Meta_Vaccine_Antiparasitic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antiparasitic_Vaccine-ModifierName\", \"Anti-parasitic Vaccine\")",
+            "ModifierDescription": "",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Antipoison_Vaccine",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Vaccine_Antipoison.ITEM_Meta_Vaccine_Antipoison'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Antipoison_Vaccine-ModifierName\", \"Anti-poison Vaccine\")",
+            "ModifierDescription": "",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Blood_Thinning_Vaccine",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Vaccine_Bloodthinner.ITEM_Meta_Vaccine_Bloodthinner'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Blood_Thinning_Vaccine-ModifierName\", \"Blood Thinning Vaccine\")",
+            "ModifierDescription": "",
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Medicine.Bloodthinner.T3"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Reignite_Chance_Reduction",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseBurnChance_%\")": -20
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Repaired_Wind_Resistance",
+            "ModifierName": "INVTEXT(\"[DNT]\")",
+            "ModifierDescription": "INVTEXT(\"[DNT]\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseWindDamageResistance_%\")": 100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Rotting_Carcass",
+            "Type": "Debuff",
+            "ModifierName": "INVTEXT(\"[DNT] Rotting Carcass\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] This carcass has been left out in the sun a little too long\")",
+            "VisibleToPlayer": false,
+            "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_CorpseFlies.ModifierCosmetic_CorpseFlies_C",
+            "MergeType": "Replace",
+            "bEffectsObjects": true
+        },
+        {
+            "Name": "Thermos_GreenTea_Modifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_GreenTea_Modifier-ModifierName\", \"Hot Tea\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_GreenTea_Modifier-ModifierDescription\", \"Keeps you warm, boosts health.\")",
+            "GrantedStats": {
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Thermos_WildTea_Modifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_WildTea_Modifier-ModifierName\", \"Gorse Tea\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_WildTea_Modifier-ModifierDescription\", \"Keeps you warm, slows thirst.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -25,
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Thermos_Cocoa_Modifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Cocoa_Modifier-ModifierName\", \"Hot Cocoa\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Cocoa_Modifier-ModifierDescription\", \"Keeps you warm, slows hunger.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Thermos_Coffee_Modifier",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_Modifier-ModifierName\", \"Hot Coffee\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_Coffee_Modifier-ModifierDescription\", \"Keeps you warm, boosts energy.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
+                "(Value=\"BaseMaximumStamina_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "BroadcastingForMap",
+            "ModifierName": "INVTEXT(\"[DNT] GenericBroadcastingForMap\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] adds isbroadcastingformap flag\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"MapIsBroadcastingForMap_?\")": 1
+            },
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Fast_Spoil_Rate",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": 1000
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Plant_Watered",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropGrowthSpeed_+%\")": 50
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "WaterConnectionSpeedUp",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": 50
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "WaterConnectionSpeedUp_2x",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": 200
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Dried_Giant_Steak",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Prime_MeatDried.ITEM_Cooked_Prime_MeatDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Giant_Steak-ModifierName\", \"Dried Giant Steak\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Giant_Steak-ModifierDescription\", \"Boosts health, reduces exposure damage, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Fatty_Tbone",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_TboneDried.ITEM_Meat_TboneDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fatty_Tbone-ModifierName\", \"Dried Fatty T-Bone\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 25,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Gamey_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_GameyDried.ITEM_Meat_GameyDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Gamey_Meat-ModifierName\", \"Dried Game Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMeleeDamage_+%\")": 15,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Stringy_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_StringyDried.ITEM_Meat_StringyDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Stringy_Meat-ModifierName\", \"Dried Stringy Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseAttackSpeed_+%\")": 15,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Soft_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_SoftDried.ITEM_Meat_SoftDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Soft_Meat-ModifierName\", \"Dried Soft Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 100,
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_White_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Meat_WhiteDried.ITEM_Meat_WhiteDried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_White_Meat-ModifierName\", \"Dried White Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_White_Meat-ModifierDescription\", \"Boosts stamina, reduces exposure damage, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseExposureResistance_+%\")": 10,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Cooked_Bacon",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Bacon_Cooked.ITEM_Bacon_Cooked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Bacon-ModifierName\", \"Cooked Bacon\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Bacon-ModifierDescription\", \"Increases experience gained, boosts health and stamina\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseExperience_+%\")": 15,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Crispy_Bacon",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Bacon_Crispy.ITEM_Bacon_Crispy'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crispy_Bacon-ModifierName\", \"Crispy Bacon\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crispy_Bacon-ModifierDescription\", \"Increases experience gained, grants a large boost to health and stamina, plus critical damage\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseExperience_+%\")": 15,
+                "(Value=\"BaseMaximumHealth_+\")": 90,
+                "(Value=\"BaseMaximumStamina_+\")": 90,
+                "(Value=\"BaseCriticalDamage_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Heatstroke",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Overheat.Icon_Overheat'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Heatstroke-ModifierName\", \"Heatstroke\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Heatstroke-ModifierDescription\", \"At risk of heat exhaustion, counter with cooling bandages.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+%\")": -15,
+                "(Value=\"BaseHealthRegen_+%\")": -10,
+                "(Value=\"BaseMeleeDamage_+%\")": -10
+            },
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Heatstroke_Esculation"
+            },
+            "EscalationTime": 300,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_TemperatureClearHot.BP_Modifier_TemperatureClearHot_C",
+            "MergeType": "Replace",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.CoolingBandage"
+                    },
+                    {
+                        "TagName": "ModifierState.Heat_Exhaustion"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.CoolingBandage, ModifierState.Heat_Exhaustion )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Heat_Exhaustion",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HeatOverloadDebuff.Icon_HeatOverloadDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Heat_Exhaustion-ModifierName\", \"Heat Exhaustion\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Heat_Exhaustion-ModifierDescription\", \"This heat is overwhelming you, counter with cooling bandages.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": -30,
+                "(Value=\"BaseWaterConsumption_+%\")": 25,
+                "(Value=\"BaseMeleeDamage_+%\")": -25,
+                "(Value=\"BaseExperience_+%\")": -10
+            },
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Heat_Exhaustion"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.CoolingBandage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( ModifierState.CoolingBandage )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Bandage_Cooling",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Bandage_Basic.ITEM_Bandage_Basic'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Cooling-ModifierName\", \"Cooling Bandage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bandage_Cooling-ModifierDescription\", \"Healing Heatstroke\")",
+            "MergeType": "LongestDuration",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.CoolingBandage"
+                    }
+                ]
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Poison_Sting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Sting-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Sting-ModifierDescription\", \"Slowly drains health from poisoned targets.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -5
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 10,
+                    "Deviation": 3
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 2,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            }
+        },
+        {
+            "Name": "Poison_Sting_Stackable",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Poisoned.Icon_Poisoned'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Sting_Stackable-ModifierName\", \"Poisoned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Poison_Sting_Stackable-ModifierDescription\", \"Slowly drains health from poisoned targets.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -3
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PoisonDamage.BP_ModifierStateBehaviour_PoisonDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 4,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "TickOnApply": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "PoisonModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 5,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Poison"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antipoison.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antipoison.T2, ModifierState.Medicine.Antipoison.T3 )"
+            }
+        },
+        {
+            "Name": "Wet_Expire",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Wet.Icon_Wet'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Wet_Expire-ModifierName\", \"Wet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wet_Expire-ModifierDescription\", \"You are wet.\")",
+            "GrantedStats": {
+                "(Value=\"BaseExternalTemperatureModification_+\")": -1000
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( ModifierState.Wet )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Weight_Reduction_Aura",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Weight_Reduction_Aura.Icon_Weight_Reduction_Aura'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction_Aura-ModifierName\", \"Aura: Strength Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction_Aura-ModifierDescription\", \"Helps nearby prospectors to carry more.\")",
+            "bAura": true,
+            "AuraRange": 1000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "Weight_Reduction_Aura"
+            },
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Weight_Reduction",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Weight_Reduction.Icon_Weight_Reduction'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction-ModifierName\", \"Strength Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction-ModifierDescription\", \"Granted by a helpful prospector nearby.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+%\")": 25
+            },
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Healing_Modifier_Duration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Healing_Modifier_Aura.Icon_Healing_Modifier_Aura'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Duration-ModifierName\", \"Aura: Healing Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Duration-ModifierDescription\", \"Helps nearby prospectors to heal faster from afflictions.\")",
+            "GrantedStats": {
+                "(Value=\"BaseBacterialModifierDuration_+%\")": -30,
+                "(Value=\"BaseParasiticModifierDuration_+%\")": -30,
+                "(Value=\"BasePoisonModifierDuration_+%\")": -30,
+                "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -30
+            },
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "Weight_Reduction_Aura"
+            },
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Healing_Modifier_Aura",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Healing_Modifier_Aura.Icon_Healing_Modifier_Aura'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Aura-ModifierName\", \"Healing Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Aura-ModifierDescription\", \"Granted by a helpful prospector nearby.\")",
+            "bAura": true,
+            "AuraRange": 1000,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "Healing_Modifier_Duration"
+            },
+            "MergeType": "Stack"
+        },
+        {
+            "Name": "Feeding_Frenzy",
+            "ModifierName": "",
+            "ModifierDescription": "",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 250,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 1000
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Komodo_Bite",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_InfectedWoundDebuff.Icon_InfectedWoundDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Komodo_Bite-ModifierName\", \"Komodo Bite\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Komodo_Bite-ModifierDescription\", \"A nasty bite from a Komodo Dragon, drastically reduces the duration of food buffs and increases poison debuff duration. Heal with antibiotics.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseFoodModifierDuration_+%\")": -80,
+                "(Value=\"BasePoisonModifierDuration_+%\")": 100
+            },
+            "ModifierTickRate": 30,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "BacterialModifierDuration_+%"
+                }
+            ],
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Bacterial"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antibiotic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antibiotic.T2, ModifierState.Medicine.Antibiotic.T3 )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Meta_Deposit_Visible",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Deposit_Visible-ModifierName\", \"Meta Deposit Visible on Map\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Deposit_Visible-ModifierDescription\", \"Scanned by Radar\")",
+            "VisibleToPlayer": false,
+            "GrantedStats": {
+                "(Value=\"MapIsBroadcastingForMap_?\")": 1
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        }
+    ]
+}
