@@ -1,5 +1,7 @@
 # Icarus_Mods
 
+6/11/22 Updated mod to week 27.
+
 5/28/22 Removed Test version of weapons mod. Updated Mods to week 25
 
 5/23/22 Added a test version of weapons mods so you can test them out without grinding to tier 4 and getting composites. Also includes Thor's hammer to help get around. 
