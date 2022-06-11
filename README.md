@@ -1,5 +1,7 @@
 # Icarus_Mods
 
+5/28/22 Removed Test version of weapons mod. Updated Mods to week 25
+
 5/23/22 Added a test version of weapons mods so you can test them out without grinding to tier 4 and getting composites. Also includes Thor's hammer to help get around. 
 
 5/22/22 Updated mods to week 24. Added new weapons mod. This mod adds 2 new handguns,3 assault rifles, and a sniper rifle. They are all tier 4 items. The weapons mod uses D_ProcessorRecipes, D_ItemsStatic, D_ItemTemplate, D_AmmoTypes, D_FirearmData, D_Actionable, D_Ballistic, D_Itemable, D_Meshable. So unfortunately will prob be incompatible with other mods. If another mod creator wishes to add all or one of these weapons to their mod  they are free to do so. Enjoy
