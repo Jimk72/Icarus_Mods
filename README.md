@@ -1,5 +1,49 @@
 # Icarus_Mods
 
+7/4/22 Description of mods:
+
+The following are all UASSET file mods so they are compatible with all other mods:
+
+50_Seconds_OutofBounds: Changed the timer from 20 seconds to 50 seconds when going out of bounds
+
+700_Jump: Changes the character jump height to 700. This allows you to jump from first floor to second floor.
+
+800_Jump: Changes jump to 800 for those that want a little more height.
+
+900_Jump: Changes height for more extreme needs. Does make it hard to jump into doors ect.
+
+MiningSpeed: Speeds up the time to mine things to 1 second.
+
+CompoundBow_Kryptic_Camo: Adds green Kryptic camo to the compound bow.
+
+Workshop_Armor_Kryptic_Camo: Adds Green Kryptic Camo to first set of Workshop Armor.
+
+These Mods moddify UASSET files but also contain Json files so compatibility may change.
+
+Easy_Cave: Prevents worms from spawning and automaticly give your the Dehumidifier buff in all caves.
+This mod modifies the following files:
+D_AISetup.json
+D_ModifierStates.json
+
+Easy_Lights: This is a must have. Changed lights,heater,airconditioner to not require power! Also allows lights to be placed on top of other placed items. Changed wall light mesh to be half the size once placed. This is for placing it under cabinets ect.. Also looks better when placed on wall at base to give floor lighting.
+This Mod modifies the following file:
+D_DeployableSetup.json
+
+ThorHammer: allows access to thors hammer to fly around making travel much quicker. The right mouse button will hold you in air at current height. This is so helpfull when building tall bridges to get the supports right.
+This mod modifies the following file:
+D_ItemsStatic.json
+
+============ Older mods I no longer update, Left for people to see how they were done ==============
+
+Backpack_Kryptic_Camo: They removed this backpack and added thier own camo pack.
+
+Low_Gravity Mods: These Change the gravity in Icarus. They are fun to mess around but useless to try and play the game so I have not updated them.
+
+Friendly_Wolf: Adds a large Black wolf to the game that is friendly to the player but runs around killing all other animals.
+
+Explosive_Arrows: Adds explosive tip to all types of arrows. Stopped updating as they added explosive arrows to the game.
+
+
 6/11/22 Updated mod to week 27.
 
 5/28/22 Removed Test version of weapons mod. Updated Mods to week 25
