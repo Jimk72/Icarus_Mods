@@ -4,6 +4,8 @@
 
 The following are all UASSET file mods so they are compatible with all other mods:
 
+Building_Height_Mod: This adds more stability to concrete, stone, iron, wood. Allowing you to build higher without it crumbling down.
+
 50_Seconds_OutofBounds: Changed the timer from 20 seconds to 50 seconds when going out of bounds
 
 700_Jump: Changes the character jump height to 700. This allows you to jump from first floor to second floor.
