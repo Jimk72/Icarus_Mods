@@ -20,6 +20,8 @@ Workshop_Armor_Kryptic_Camo: Adds Green Kryptic Camo to first set of Workshop Ar
 
 These Mods moddify UASSET files but also contain Json files so compatibility may change.
 
+Weapons_Mod: This gives you 2 new handguns, 3 assault rifles and a sniper rifle. Also the sniper rifle takes a larger bullet. They are all tier 4 so require the Fabricator bench to craft. The sniper rifle does about 2x the damage of other rifles and is the only one that requires composites to craft. 
+
 Easy_Cave: Prevents worms from spawning and automaticly give your the Dehumidifier buff in all caves.
 This mod modifies the following files:
 D_AISetup.json
