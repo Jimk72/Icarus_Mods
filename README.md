@@ -4,6 +4,8 @@
 
 The following are all UASSET file mods so they are compatible with all other mods:
 
+Deer_Statue_Large_Mod: This changed the little deer statue into a very large statue. Will still be small until actualy placed.
+
 Building_Height_Mod: This adds more stability to concrete, stone, iron, wood. Allowing you to build higher without it crumbling down.
 
 50_Seconds_OutofBounds: Changed the timer from 20 seconds to 50 seconds when going out of bounds
