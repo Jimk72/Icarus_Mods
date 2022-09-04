@@ -1,5 +1,21 @@
 # Icarus_Mods
 
+9/4/22 Added new mods:
+Have been working in blender to customize the 3d models in game.
+
+Custom_Puck_Light
+
+This is a new Item I created that is half the wall light. Edited it in Blender and made it smaller like a LED puck light. It is free to craft from the player. Sometimes its nice to just put a light on things :)
+
+Mini_Generator
+
+This is a modded version of the biofuel generator in game. Converts it to the size of a regular honda type generator and is now stackable So you can place it right on top of the item it is going to power or stack them in the corner for more power on the grid.
+
+Large_Statues
+
+I edited the 3d models of the stone statues in the game(Elephant, deer, Wooden Deer, Caveworm,and a Life sized caveworm) and created custom Icons, and items to craft them. the stone ones are 50 stone and 100 for the lifesized caveworm. The wooden one is 50 wood.
+
+
 7/4/22 Description of mods:
 
 The following are all UASSET file mods so they are compatible with all other mods:
