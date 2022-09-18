@@ -1,5 +1,12 @@
 # Icarus_Mods
 
+9/18/22 Updated mods
+
+New mods added.
+Durability Increases Items Durability
+Camera_Distance increases the distance you can go in camera mode. Great for those far away shots.
+The rest should be self explanatory.
+
 9/4/22 Added new mods:
 Have been working in blender to customize the 3d models in game.
 
