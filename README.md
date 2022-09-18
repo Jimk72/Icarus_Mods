@@ -3,9 +3,9 @@
 9/4/22 Added new mods:
 Have been working in blender to customize the 3d models in game.
 
-Custom_Puck_Light
+Custom_Puck_Lights
 
-This is a new Item I created that is half the wall light. Edited it in Blender and made it smaller like a LED puck light. It is free to craft from the player. Sometimes its nice to just put a light on things :)
+These are new Items I created that are LED Lights and require no power. They are custom edited Models and BP. Contains a Wall Puck light, Ceiling light and a floor light. I changed these to a Workshop Item instead of craftable. It replaces the Meta Oxygen Gel with a Crate of 4 of each lights and a usable crate. Sometimes its nice to just put a light on things :)
 
 Mini_Generator
 
