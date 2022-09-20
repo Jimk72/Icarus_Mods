@@ -1,5 +1,10 @@
 # Icarus_Mods
 
+9/20/22
+
+Added Water_Wheel mod. Allows you to craft in character a Water wheel to generate electricity. Just need water.
+
+
 9/18/22 Updated mods
 
 New mods added.
