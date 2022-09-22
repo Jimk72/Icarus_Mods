@@ -1,7 +1,7 @@
 # Icarus_Mods
 
 9/20/22
-
+Water wheel removed as there is an issue producing electricity. It works on my main pc but laptop and second gaming pc doesn't. Have to look more into it. 
 Added Water_Wheel mod. Allows you to craft in character a Water wheel to generate electricity. Just need water.
 
 
