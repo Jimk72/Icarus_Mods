@@ -1,5 +1,19 @@
 # Icarus_Mods
 
+10/02/22
+
+Added Bear Mounts! Just like the other mounts Except Bears. Find a wild bear and kill it and get the Juvinile bear to follow and raise it until you have a full grown Bear! Can use Cargo saddle also incase you need to move a lot of stuff you can have several Bears with cargo saddles follow you on your main bear.
+
+Known Bugs:
+
+The bears will eat and drink like other mounts but their levels do not go back up! So for now the food consumption has been set to 0 as they become useless and starve after a short time if set to normal.
+
+Left Mouse is the attack button when riding :)
+
+Bears dont jump so Space bar will make your Bear stand and look around!
+
+
+
 9/20/22
 
 Added Water_Wheel mod. Allows you to craft in character a Water wheel to generate electricity. Just need water.
