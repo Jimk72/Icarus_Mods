@@ -1,5 +1,9 @@
 # Icarus_Mods
 
+10/08/22
+
+Added Windmill mod. The first custom mesh imported into the game with custom animation. Once placed the blades spin. I kept it simple as I didnt want to put many days into creating a mesh that I couldnt get to work. Now that I figured out how to get a Skeleton mesh and animations from Blender to UE4 and then into Icarus many more things are possible. 
+
 10/02/22
 
 Added Bear Mounts! Just like the other mounts Except Bears. Find a wild bear and kill it and get the Juvinile bear to follow and raise it until you have a full grown Bear! Can use Cargo saddle also incase you need to move a lot of stuff you can have several Bears with cargo saddles follow you on your main bear.
