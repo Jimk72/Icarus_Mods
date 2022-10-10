@@ -1,5 +1,10 @@
 # Icarus_Mods
 
+10/09/22
+ 
+ Added Halloween Pumpkins. Just need pumpkins to craft in character. When Deploying them just hold R for different variants! There are 6 total.
+
+
 10/08/22
 
 Added Windmill mod. The first custom mesh imported into the game with custom animation. Once placed the blades spin. I kept it simple as I didnt want to put many days into creating a mesh that I couldnt get to work. Now that I figured out how to get a Skeleton mesh and animations from Blender to UE4 and then into Icarus many more things are possible. 
