@@ -1,5 +1,10 @@
 # Icarus_Mods
 
+10/21/22
+
+Added Elevator Mod. This is free to craft(Beta) and needs to be placed on a floor piece. Once placed it creates a platform that goes up 2 stories and down again. has sensors at top and bottom. So if its not at the position you need it walk up close and that will call the elevator up or down depending on your location. Then just walk to center of platform and it will take you up or down.
+
+
 10/15/22
 
 Updated mods for week 45
