@@ -1,5 +1,16 @@
 # Icarus_Mods
 
+11/4/22
+
+Added Finished Teleporter mod. This is avail as a workshop item. When your ready just use the consumable and you will be given a handheld controller and a base. You can place the base anywhere on a built floor(Wood, stone, concrete ect.) and then when you want to travel back to that base station just equip the handheld and then click the left mouse button and you will be teleported to the base. It stores that place and when your ready just step back on to the base and you will be teleported back to where you clicked the handheld. Allows fast travel back and forth between locations.
+
+Updated the Windmill to have a powewr cable from the generator to the ground for connection.
+
+Updated Custom Lights to be less demanding on gpu
+
+
+
+
 10/21/22
 
 Added Elevator Mod. This is free to craft(Beta) and needs to be placed on a floor piece. Once placed it creates a platform that goes up 2 stories and down again. has sensors at top and bottom. So if its not at the position you need it walk up close and that will call the elevator up or down depending on your location. Then just walk to center of platform and it will take you up or down.
