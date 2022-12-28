@@ -1,6 +1,11 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+12/28/22
+
+Added Tier3Electricity mod. This moves the Generator and Electric Spline tool to Machining bench where it should have been.
+
+
 12/4/22
 
 Updated Elevators mod to now include a level 16 Elevator for those that may be using the building height mod and want to go to the top of thier structure.
