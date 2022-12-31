@@ -1,0 +1,148 @@
+{
+  "mods": [
+    {
+      "name": "Bear Mount",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "w56",
+      "description": "Allows the raising of cubs into full grown bear mounts.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.pak"
+    },
+    {
+      "name": "Building Height and Strength",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes all building materials to be stronger than concrete for super tall structures.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.pak"
+    },
+    {
+      "name": "Camera Distance",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Allows the photo camera to move far away from player to get better shots.",
+      "fileType": "pak",
+      "fileURL": ""
+    },
+    {
+      "name": "Christmas tree",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Creates a craftable Christmas tree you can place ornaments and presents around.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Christmas_Tree_P.zip"
+    },
+    {
+      "name": "Custom Puck Lights",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "w56",
+      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2_P.pak"
+    },
+    {
+      "name": "Elevators",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "w56",
+      "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators_P.pak"
+    },
+    {
+      "name": "Extraction 10 Seconds",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes the extraction speed to 10 seconds per ore.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds_P.pak"
+    },
+    {
+      "name": "Extraction 10 Seconds",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes the extraction speed to 5 seconds per ore.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds_P.pak"
+    },
+    {
+      "name": "Halloween Pumpkins",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Allows crafting of several variations of Halloween Pumpkins to deploy around your home.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins_P.pak"
+    },
+    {
+      "name": "Hard Mode",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "This makes every zone of Icarus the same with very high level animals.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode_P.pak"
+    },
+    {
+      "name": "Scoped Hunting Rifle",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Allows you to craft a scoped hunting rifle using the Fabricator bench. Has a 10x and 20x zoom option.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle_P.pak"
+    },
+    {
+      "name": "1000 Seconds respawn buff",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_1000_second_Respawn_Buff_P.pak"
+    },
+    {
+      "name": "50 seconds out of bounds timer",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_50_Seconds_OutofBounds_P.pak"
+    },
+    {
+      "name": "700 Jump",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes the jump height to 700 ",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_700_Jump_P.pak"
+    },
+    {
+      "name": "800 Jump",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes the jump height to 800 ",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_800_Jump_P.pak"
+    },
+    {
+      "name": "900 Jump",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Changes the jump height to 900 ",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_900_Jump_P.pak"
+    }
+  ]
+}
