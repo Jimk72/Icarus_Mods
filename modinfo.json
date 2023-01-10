@@ -7,7 +7,9 @@
       "compatibility": "w56",
       "description": "Allows the raising of cubs into full grown bear mounts.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.pak",
+      "long_description": "This add Mount options to the bears! All saddles work on the bear. Just find a momma bear and finish it off and then escort the juvenile bear back to a safe place with water, and a bed until it grows up to be a full sized bear! Bears don’t jump but I set the stand/look around animation to the jump button. The left mouse button does a bear attack to rid those in your path. You can hand feed them but they will not eat on thier own so I removed the need so they wont die off from starvation.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png"
     },
     {
       "name": "Building Height and Strength",
@@ -16,7 +18,9 @@
       "compatibility": "w56",
       "description": "Changes all building materials to be stronger than concrete for super tall structures.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.pak",
+      "long_description": "This modifies all structure UASSET files for added height ability and removes the building difference part so they are all the same. So wood can be built just as high as concrete and is interchangable. I could not change the amount of side build so spanning a large gap is still not possible without support But you can build extremely high! Just remember if you build with this mod and then load the level without the mod installed your structure may fail!",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png"
     },
     {
       "name": "Camera Distance",
@@ -25,7 +29,9 @@
       "compatibility": "w56",
       "description": "Allows the photo camera to move far away from player to get better shots.",
       "fileType": "pak",
-      "fileURL": ""
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.pak",
+      "long_description": "This is a UASSET mod that removes the short limit initialy added to the Photo Camera. You can get great far away shots of your buildings and structures.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.png"
     },
     {
       "name": "Christmas tree",
@@ -34,7 +40,9 @@
       "compatibility": "w56",
       "description": "Creates a craftable Christmas tree you can place ornaments and presents around.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Christmas_Tree_P.zip"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Christmas_Tree_P.zip",
+      "long_description": "Due to the size of the file you will have to unzip and use UnrealPak.exe to unpak file in order to add it to Mod Manager. I will be adding a version that this will not be necesary soon.",
+      "imageURL": "A URL to an image that will be displayed in the mod list (optional)"
     },
     {
       "name": "Custom Puck Lights",
@@ -43,7 +51,9 @@
       "compatibility": "w56",
       "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2_P.pak",
+      "long_description": "Once added to game it will show up in the Workshop in the gels section. After you craft it in the workshop you just take it with you down to the planet and then consume it(Open crate). This will give you several of each of the 4 types of lights. There is a Light pole for lighting up your outdoor area, Short pole with light on top to light up caves, The basic ceiling light that you can mount on walls now, and the small puck light for placing under cabinets or ontop of mantel to highlight things.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png"
     },
     {
       "name": "Elevators",
@@ -52,7 +62,9 @@
       "compatibility": "w56",
       "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators_P.pak",
+      "long_description": "This is a custom mod created in UE4. To place the elevator it has to be placed on a floor structure. It will show as a large green cube and will snap to the floor spaces avail. Be careful when using on multiplayer as it sometimes has sync issues depending on lag.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png"
     },
     {
       "name": "Extraction 10 Seconds",
@@ -61,16 +73,20 @@
       "compatibility": "w56",
       "description": "Changes the extraction speed to 10 seconds per ore.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds_P.pak",
+      "long_description": "",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.png"
     },
     {
-      "name": "Extraction 10 Seconds",
+      "name": "Extraction 5 Seconds",
       "author": "Jimk72",
       "version": "1.0",
       "compatibility": "w56",
       "description": "Changes the extraction speed to 5 seconds per ore.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds_P.pak",
+      "long_description": "",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.png"
     },
     {
       "name": "Halloween Pumpkins",
@@ -79,7 +95,9 @@
       "compatibility": "w56",
       "description": "Allows crafting of several variations of Halloween Pumpkins to deploy around your home.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins_P.pak",
+      "long_description": "I created this for halloween. I always thought it was cool how some games released content for holidays. I know this is a survival game but who doesnt enjoy the holidays!",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins.png"
     },
     {
       "name": "Hard Mode",
@@ -88,7 +106,9 @@
       "compatibility": "w56",
       "description": "This makes every zone of Icarus the same with very high level animals.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode_P.pak",
+      "long_description": "",
+      "imageURL": ""
     },
     {
       "name": "Scoped Hunting Rifle",
@@ -97,7 +117,9 @@
       "compatibility": "w56",
       "description": "Allows you to craft a scoped hunting rifle using the Fabricator bench. Has a 10x and 20x zoom option.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle_P.pak",
+      "long_description": "No other changes have been made to the rifles. So if you have rifle mods, add them before this mod. I loaded the default rifle into blender and added a scope to it. Then imported it into UE4 to create the scope UI and re add all the sockets to the bone structure so all the animations still work.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.png"
     },
     {
       "name": "1000 Seconds respawn buff",
@@ -106,7 +128,9 @@
       "compatibility": "w56",
       "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_1000_second_Respawn_Buff_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_1000_second_Respawn_Buff_P.pak",
+      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
+      "imageURL": ""
     },
     {
       "name": "50 seconds out of bounds timer",
@@ -115,7 +139,9 @@
       "compatibility": "w56",
       "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_50_Seconds_OutofBounds_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_50_Seconds_OutofBounds_P.pak",
+      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
+      "imageURL": ""
     },
     {
       "name": "700 Jump",
@@ -124,7 +150,9 @@
       "compatibility": "w56",
       "description": "Changes the jump height to 700 ",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_700_Jump_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_700_Jump_P.pak",
+      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
+      "imageURL": ""
     },
     {
       "name": "800 Jump",
@@ -133,7 +161,9 @@
       "compatibility": "w56",
       "description": "Changes the jump height to 800 ",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_800_Jump_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_800_Jump_P.pak",
+      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
+      "imageURL": ""
     },
     {
       "name": "900 Jump",
@@ -142,7 +172,218 @@
       "compatibility": "w56",
       "description": "Changes the jump height to 900 ",
       "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_900_Jump_P.pak"
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_900_Jump_P.pak",
+      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Craftables",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Allows crafting of large statues for display in your home or patio.",
+      "long_description": "The Items that are avail to craft include Windmill, Cupboard, Interior Cupboard, Metal Cupboard, Large Stone Cave worm statue, Extremely Large Stone Caveworm statue, Large Stone Deer statue, Large Stone Elephant statue, Large Wood Deer stature.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables_P.pak",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png"
+    }, 
+    {
+      "name": "Durability",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Bumps the durability to 120000 for almost all items.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Durability_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Easy Cave",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "This prevents Caveworms from spawning and removes the cave debuff to change the game back to pre-release mode.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Easy_Cave_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Increase stacks",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "There are several versions people have made this is mine that I use. It bumps up almost all stack sizes to 100.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increase_Stacks_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Increase Slots",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "There are several versions people have made this is mine that I use. It bumps up a few storage and firepits storage slots.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increased_Slots_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Slider",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider_P.pak",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.png"
+    }, 
+    {
+      "name": "Teleporter",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Is a workshop item that when consumed will give you a base station and a hand held controller.",
+      "long_description": "Replaces the Meta Ration in the workshop. The base has to snap to a floor tile in order to place. Once its placed down you can add the handheld controller to your equipment slot and then when equiped clicking the left mouse button will return you to the teleporter base. Once you step off the base it will glow green showing there is a stored location. If you walk back on the the base it will teleport you back to the location you clicked the button. If you have 2 base units the right mouse button will take you to the second base unit you placed. Reloading the gaem resets all stored locations!",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter_P.pak",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png"
+    }, 
+    {
+      "name": "",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Kryptic Camo for Workshop armor.",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Replaces the workshop armor textures with custom ones that uses a green kryptic pattern.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Mini Generator",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Replaces the Biofuel generator model with a much smaller version so you can place it on top of items and allows them to be stacked.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator_P.pak",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.png"
+    }, 
+    {
+      "name": "",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "",
+      "imageURL": ""
+    }, 
+    {
+      "name": "More Daylight",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Its supposed to add more daylight hours to the game. Seems to work sometimes.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/More_Daylight_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "No Poison Fish",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Removes poisonous fish from all bodies of water.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/No_Poison_Fish_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Prefilled Items",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "When liquid and oxygen containers are crafted they will come pre filled.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Prefilled_Items_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Remove G slot restrictions",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "This mod allows you to place normaly G slot only items(Extractors, radars, ect) in any slot including character inventory. Really helps out the solo players!",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Remove_G_Slot_Restrictions_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Thor Hammer",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Replaces the workshop item Meta Soda with the thor hammer. ",
+      "long_description": "This hammer when equiped allows you to fly around and float in mid air. Left click spins hammer and then can launch you into air. Then press and hold left mouse to fly around. If you want to stay in mid air you can hit the right mouse button and it will keep you suspended in air. This works great for complicated builds like long bridges. When using it adds a buff so you dont take fall damage.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/ThorHammer_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Tier 3 Electricity",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Moves the Biofuel generator and the spline tool to the Machining bench where it should be.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Tier3Electricity_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Allows you to craft a windmill generator. This should have been in game from begining. ",
+      "long_description": "Item is crafted in character using Wood, Leather, Rope, Iron Nails, and Refined Metal. Will supply 5000 watts? of Electric energy. I Added this to the game because I always felt the grind to get lights was way to much. I later created Puck lights that run on batteries to also help with the grind for electricity.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator_P.pak",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png"
+    }, 
+    {
+      "name": "Zombie Wolf Texture",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "Changes the Wolfs texture to make it look like a zombie wolf.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/ZombieWolf_Texture_P.pak",
+      "imageURL": ""
     }
   ]
 }
