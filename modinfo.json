@@ -254,17 +254,6 @@
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png"
     }, 
     {
-      "name": "",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w57",
-      "description": "",
-      "long_description": "",
-      "fileType": "pak",
-      "fileURL": "",
-      "imageURL": ""
-    }, 
-    {
       "name": "Kryptic Camo for Workshop armor.",
       "author": "Jimk72",
       "version": "1.0",
@@ -285,17 +274,6 @@
       "fileType": "pak",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator_P.pak",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.png"
-    }, 
-    {
-      "name": "",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w57",
-      "description": "",
-      "long_description": "",
-      "fileType": "pak",
-      "fileURL": "",
-      "imageURL": ""
     }, 
     {
       "name": "More Daylight",
@@ -364,7 +342,7 @@
       "imageURL": ""
     }, 
     {
-      "name": "",
+      "name": "Windmill",
       "author": "Jimk72",
       "version": "1.0",
       "compatibility": "w57",
