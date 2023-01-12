@@ -42,7 +42,7 @@
       "fileType": "pak",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Christmas_Tree_P.zip",
       "long_description": "Due to the size of the file you will have to unzip and use UnrealPak.exe to unpak file in order to add it to Mod Manager. I will be adding a version that this will not be necesary soon.",
-      "imageURL": "A URL to an image that will be displayed in the mod list (optional)"
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Christmas_Tree_P.png"
     },
     {
       "name": "Custom Puck Lights",
