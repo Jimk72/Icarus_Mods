@@ -155,61 +155,6 @@
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.png"
     },
     {
-      "name": "1000 Seconds respawn buff",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
-      "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_1000_second_Respawn_Buff_P.pak",
-      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
-      "imageURL": ""
-    },
-    {
-      "name": "50 seconds out of bounds timer",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Gives 1000 Seconds of the respawn buff when you die and increases the out of bounds time to 50 seconds.",
-      "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_50_Seconds_OutofBounds_P.pak",
-      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
-      "imageURL": ""
-    },
-    {
-      "name": "700 Jump",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Changes the jump height to 700 ",
-      "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_700_Jump_P.pak",
-      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
-      "imageURL": ""
-    },
-    {
-      "name": "800 Jump",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Changes the jump height to 800 ",
-      "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_800_Jump_P.pak",
-      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
-      "imageURL": ""
-    },
-    {
-      "name": "900 Jump",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Changes the jump height to 900 ",
-      "fileType": "pak",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_900_Jump_P.pak",
-      "long_description": "This is depreciated. I am working on a menu system in game to enable these changes on the fly.",
-      "imageURL": ""
-    }, 
-    {
       "name": "Craftables",
       "author": "Jimk72",
       "version": "1.0",
