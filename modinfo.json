@@ -100,6 +100,17 @@
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png"
     },
     {
+      "name": "Custom Options",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w58",
+      "description": "Allows multiple jump heights, double and triple jump, extended out of bounds time, Clear foilage, clear cave worms  through an in game menu. When fists are equipped you can click right mouse button to bring up menu.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions_P.pak",
+      "long_description": "",
+      "imageURL": ""
+    },
+    {
       "name": "Extraction 10 Seconds",
       "author": "Jimk72",
       "version": "1.0",
