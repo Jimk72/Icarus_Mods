@@ -166,6 +166,39 @@
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.png"
     },
     {
+      "name": "JimK Weapons Pack 1",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "This gives you 2 new handguns, 3 assault rifles and a sniper rifle. Also the sniper rifle takes a larger bullet. They are all tier 4 so require the Fabricator bench to craft. The sniper rifle does about 2x the damage of other rifles and is the only one that requires composites to craft.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.zip",
+      "long_description": "",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.png"
+    },
+    {
+      "name": "JimK Weapons Pack 2",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w56",
+      "description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.zip",
+      "long_description": "",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.png"
+    },
+    {
+      "name": "Kryptic Camo for compound bow",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "w57",
+      "description": "This is a replacement skin for the compound bow that matches my armor skin.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_CompoundBow_Kryptic_Camo_Mod_V1_P.pak",
+      "imageURL": ""
+    },
+    {
       "name": "Craftables",
       "author": "Jimk72",
       "version": "1.0",
@@ -251,6 +284,17 @@
       "long_description": "",
       "fileType": "pak",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1_P.pak",
+      "imageURL": ""
+    }, 
+    {
+      "name": "Leveling Mod",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "w57",
+      "description": "Keeps adding points after level 50.",
+      "long_description": "",
+      "fileType": "pak",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/LevelingMod_Temp_Fix_P.pak",
       "imageURL": ""
     }, 
     {
