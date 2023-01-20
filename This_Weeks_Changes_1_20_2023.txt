@@ -1,0 +1,2942 @@
+{
+    "ModName": "This_Weeks_Changes",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "AI-D_AISetup.json",
+            "File_Items": [
+                {
+                    "Name": "Roat_Swamp",
+                    "Audio": {
+                        "RowName": "Raccoon"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "AI-D_AISpawnConfig.json",
+            "File_Items": [
+                {
+                    "Name": "Prometheus",
+                    "AISpawnRules": {
+                        "(Value=\"Bear\")": {
+                            "SpawnRules": [
+                                {
+                                    "Value": "Away_From_Dropships"
+                                },
+                                {
+                                    "Value": "Bear_Population"
+                                }
+                            ]
+                        },
+                        "(Value=\"Polar_Bear\")": {
+                            "SpawnRules": [
+                                {
+                                    "Value": "Away_From_Dropships"
+                                },
+                                {
+                                    "Value": "PolarBear_Population"
+                                }
+                            ]
+                        },
+                        "(Value=\"Mammoth_Arctic\")": {
+                            "SpawnRules": [
+                                {
+                                    "Value": "MammothArctic_Population"
+                                }
+                            ]
+                        },
+                        "(Value=\"Mammoth_Desert\")": {
+                            "SpawnRules": [
+                                {
+                                    "Value": "MammothDesert_Population"
+                                }
+                            ]
+                        }
+                    },
+                    "SpawnMap": "/Game/Heatmaps/Terrain_019_DLC/GT_Terrain019_AISpawnMap.GT_Terrain019_AISpawnMap",
+                    "SpawnZones": [
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 255,
+                                "R": 76,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Conifer_Easy",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 127,
+                                "R": 38,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Conifer_Medium",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 144,
+                                "G": 255,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Conifer_Hard",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 70,
+                                "G": 127,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Conifer_Super_Hard",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 229,
+                                "R": 255,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Lava_Easy",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 106,
+                                "R": 127,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Lava_Medium",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 106,
+                                "R": 255,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Lava_Hard",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 0,
+                                "G": 51,
+                                "R": 127,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Lava_Extreme",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 255,
+                                "G": 148,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Arctic_Easy",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 127,
+                                "G": 74,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Arctic_Medium",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 255,
+                                "G": 38,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Arctic_Hard",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 127,
+                                "G": 19,
+                                "R": 0,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Arctic_Extreme",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 255,
+                                "G": 0,
+                                "R": 200,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Swamp_Easy",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 200,
+                                "G": 0,
+                                "R": 150,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Swamp_Medium",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 255,
+                                "G": 0,
+                                "R": 255,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Swamp_Hard",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        },
+                        {
+                            "Color": {
+                                "B": 180,
+                                "G": 0,
+                                "R": 190,
+                                "A": 255
+                            },
+                            "SpawnZone": {
+                                "RowName": "PRO_Swamp_Extreme",
+                                "DataTableName": "D_AISpawnZones"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "AI-D_AISpawnZones.json",
+            "File_Items": [
+                {
+                    "Name": "PRO_Conifer_Easy",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Rabbit\")": 10,
+                            "(Value=\"Deer\")": 6,
+                            "(Value=\"Conifer_Wolf\")": 8,
+                            "(Value=\"Deer_Conifer_Large\")": 5,
+                            "(Value=\"Chamois_M\")": 10,
+                            "(Value=\"Komodo\")": 3,
+                            "(Value=\"Jaguar\")": 2,
+                            "(Value=\"Bear\")": 1
+                        },
+                        "RelevantAutonomousSpawners": [
+                            {
+                                "RowName": "Kea",
+                                "DataTableName": "D_AutonomousSpawns"
+                            }
+                        ]
+                    },
+                    "MedianLevel": 15,
+                    "MaxLevel": 30
+                },
+                {
+                    "Name": "PRO_Conifer_Medium",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Rabbit\")": 5,
+                            "(Value=\"Deer\")": 8,
+                            "(Value=\"Deer_Conifer_Large\")": 5,
+                            "(Value=\"Conifer_Wolf\")": 7,
+                            "(Value=\"Bear\")": 2,
+                            "(Value=\"Chamois_M\")": 7,
+                            "(Value=\"Buffalo\")": 2,
+                            "(Value=\"Wild_Boar\")": 1,
+                            "(Value=\"Komodo\")": 5,
+                            "(Value=\"Moa\")": 1
+                        },
+                        "RelevantAutonomousSpawners": [
+                            {
+                                "RowName": "Kea",
+                                "DataTableName": "D_AutonomousSpawns"
+                            }
+                        ]
+                    },
+                    "MedianLevel": 25,
+                    "MaxLevel": 50
+                },
+                {
+                    "Name": "PRO_Conifer_Hard",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Rabbit\")": 3,
+                            "(Value=\"Deer\")": 4,
+                            "(Value=\"Deer_Conifer_Large\")": 5,
+                            "(Value=\"Conifer_Wolf\")": 7,
+                            "(Value=\"Bear\")": 2,
+                            "(Value=\"Buffalo\")": 3,
+                            "(Value=\"Komodo\")": 3,
+                            "(Value=\"Jaguar\")": 4,
+                            "(Value=\"Moa\")": 2
+                        },
+                        "RelevantAutonomousSpawners": [
+                            {
+                                "RowName": "Kea",
+                                "DataTableName": "D_AutonomousSpawns"
+                            }
+                        ]
+                    },
+                    "MinLevel": 60,
+                    "MedianLevel": 70,
+                    "MaxLevel": 80
+                },
+                {
+                    "Name": "PRO_Conifer_Super_Hard",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Komodo\")": 4,
+                            "(Value=\"Deer\")": 3,
+                            "(Value=\"Deer_Conifer_Large\")": 3,
+                            "(Value=\"Conifer_Wolf\")": 5,
+                            "(Value=\"Bear\")": 5,
+                            "(Value=\"Buffalo\")": 2,
+                            "(Value=\"Wild_Boar\")": 3,
+                            "(Value=\"Jaguar\")": 5,
+                            "(Value=\"Moa\")": 3
+                        },
+                        "RelevantAutonomousSpawners": [
+                            {
+                                "RowName": "Kea",
+                                "DataTableName": "D_AutonomousSpawns"
+                            }
+                        ]
+                    },
+                    "MinLevel": 60,
+                    "MedianLevel": 90,
+                    "MaxLevel": 120
+                },
+                {
+                    "Name": "PRO_Lava_Easy",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Deer_Desert_Large\")": 10,
+                            "(Value=\"Deer_Desert_Medium\")": 10,
+                            "(Value=\"Chamois_M\")": 5,
+                            "(Value=\"Zebra\")": 5
+                        }
+                    },
+                    "MinLevel": 30,
+                    "MedianLevel": 40,
+                    "MaxLevel": 50
+                },
+                {
+                    "Name": "PRO_Lava_Medium",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Deer_Desert_Medium\")": 6,
+                            "(Value=\"Deer_Desert_Large\")": 7,
+                            "(Value=\"Elephant\")": 2,
+                            "(Value=\"Desert_Wolf\")": 5,
+                            "(Value=\"Chamois_M\")": 4,
+                            "(Value=\"Lion_F\")": 2,
+                            "(Value=\"Zebra\")": 2,
+                            "(Value=\"Wild_Boar\")": 1,
+                            "(Value=\"Scorpion\")": 3,
+                            "(Value=\"Moa\")": 1
+                        }
+                    },
+                    "MinLevel": 40,
+                    "MedianLevel": 50,
+                    "MaxLevel": 60
+                },
+                {
+                    "Name": "PRO_Lava_Hard",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Deer_Desert_Medium\")": 1,
+                            "(Value=\"Deer_Desert_Large\")": 2,
+                            "(Value=\"Elephant\")": 2,
+                            "(Value=\"Desert_Wolf\")": 4,
+                            "(Value=\"Chamois_M\")": 1,
+                            "(Value=\"Lion_F\")": 3,
+                            "(Value=\"Zebra\")": 2,
+                            "(Value=\"Wild_Boar\")": 2,
+                            "(Value=\"Scorpion\")": 5,
+                            "(Value=\"Bat_Dog\")": 2,
+                            "(Value=\"BlueBack_Lava\")": 1,
+                            "(Value=\"Rock_Dog\")": 2
+                        }
+                    },
+                    "MinLevel": 50,
+                    "MedianLevel": 70,
+                    "MaxLevel": 80
+                },
+                {
+                    "Name": "PRO_Lava_Extreme",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"BlueBack_Lava\")": 1,
+                            "(Value=\"Deer_Desert_Large\")": 1,
+                            "(Value=\"Elephant\")": 1,
+                            "(Value=\"Desert_Wolf\")": 3,
+                            "(Value=\"Rock_Dog\")": 2,
+                            "(Value=\"Lion_F\")": 4,
+                            "(Value=\"Zebra\")": 1,
+                            "(Value=\"Wild_Boar\")": 4,
+                            "(Value=\"Scorpion\")": 6,
+                            "(Value=\"Bat_Dog\")": 3
+                        }
+                    },
+                    "MinLevel": 80,
+                    "MedianLevel": 90,
+                    "MaxLevel": 100
+                },
+                {
+                    "Name": "PRO_Swamp_Easy",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Crocodile\")": 1,
+                            "(Value=\"Komodo\")": 1,
+                            "(Value=\"Swamp_Bird\")": 3,
+                            "(Value=\"Swamp_Quadruped\")": 1,
+                            "(Value=\"Roat_Swamp\")": 4,
+                            "(Value=\"Needler\")": 1
+                        }
+                    },
+                    "MedianLevel": 15,
+                    "MaxLevel": 30
+                },
+                {
+                    "Name": "PRO_Swamp_Medium",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Crocodile\")": 1,
+                            "(Value=\"Komodo\")": 2,
+                            "(Value=\"Swamp_Bird\")": 2,
+                            "(Value=\"Swamp_Quadruped\")": 2,
+                            "(Value=\"Roat_Swamp\")": 2,
+                            "(Value=\"Needler\")": 2
+                        }
+                    },
+                    "MinLevel": 10,
+                    "MedianLevel": 25,
+                    "MaxLevel": 50
+                },
+                {
+                    "Name": "PRO_Swamp_Hard",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Crocodile\")": 3,
+                            "(Value=\"Komodo\")": 2,
+                            "(Value=\"Swamp_Bird\")": 1,
+                            "(Value=\"Swamp_Quadruped\")": 2,
+                            "(Value=\"Roat_Swamp\")": 1,
+                            "(Value=\"Needler\")": 2
+                        }
+                    },
+                    "MinLevel": 40,
+                    "MedianLevel": 70,
+                    "MaxLevel": 80
+                },
+                {
+                    "Name": "PRO_Swamp_Extreme",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Crocodile\")": 5,
+                            "(Value=\"Komodo\")": 3,
+                            "(Value=\"Swamp_Bird\")": 1,
+                            "(Value=\"Swamp_Quadruped\")": 1,
+                            "(Value=\"Roat_Swamp\")": 1,
+                            "(Value=\"Needler\")": 3
+                        }
+                    },
+                    "MinLevel": 60,
+                    "MedianLevel": 90,
+                    "MaxLevel": 120
+                },
+                {
+                    "Name": "PRO_Arctic_Easy",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Snow_Wolf\")": 5,
+                            "(Value=\"Snow_Rabbit\")": 5
+                        },
+                        "BiomeSpawnDensity": 5
+                    },
+                    "MedianLevel": 15,
+                    "MaxLevel": 30
+                },
+                {
+                    "Name": "PRO_Arctic_Medium",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Snow_Wolf\")": 5,
+                            "(Value=\"Snow_Rabbit\")": 4,
+                            "(Value=\"SnowLeopard\")": 2,
+                            "(Value=\"Wooly_Zebra\")": 1
+                        },
+                        "BiomeSpawnDensity": 10
+                    },
+                    "MinLevel": 10,
+                    "MedianLevel": 25,
+                    "MaxLevel": 50
+                },
+                {
+                    "Name": "PRO_Arctic_Hard",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Polar_Bear\")": 1,
+                            "(Value=\"Snow_Wolf\")": 10,
+                            "(Value=\"Mammoth_Arctic\")": 1,
+                            "(Value=\"Snow_Rabbit\")": 1,
+                            "(Value=\"SnowLeopard\")": 2
+                        }
+                    },
+                    "MinLevel": 40,
+                    "MedianLevel": 70,
+                    "MaxLevel": 80
+                },
+                {
+                    "Name": "PRO_Arctic_Extreme",
+                    "Creatures": {
+                        "SpawnList": {
+                            "(Value=\"Polar_Bear\")": 3,
+                            "(Value=\"Snow_Wolf\")": 5,
+                            "(Value=\"Mammoth_Arctic\")": 1,
+                            "(Value=\"Snow_Rabbit\")": 1,
+                            "(Value=\"SnowLeopard\")": 3,
+                            "(Value=\"Snow_Striker\")": 2
+                        }
+                    },
+                    "MinLevel": 60,
+                    "MedianLevel": 90,
+                    "MaxLevel": 120
+                }
+            ]
+        },
+        {
+            "CurrentFile": "AI-D_GOAPSetup.json",
+            "File_Items": [
+                {
+                    "Name": "Juvenile_Default",
+                    "Actions": [
+                        {
+                            "RowName": "Wander",
+                            "DataTableName": "D_GOAPActions"
+                        },
+                        {
+                            "RowName": "Find_Company",
+                            "DataTableName": "D_GOAPActions"
+                        },
+                        {
+                            "RowName": "Get_Parent",
+                            "DataTableName": "D_GOAPActions"
+                        },
+                        {
+                            "RowName": "Rest_At_Animal_Bed",
+                            "DataTableName": "D_GOAPActions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Alterations-D_Alterations.json",
+            "File_Items": [
+                {
+                    "Name": "Fish_Quality_1",
+                    "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Fish_Quality_1-DisplayName\", \"Quality 1\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_All.Icon_All",
+                    "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+                    "Stats": {
+                        "(Value=\"BaseCaughtFishQuality_+%\")": 10
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Attachments-D_AttachmentIcons.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Rod",
+                    "TagQuery": {
+                        "RowName": "Any_Fishing_Lure"
+                    },
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_FishingRod.ITEM_FishingRod"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Attachments-D_IcarusAttachments.json",
+            "File_Items": [
+                {
+                    "Name": "Fish_Quality_1",
+                    "GrantedAlteration": {
+                        "RowName": "Fish_Quality_1"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Audio-D_AIAudioData.json",
+            "File_Items": [
+                {
+                    "Name": "Spider",
+                    "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Spider/SFX_FOOTSTEP_SPIDER_FAST.SFX_FOOTSTEP_SPIDER_FAST",
+                    "FrontFootSocket": "RigHead",
+                    "RearFootSocket": "RigTail1",
+                    "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
+                    "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_VERY_SMALL.SFX_CRE_BODY_FALL_VERY_SMALL",
+                    "DeathCollisionSocket": "RigPelvis",
+                    "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
+                    "VocalisationSocket": "RigHead",
+                    "AttackVocalisation": {
+                        "RowName": "SpiderAttack"
+                    },
+                    "FlinchVocalisation": {
+                        "RowName": "SpiderFlinch"
+                    },
+                    "DeathVocalisation": {
+                        "RowName": "SpiderDeath"
+                    },
+                    "StateVocalisations": {
+                        "Attacking": {
+                            "StateEnteredVocalisation": {
+                                "RowName": "SpiderRoar",
+                                "DataTableName": "D_Vocalisations"
+                            },
+                            "StatePersistentVocalisation": {
+                                "RowName": "None",
+                                "DataTableName": "D_Vocalisations"
+                            },
+                            "StateExitedVocalisation": {
+                                "RowName": "None",
+                                "DataTableName": "D_Vocalisations"
+                            }
+                        }
+                    },
+                    "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+                    "ThreatLevel": 100,
+                    "ThreatConfig": {
+                        "RowName": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Audio-D_ItemAudioData.json",
+            "File_Items": [
+                {
+                    "Name": "Wooden_Shield",
+                    "BrokenSound": "/Game/FMOD/Events/SFX/D_Items/SFX_SHIELD_BREAK.SFX_SHIELD_BREAK"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Audio-D_RiverAudioData.json",
+            "File_Items": [
+                {
+                    "Name": "Lava",
+                    "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_LAVA_RIVER.ENV_LAVA_RIVER"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Audio-D_Vocalisations.json",
+            "File_Items": [
+                {
+                    "Name": "SpiderFlinch",
+                    "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Spider/SFX_CRE_SPIDER_FLINCH.SFX_CRE_SPIDER_FLINCH",
+                    "Setting": {
+                        "RowName": "Default"
+                    }
+                },
+                {
+                    "Name": "SpiderDeath",
+                    "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Spider/SFX_CRE_SPIDER_DEATH.SFX_CRE_SPIDER_DEATH",
+                    "Setting": {
+                        "RowName": "Important"
+                    }
+                },
+                {
+                    "Name": "SpiderAttack",
+                    "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Spider/SFX_CRE_SPIDER_ATTACK.SFX_CRE_SPIDER_ATTACK",
+                    "Setting": {
+                        "RowName": "Default"
+                    }
+                },
+                {
+                    "Name": "SpiderRoar",
+                    "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Spider/SFX_CRE_SPIDER_ROAR.SFX_CRE_SPIDER_ROAR",
+                    "Setting": {
+                        "RowName": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Dried_Fatty_Tbone",
+                    "RequiredMillijoules": 17500,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Drying_Rack",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fatty_Tbone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fatty_TBone_Dried",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "DryingRack"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_RecipeSets.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Bench_Recipes",
+                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Fishing_Bench_Recipes-RecipeSetName\", \"Filletting Station\")",
+                    "ExperienceMultiplier": 0.20000000298023224,
+                    "bAllowRefundOfRecipesOnDestroy": false
+                },
+                {
+                    "Name": "Fishing_Bench_Rods",
+                    "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Fishing_Bench_Rods-RecipeSetName\", \"Fishing Workbench\")",
+                    "ExperienceMultiplier": 0.20000000298023224,
+                    "bAllowRefundOfRecipesOnDestroy": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "D_DamageTypeInfo.json",
+            "File_Items": [
+                {
+                    "RowStruct": "/Script/Icarus.DamageTypeInfo",
+                    "Defaults": {
+                        "DamageType": "Undefined",
+                        "Color": {
+                            "B": 0,
+                            "G": 0,
+                            "R": 0,
+                            "A": 0
+                        },
+                        "RequiredDefenderQuery": {
+                            "RowName": "None",
+                            "DataTableName": "D_TagQueries"
+                        },
+                        "DamageStat": {
+                            "Value": "None"
+                        },
+                        "DamageVariationStat": {
+                            "Value": "None"
+                        },
+                        "ResistanceStat": {
+                            "Value": "None"
+                        },
+                        "ResistanceOverride": [],
+                        "DefenderMultipliers": [],
+                        "bAddStealthMultiplier": false
+                    },
+                    "Rows": [
+                        {
+                            "Name": "Pure",
+                            "DamageType": "Pure",
+                            "Color": {
+                                "B": 174,
+                                "G": 229,
+                                "R": 211,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "BasePureDamage_+"
+                            }
+                        },
+                        {
+                            "Name": "Melee",
+                            "DamageType": "Melee",
+                            "Color": {
+                                "B": 174,
+                                "G": 229,
+                                "R": 211,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "MeleeDamage_+"
+                            },
+                            "DamageVariationStat": {
+                                "Value": "MeleeDamageVariation_%"
+                            },
+                            "ResistanceStat": {
+                                "Value": "MeleeDamageResistance_%"
+                            },
+                            "DefenderMultipliers": [
+                                {
+                                    "Tag": {
+                                        "RowName": "Any_Building",
+                                        "DataTableName": "D_TagQueries"
+                                    },
+                                    "Stat": {
+                                        "Value": "BaseMeleeDamageAgainstBuildings_+%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Projectile",
+                            "DamageType": "Projectile",
+                            "Color": {
+                                "B": 174,
+                                "G": 229,
+                                "R": 211,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "ProjectileDamage_+"
+                            },
+                            "DamageVariationStat": {
+                                "Value": "BaseProjectileDamageVariation_%"
+                            },
+                            "ResistanceStat": {
+                                "Value": "ProjectileDamageResistance_%"
+                            },
+                            "DefenderMultipliers": [
+                                {
+                                    "Tag": {
+                                        "RowName": "Any_Building",
+                                        "DataTableName": "D_TagQueries"
+                                    },
+                                    "Stat": {
+                                        "Value": "BaseProjectileDamageAgainstBuildings_+%"
+                                    }
+                                }
+                            ],
+                            "bAddStealthMultiplier": true
+                        },
+                        {
+                            "Name": "Fall",
+                            "DamageType": "FallDamage",
+                            "Color": {
+                                "B": 214,
+                                "G": 226,
+                                "R": 157,
+                                "A": 255
+                            },
+                            "ResistanceStat": {
+                                "Value": "FallDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Collision",
+                            "DamageType": "Collision",
+                            "Color": {
+                                "B": 93,
+                                "G": 95,
+                                "R": 94,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "CollisionDamage_%"
+                            },
+                            "ResistanceStat": {
+                                "Value": "CollisionDamageResistance_%"
+                            },
+                            "ResistanceOverride": [
+                                {
+                                    "Tag": {
+                                        "RowName": "Any_Tree",
+                                        "DataTableName": "D_TagQueries"
+                                    },
+                                    "Stat": {
+                                        "Value": "TreeCollisionDamageResistance_%"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Felling",
+                            "DamageType": "Felling",
+                            "Color": {
+                                "B": 80,
+                                "G": 255,
+                                "A": 255
+                            },
+                            "RequiredDefenderQuery": {
+                                "RowName": "Any_Tree"
+                            },
+                            "DamageStat": {
+                                "Value": "FellingDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "BaseFellingDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Shatter",
+                            "DamageType": "Shatter",
+                            "Color": {
+                                "B": 154,
+                                "G": 157,
+                                "R": 159,
+                                "A": 255
+                            },
+                            "RequiredDefenderQuery": {
+                                "RowName": "Rock"
+                            },
+                            "DamageStat": {
+                                "Value": "ShatteringDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "ShatteringDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Poison",
+                            "DamageType": "Poison",
+                            "Color": {
+                                "B": 197,
+                                "G": 84,
+                                "R": 183,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "PoisonDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "PoisonDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Fire",
+                            "DamageType": "Fire",
+                            "Color": {
+                                "B": 92,
+                                "G": 176,
+                                "R": 244,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "FireDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "FireDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Frost",
+                            "DamageType": "Frost",
+                            "Color": {
+                                "B": 226,
+                                "G": 220,
+                                "R": 99,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "FrostDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "FrostDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Electric",
+                            "DamageType": "Electric",
+                            "Color": {
+                                "B": 242,
+                                "G": 92,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "ElectricDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "ElectricDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Explosive",
+                            "DamageType": "Explosive",
+                            "Color": {
+                                "G": 70,
+                                "R": 217,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "ExplosiveDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "ExplosiveDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Wind",
+                            "DamageType": "Wind",
+                            "Color": {
+                                "B": 252,
+                                "G": 225,
+                                "R": 175,
+                                "A": 255
+                            },
+                            "DamageStat": {
+                                "Value": "WindDamage_+"
+                            },
+                            "ResistanceStat": {
+                                "Value": "WindDamageResistance_%"
+                            }
+                        },
+                        {
+                            "Name": "Shield",
+                            "DamageType": "Shield",
+                            "Color": {
+                                "B": 68,
+                                "G": 126,
+                                "R": 142,
+                                "A": 255
+                            }
+                        },
+                        {
+                            "Name": "Returned",
+                            "DamageType": "Returned",
+                            "Color": {
+                                "R": 255,
+                                "A": 255
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Deployables-D_DeployableSetup.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Trap",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Basic_Fishing_Trap.BP_Basic_Fishing_Trap_C"
+                },
+                {
+                    "Name": "Mission_Communicator_T3",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T3_Communication_Device.SM_DEP_T3_Communication_Device"
+                },
+                {
+                    "Name": "Mission_Communicator_T4",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_T4_Communication_Device.SM_DEP_T4_Communication_Device"
+                },
+                {
+                    "Name": "Exotic_Harvester",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Extractors/BP_Exotic_Harvester.BP_Exotic_Harvester_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_ExoticTreeDevice.SM_DEP_ExoticTreeDevice",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Kit_Extractor/SFX_DEP_KITEXTRACTOR_DEPLOY.SFX_DEP_KITEXTRACTOR_DEPLOY",
+                    "SupportsCustomRotation": false,
+                    "SnapBehaviour": "SnapPlacementOnly",
+                    "SnapActorTags": [
+                        "Deployable_OreDeposit"
+                    ],
+                    "SnapSocketsOrTags": [
+                        "HarvesterSnap"
+                    ],
+                    "IgnoreCollisionWhenSnapped": true,
+                    "UseSnapSocketRotation": true
+                },
+                {
+                    "Name": "Basic_Fishing_Trap",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Basic_Fishing_Trap.BP_Basic_Fishing_Trap_C",
+                    "PreviewStaticMesh": "/Game/Assets/3DArt/Interactables/Items/Fishing/SM_Fishing_Trap.SM_Fishing_Trap",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+                    "SnapToSurfaceNormal": false,
+                    "WorldPlacementType": "WaterPlacement",
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "Advanced_Fishing_Trap",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Fishing_Trap.BP_Advanced_Fishing_Trap_C",
+                    "PreviewStaticMesh": "/Game/Assets/3DArt/Interactables/Items/Fishing/SM_Fishing_Trap.SM_Fishing_Trap",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+                    "SnapToSurfaceNormal": false,
+                    "WorldPlacementType": "WaterPlacement",
+                    "bCanAffectNavigation": false
+                },
+                {
+                    "Name": "Fishing_Bench",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Fishing_Bench.BP_Fishing_Bench_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Alteration_T3_V2.SM_DEP_Bench_Alteration_T3_V2",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+                    "SnapToSurfaceNormal": false
+                },
+                {
+                    "Name": "Fish_Wall_Mount",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Fish_Wall_Mount.BP_Fish_Wall_Mount_C",
+                    "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Wall_Sign.ITEM_Wood_Wall_Sign",
+                    "PreviewStaticMesh": "/Game/ASS/ITM/SM_ITM_Wood_Wall_Sign.SM_ITM_Wood_Wall_Sign",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+                    "SupportsCustomRotation": false,
+                    "WorldPlacementType": "WallPlacement",
+                    "bCanAffectNavigation": false,
+                    "MaxRestackingAmount": -1
+                },
+                {
+                    "Name": "Aquarium",
+                    "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Aquarium.BP_Aquarium_C",
+                    "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crafting_Bench.SM_DEP_Crafting_Bench",
+                    "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+                    "SnapToSurfaceNormal": false
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Dialogue-D_Dialogue.json",
+            "File_Items": [
+                {
+                    "Name": "PromNomadEvent10",
+                    "Text": [
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromNomadEvent10-Text-0\", \"Now, Sinotai have come up with a fancy new way of shipping your exotic hauls off-world.\")",
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromNomadEvent10-Text-1\", \"They\\'re calling it the Orbital Exchange System. O. E. S.\")",
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromNomadEvent10-Text-2\", \"Abandoning all your planetside tech is a thing of the past if you prefer.\")",
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromNomadEvent10-Text-3\", \"Chuck \\'em in the pod, and it drops it all off at the station. Pretty cool huh?\")",
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromNomadEvent10-Text-4\", \"It\\'s free for now, while they\\'re still testing the pods. Who knows how much cash they\\'ll rake in from this later.\")"
+                    ]
+                },
+                {
+                    "Name": "PromOffenderEvent6",
+                    "Text": [
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromOffenderEvent6-Text-0\", \"O.E.S for delivery.\")",
+                        "NSLOCTEXT(\"D_Dialogue\", \"PromOffenderEvent6-Text-1\", \"Get the goods in, carefully.\")"
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "D_FishData.json",
+            "File_Items": [
+                {
+                    "RowStruct": "/Script/Icarus.FishData",
+                    "Defaults": {
+                        "Fish": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        "MinWeight": 100,
+                        "MaxWeight": 10000,
+                        "MinLength": 10,
+                        "MaxLength": 1000
+                    },
+                    "GenerateEnum": true,
+                    "Rows": [
+                        {
+                            "Name": "Test_Fish",
+                            "Fish": {
+                                "RowName": "Basic_Fish"
+                            },
+                            "MaxLength": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "D_FishSpawnConfig.json",
+            "File_Items": [
+                {
+                    "RowStruct": "/Script/Icarus.FishSpawnConfig",
+                    "Defaults": {
+                        "SpawnMap": "None",
+                        "SpawnZones": []
+                    },
+                    "Rows": [
+                        {
+                            "Name": "Test_Config",
+                            "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
+                            "SpawnZones": [
+                                {
+                                    "Color": {
+                                        "B": 111,
+                                        "G": 255,
+                                        "R": 0,
+                                        "A": 255
+                                    },
+                                    "SpawnZone": {
+                                        "RowName": "Test_Zone",
+                                        "DataTableName": "D_FishSpawnZones"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "D_FishSpawnZones.json",
+            "File_Items": [
+                {
+                    "RowStruct": "/Script/Icarus.FishSpawnZones",
+                    "Defaults": {
+                        "SpawnList": {},
+                        "ZoneFishQuality": 0.5
+                    },
+                    "Rows": [
+                        {
+                            "Name": "Test_Zone",
+                            "SpawnList": {
+                                "(Value=\"Test_Fish\")": 100
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Input-D_Keybindings.json",
+            "File_Items": [
+                {
+                    "Name": "IcarusLogWindow",
+                    "DisplayName": "NSLOCTEXT(\"D_Keybindings\", \"IcarusLogWindow-DisplayName\", \"Toggle Client Logging\")",
+                    "InputContext": "KeyboardOnly",
+                    "KeyboardActionMapping": {
+                        "ActionName": "IcarusLogWindow",
+                        "Key": {
+                            "KeyName": "Tilde"
+                        }
+                    },
+                    "KeyboardAxisMapping": {
+                        "Key": {
+                            "KeyName": "None"
+                        }
+                    },
+                    "GamepadActionMapping": {
+                        "Key": {
+                            "KeyName": "None"
+                        }
+                    },
+                    "GamepadAxisMapping": {
+                        "Key": {
+                            "KeyName": "None"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Interactions-D_Interactions.json",
+            "File_Items": [
+                {
+                    "Name": "Fillet_Fish",
+                    "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Fillet_Fish.BP_Interactable_Fillet_Fish_C",
+                    "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Fillet_Fish-InteractionText\", \"Fillet Fish\")"
+                },
+                {
+                    "Name": "Craft_Fishing",
+                    "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Craft_Fishing.BP_Interactable_Craft_Fishing_C",
+                    "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Craft_Fishing-InteractionText\", \"Craft Rod / Lures\")"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryContainer.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Rod_Attachment",
+                    "InventoryInfo": {
+                        "RowName": "Fishing_Rod"
+                    },
+                    "AttachmentSlot": 0
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Inventory-D_InventoryInfo.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Rod",
+                    "InventoryID": {
+                        "Value": "General"
+                    },
+                    "SlotTemplate": {
+                        "RowName": "Any_Fishing_Lure"
+                    },
+                    "StartingSlots": 1,
+                    "RemoveOnly": true
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Rod",
+                    "AdditionalStats": {
+                        "(Value=\"BaseFishingTime_+%\")": -10,
+                        "(Value=\"BaseCaughtFishQuality_+%\")": 5
+                    }
+                },
+                {
+                    "Name": "Wooden_Shield",
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Shield"
+                            },
+                            {
+                                "TagName": "Item.Equip.Quickbar"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Shield"
+                            },
+                            {
+                                "TagName": "Item.Equip.Quickbar"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Localization-D_Languages.json",
+            "File_Items": [
+                {
+                    "Name": "fr-FR",
+                    "Coverage": 94
+                },
+                {
+                    "Name": "de-DE",
+                    "Coverage": 75
+                },
+                {
+                    "Name": "zh-Hans",
+                    "Coverage": 99
+                },
+                {
+                    "Name": "zh-Hant",
+                    "Coverage": 99
+                },
+                {
+                    "Name": "ja-JP",
+                    "Coverage": 99
+                },
+                {
+                    "Name": "ko-KR",
+                    "Coverage": 99
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Prospects-D_ProspectList.json",
+            "File_Items": [
+                {
+                    "Name": "Outpost003_Arctic",
+                    "RequiredFlags": [
+                        {
+                            "DataTableName": "D_DLCPackageData",
+                            "RowName": "Deluxe_Edition_Envirosuit"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Outpost005_Forest",
+                    "RequiredFlags": [
+                        {
+                            "DataTableName": "D_DLCPackageData",
+                            "RowName": "Deluxe_Edition_Envirosuit"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Outpost006_Olympus",
+                    "FlavourText": "NSLOCTEXT(\"D_ProspectList\", \"Outpost006_Olympus-FlavourText\", \"The original region opened for prospecting. Olympus feels familiar with its lush forests, scorched deserts, and frozen tundras, but time spent exploring will reveal just how different it really is. Establish your claim where the entire story began.\")"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Prospects-D_Terrains.json",
+            "Defaults": {
+                "TerrainName": "None",
+                "Level": "None",
+                "TemperatureMap": "None",
+                "BiomeMap": "None",
+                "Bounds": "None",
+                "SpawnConfig": {
+                    "RowName": "None",
+                    "DataTableName": "D_AISpawnConfig"
+                },
+                "FishConfig": {
+                    "RowName": "None",
+                    "DataTableName": "D_FishSpawnConfig"
+                },
+                "AudioZoneMap": "None"
+            },
+            "File_Items": [
+                {
+                    "Name": "Terrain_016",
+                    "Bounds": "/Game/Heatmaps/Terrain_016_OLY/GT_Terrain016_Bounds_Impassable.GT_Terrain016_Bounds_Impassable",
+                    "FishConfig": {
+                        "RowName": "Test_Config"
+                    }
+                },
+                {
+                    "Name": "Terrain_017",
+                    "Bounds": "/Game/Heatmaps/Terrain_017_STYX/GT_Terrain017_Bounds_Impassable.GT_Terrain017_Bounds_Impassable",
+                    "FishConfig": {
+                        "RowName": "Test_Config"
+                    }
+                },
+                {
+                    "Name": "Outpost_002",
+                    "FishConfig": {
+                        "RowName": "Test_Config"
+                    }
+                },
+                {
+                    "Name": "Outpost_003",
+                    "FishConfig": {
+                        "RowName": "Test_Config"
+                    }
+                },
+                {
+                    "Name": "Outpost_005",
+                    "FishConfig": {
+                        "RowName": "Test_Config"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Quests-D_Quests.json",
+            "File_Items": [
+                {
+                    "Name": "DYN_Kill",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Kill-Description\", \"SMPL3: Crazed Creature\")"
+                },
+                {
+                    "Name": "DYN_Grow",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Grow-Description\", \"SMPL3: Farming\")"
+                },
+                {
+                    "Name": "DYN_Mine",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Mine-Description\", \"SMPL3: Mining\")"
+                },
+                {
+                    "Name": "DYN_Collect",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Collect-Description\", \"SMPL3: Collection\")"
+                },
+                {
+                    "Name": "DYN_Scan",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Scan-Description\", \"SMPL3: Scan\")"
+                },
+                {
+                    "Name": "DYN_Cache",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Cache-Description\", \"SMPL3: Hidden Cache\")"
+                },
+                {
+                    "Name": "DYN_Hunt",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Hunt-Description\", \"SMPL3: Hunt\")"
+                },
+                {
+                    "Name": "DYN_Tools",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Tools-Description\", \"SMPL3: Crafting Tools\")"
+                },
+                {
+                    "Name": "DYN_Build",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Build-Description\", \"SMPL3: Build\")"
+                },
+                {
+                    "Name": "DYN_Drone",
+                    "Description": "NSLOCTEXT(\"D_Quests\", \"DYN_Drone-Description\", \"SMPL3: Downed Drone\")"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "D_SortTypePriority.json",
+            "File_Items": [
+                {
+                    "RowStruct": "/Script/Icarus.IcarusSortTypePriority",
+                    "Defaults": {
+                        "TagPriority": []
+                    },
+                    "Rows": [
+                        {
+                            "Name": "TheOneAndOnly",
+                            "TagPriority": [
+                                {
+                                    "RowName": "Any_Light",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Water",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Oxygen",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_EnhancementTonic",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Bandage",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Paste",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Tonic",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Pill",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Medicine",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Meta_Consumable",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Scanner",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Melee_Knife",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Axe",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Pickaxe",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Sickle",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Hammer",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Sledgehammer",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Shield",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Off_Hand",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Melee_Spear",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Throwing_Knife",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Throwing_Spear",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Throwing_Weapon",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Bow",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Pistol",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Shotgun",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Rifle",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Firearm",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Weapon_Or_Tool",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Grenade_Frag",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Grenade",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Projectile_Arrow",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Projectile_Bolt",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_FirearmAmmo",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Ammo",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Helmet",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Chest",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Gloves",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Pants",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Boots",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Armor",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Backpack",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Saddle",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Module_Passive",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Attachment",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Thatch",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Wood",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Stone",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Interior_Wood",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Glass",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Iron",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Aluminium",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Concrete",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Clay_Brick",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Building_Concrete",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Building",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Is_Bed",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Bench",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_DeployableStorage",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Deployable",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Fertilizer",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Tamed_Herbivore_Food",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Food_Raw",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Food_Cooked",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Food",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Fuel",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Ingot",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Ore",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Resource",
+                                    "DataTableName": "D_TagQueries"
+                                },
+                                {
+                                    "RowName": "Any_Exotic",
+                                    "DataTableName": "D_TagQueries"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Stats-D_Stats.json",
+            "File_Items": [
+                {
+                    "Name": "FrostDamage_+",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FrostDamage_+-Title\", \"Frost Damage\")",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseFrostDamage_+",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamage_+-PositiveDescription\", \"+{0} Frost Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamage_+-NegativeDescription\", \"-{0} Frost Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseFrostDamage_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamage_+%-PositiveDescription\", \"+{0}% Fire Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamage_+%-NegativeDescription\", \"-{0}% Fire Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "FrostDamageResistance_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FrostDamageResistance_%-Title\", \"Frost Resistance\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseFrostDamageResistance_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageResistance_%-PositiveDescription\", \"+{0} Frost Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageResistance_%-NegativeDescription\", \"-{0} Frost Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseFrostDamageResistance_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageResistance_+%-PositiveDescription\", \"+{0}% Frost Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageResistance_+%-NegativeDescription\", \"-{0}% Frost Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "ElectricDamage_+",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"ElectricDamage_+-Title\", \"Electric Damage\")",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseElectricDamage_+",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamage_+-PositiveDescription\", \"+{0} Electric Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamage_+-NegativeDescription\", \"-{0} Electric Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseElectricDamage_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamage_+%-PositiveDescription\", \"+{0}% Electric Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamage_+%-NegativeDescription\", \"-{0}% Electric Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "ElectricDamageResistance_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"ElectricDamageResistance_%-Title\", \"Electric Resistance\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseElectricDamageResistance_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageResistance_%-PositiveDescription\", \"+{0} Electric Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageResistance_%-NegativeDescription\", \"-{0} Electric Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseElectricDamageResistance_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageResistance_+%-PositiveDescription\", \"+{0}% Electric Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageResistance_+%-NegativeDescription\", \"-{0}% Electric Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "ExplosiveDamage_+",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamage_+-Title\", \"Explosive Damage\")",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseExplosiveDamage_+",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamage_+-PositiveDescription\", \"+{0} Explosive Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamage_+-NegativeDescription\", \"-{0} Explosive Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "BaseExplosiveDamage_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamage_+%-PositiveDescription\", \"+{0}% Explosive Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamage_+%-NegativeDescription\", \"-{0}% Explosive Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "ExplosiveDamageResistance_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"ExplosiveDamageResistance_%-Title\", \"Explosive Resistance\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseExplosiveDamageResistance_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-PositiveDescription\", \"+{0} Explosive Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_%-NegativeDescription\", \"-{0} Explosive Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseExplosiveDamageResistance_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_+%-PositiveDescription\", \"+{0}% Explosive Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseExplosiveDamageResistance_+%-NegativeDescription\", \"-{0}% Explosive Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseShatteringDamage_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamage_+%-PositiveDescription\", \"+{0}% Shatter Damage\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamage_+%-NegativeDescription\", \"-{0}% Shatter Damage\")",
+                    "StatCategory": {
+                        "RowName": "Generic_Damage"
+                    }
+                },
+                {
+                    "Name": "ShatteringDamageResistance_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"ShatteringDamageResistance_%-Title\", \"Shatter Resistance\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseShatteringDamageResistance_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamageResistance_%-PositiveDescription\", \"+{0} Shatter Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamageResistance_%-NegativeDescription\", \"-{0} Shatter Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseShatteringDamageResistance_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamageResistance_+%-PositiveDescription\", \"+{0}% Shatter Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseShatteringDamageResistance_+%-NegativeDescription\", \"-{0}% Shatter Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "FellingDamageResistance_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FellingDamageResistance_%-Title\", \"Felling Resistance\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true,
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseFellingDamageResistance_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingDamageResistance_%-PositiveDescription\", \"+{0} Felling Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingDamageResistance_%-NegativeDescription\", \"-{0} Felling Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "BaseFellingDamageResistance_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingDamageResistance_+%-PositiveDescription\", \"+{0}% Felling Resistance\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFellingDamageResistance_+%-NegativeDescription\", \"-{0}% Felling Resistance\")",
+                    "StatCategory": {
+                        "RowName": "Resistance"
+                    }
+                },
+                {
+                    "Name": "Quality_%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"Quality_%-Title\", \"Quality\")",
+                    "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseQuality_%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseQuality_%-PositiveDescription\", \"{0}% Quality\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseQuality_%-NegativeDescription\", \"-{0}% Quality\")"
+                },
+                {
+                    "Name": "FishLength_+",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FishLength_+-Title\", \"Length\")",
+                    "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"FishLength_+-PositiveTitleFormat\", \"{0}cm\")",
+                    "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"FishLength_+-NegativeTitleFormat\", \"-{0}cm\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseFishLength_+",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishLength_+-PositiveDescription\", \"{0} cm\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishLength_+-NegativeDescription\", \"-{0} cm\")"
+                },
+                {
+                    "Name": "FishWeight_+",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FishWeight_+-Title\", \"Weight\")",
+                    "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"FishWeight_+-PositiveTitleFormat\", \"{0}g\")",
+                    "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"FishWeight_+-NegativeTitleFormat\", \"-{0}g\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseFishWeight_+",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishWeight_+-PositiveDescription\", \"{0} g\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishWeight_+-NegativeDescription\", \"-{0} g\")"
+                },
+                {
+                    "Name": "CaughtFishQuality_+%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"CaughtFishQuality_+%-Title\", \"Caught Fish Quality\")",
+                    "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseCaughtFishQuality_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishQuality_+%-PositiveDescription\", \"+{0}% Quality of Caught Fish\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishQuality_+%-NegativeDescription\", \"-{0}% Quality of Caught Fish\")"
+                },
+                {
+                    "Name": "CaughtFishLength_+%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"CaughtFishLength_+%-Title\", \"Caught Fish Length\")",
+                    "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseCaughtFishLength_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishLength_+%-PositiveDescription\", \"+{0}% Length of Caught Fish\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishLength_+%-NegativeDescription\", \"-{0}% Length of Caught Fish\")"
+                },
+                {
+                    "Name": "CaughtFishWeight_+%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"CaughtFishWeight_+%-Title\", \"Caught Fish Weight\")",
+                    "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseCaughtFishWeight_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishWeight_+%-PositiveDescription\", \"+{0}% Weight of Caught Fish\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCaughtFishWeight_+%-NegativeDescription\", \"-{0}% Weight of Caught Fish\")"
+                },
+                {
+                    "Name": "FishingTime_+%",
+                    "Title": "NSLOCTEXT(\"D_Stats\", \"FishingTime_+%-Title\", \"Time to Hook Fish\")",
+                    "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+                    "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+                    "bIsReplicated": true
+                },
+                {
+                    "Name": "BaseFishingTime_+%",
+                    "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishingTime_+%-PositiveDescription\", \"+{0}% Time to Hook Fish\")",
+                    "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFishingTime_+%-NegativeDescription\", \"-{0}% Time to Hook Fish\")"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Tags-D_TagQueries.json",
+            "File_Items": [
+                {
+                    "Name": "No_Tree",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Harvest.Axe"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            3,
+                            1,
+                            0
+                        ],
+                        "AutoDescription": " NONE( Harvest.Axe )"
+                    }
+                },
+                {
+                    "Name": "No_Breakable_Rocks",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Harvest.Sledgehammer"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            3,
+                            1,
+                            0
+                        ],
+                        "AutoDescription": " NONE( Harvest.Sledgehammer )"
+                    }
+                },
+                {
+                    "Name": "Any_Fishing_Lure",
+                    "Query": {
+                        "TagDictionary": [
+                            {
+                                "TagName": "Item.Attachment.FishingRod"
+                            }
+                        ],
+                        "QueryTokenStream": [
+                            0,
+                            1,
+                            1,
+                            1,
+                            0
+                        ],
+                        "AutoDescription": " ANY( Item.Attachment.FishingRod )"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+                {
+                    "Name": "T2_Fishing_Rod",
+                    "ExtraData": {
+                        "RowName": "Item_Fishing_Rod",
+                        "DataTableName": "D_Itemable"
+                    },
+                    "TalentTree": {
+                        "RowName": "Blueprint_T2_Crafting"
+                    },
+                    "Position": {
+                        "X": 4800,
+                        "Y": 1200
+                    },
+                    "Size": {
+                        "X": 184,
+                        "Y": 184
+                    },
+                    "RequiredTalents": [
+                        {
+                            "RowName": "Re_route_3",
+                            "DataTableName": "D_Talents"
+                        }
+                    ],
+                    "RequiredLevel": 20,
+                    "DrawMethodOverride": "ShortestDistance",
+                    "Metadata": {
+                        "RequiredFeatureLevel": {
+                            "RowName": "ComingSoon"
+                        }
+                    }
+                },
+                {
+                    "Name": "Lantern",
+                    "Position": {
+                        "X": 5100,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Canteen",
+                    "Position": {
+                        "X": 1150,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Electronics",
+                    "Position": {
+                        "X": 550,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Composter",
+                    "Position": {
+                        "X": 4900,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Aluminium_Arrow",
+                    "Position": {
+                        "X": 3950,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Carbon_Arrow",
+                    "Position": {
+                        "X": 4250,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Concrete_Furnace",
+                    "Position": {
+                        "X": 850,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Binoculars",
+                    "Position": {
+                        "X": 550,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Carbon_Spear",
+                    "Position": {
+                        "X": 4250,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Recurve_Bow",
+                    "Position": {
+                        "X": 3950,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Small_Crop_Plot",
+                    "Position": {
+                        "X": 4500,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Fishing_Trap",
+                    "Position": {
+                        "X": 550,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Frag_Grenade",
+                    "Position": {
+                        "X": 3950,
+                        "Y": 100
+                    }
+                },
+                {
+                    "Name": "Smoke_Grenade",
+                    "Position": {
+                        "X": 3950,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Biofuel_Lamp",
+                    "Position": {
+                        "X": 5200,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Composite_Head",
+                    "Position": {
+                        "X": 4900,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Composite_Chest",
+                    "Position": {
+                        "X": 5050,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Composite_Arms",
+                    "Position": {
+                        "X": 5200,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Composite_Legs",
+                    "Position": {
+                        "X": 5350,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Composite_Feet",
+                    "Position": {
+                        "X": 5500,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Thermos",
+                    "Position": {
+                        "X": 1150,
+                        "Y": 100
+                    }
+                },
+                {
+                    "Name": "JerryCan",
+                    "Position": {
+                        "X": 4900,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Re_route_3",
+                    "Position": {
+                        "X": 5100,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Building_RepairTool",
+                    "Position": {
+                        "X": 1800,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Re_route_Composite",
+                    "Position": {
+                        "X": 5200,
+                        "Y": 1050
+                    }
+                },
+                {
+                    "Name": "Armor_Bench",
+                    "Position": {
+                        "X": 6600,
+                        "Y": 1050
+                    }
+                },
+                {
+                    "Name": "Cement_Mixer",
+                    "Position": {
+                        "X": 850,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Metal_Crate_Small",
+                    "Position": {
+                        "X": 1150,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Metal_Crate_Medium",
+                    "Position": {
+                        "X": 1150,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Trophy_Bench",
+                    "Position": {
+                        "X": 3550,
+                        "Y": 100
+                    }
+                },
+                {
+                    "Name": "Refrigerator",
+                    "Position": {
+                        "X": 6000,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Re_route_T2Benches",
+                    "Position": {
+                        "X": 3400,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Leather_Curtain_Door",
+                    "Position": {
+                        "X": 5400,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Leather_Curtain_Window",
+                    "Position": {
+                        "X": 5400,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "LightningRod_Basic",
+                    "Position": {
+                        "X": 4800,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "SplineTool_Water",
+                    "RequiredTalents": [
+                        {
+                            "RowName": "Water_Pump",
+                            "DataTableName": "D_Talents"
+                        },
+                        {
+                            "RowName": "Aquarium",
+                            "DataTableName": "D_Talents"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Masonry_Bench_T4",
+                    "Position": {
+                        "X": 7050,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Electric_Armour_Bench",
+                    "Position": {
+                        "X": 4650,
+                        "Y": 1050
+                    }
+                },
+                {
+                    "Name": "Heater_Large",
+                    "Position": {
+                        "X": 6300,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Cooler_Large",
+                    "Position": {
+                        "X": 5700,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Composter_Electric",
+                    "Position": {
+                        "X": 6600,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Electric_Dehumidifier",
+                    "Position": {
+                        "X": 6000,
+                        "Y": 1150
+                    }
+                },
+                {
+                    "Name": "Basic_Wall_Light",
+                    "Position": {
+                        "X": 550,
+                        "Y": 100
+                    }
+                },
+                {
+                    "Name": "Basic_Ceiling_Light",
+                    "Position": {
+                        "X": 850,
+                        "Y": 100
+                    }
+                },
+                {
+                    "Name": "Basic_Backpack",
+                    "Position": {
+                        "X": 6300,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "Wood_Composter",
+                    "Position": {
+                        "X": 4500,
+                        "Y": 1200
+                    }
+                },
+                {
+                    "Name": "lron_Crop_Plot",
+                    "Position": {
+                        "X": 4550,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Cave_Scanner",
+                    "Position": {
+                        "X": 1750,
+                        "Y": 450
+                    }
+                },
+                {
+                    "Name": "Advanced_Alteration_Bench",
+                    "Position": {
+                        "X": 4050,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Advanced_Alteration_Melee_Pack",
+                    "Position": {
+                        "X": 3750,
+                        "Y": 1150
+                    }
+                },
+                {
+                    "Name": "Advanced_Armor_Attachment_Pack",
+                    "Position": {
+                        "X": 4050,
+                        "Y": 1150
+                    }
+                },
+                {
+                    "Name": "Advanced_Ranged_Attachment_Pack",
+                    "Position": {
+                        "X": 4350,
+                        "Y": 1150
+                    }
+                },
+                {
+                    "Name": "Animal_Bed",
+                    "Position": {
+                        "X": 6300,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Water_Trough",
+                    "Position": {
+                        "X": 5700,
+                        "Y": 1150
+                    }
+                },
+                {
+                    "Name": "Food_Trough",
+                    "Position": {
+                        "X": 5700,
+                        "Y": 850
+                    }
+                },
+                {
+                    "Name": "Saddle_Standard",
+                    "Position": {
+                        "X": 6000,
+                        "Y": 850
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Deployable.json",
+            "File_Items": [
+                {
+                    "Name": "Exotic_Harvester",
+                    "Variants": [
+                        {
+                            "RowName": "Exotic_Harvester",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "Basic_Fishing_Trap",
+                    "Variants": [
+                        {
+                            "RowName": "Basic_Fishing_Trap",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "Advanced_Fishing_Trap",
+                    "Variants": [
+                        {
+                            "RowName": "Advanced_Fishing_Trap",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "Fishing_Bench",
+                    "Variants": [
+                        {
+                            "RowName": "Fishing_Bench",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Fish_Wall_Mount",
+                    "Variants": [
+                        {
+                            "RowName": "Fish_Wall_Mount",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ],
+                    "EffectedByWeather": false
+                },
+                {
+                    "Name": "Aquarium",
+                    "Variants": [
+                        {
+                            "RowName": "Aquarium",
+                            "DataTableName": "D_DeployableSetup"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Interactable.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Bench",
+                    "WorldPressInteracts": [
+                        {
+                            "InteractionRow": {
+                                "RowName": "Fillet_Fish",
+                                "DataTableName": "D_Interactions"
+                            },
+                            "Tag": "Fillet"
+                        },
+                        {
+                            "InteractionRow": {
+                                "RowName": "Pickup_Item",
+                                "DataTableName": "D_Interactions"
+                            },
+                            "Tag": ""
+                        },
+                        {
+                            "InteractionRow": {
+                                "RowName": "Craft_Fishing",
+                                "DataTableName": "D_Interactions"
+                            },
+                            "Tag": "Craft"
+                        }
+                    ],
+                    "WorldAltHoldInteracts": [
+                        {
+                            "InteractionRow": {
+                                "RowName": "Pickup_Deployable",
+                                "DataTableName": "D_Interactions"
+                            },
+                            "Tag": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Farming_CropPlot_T2",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Farming_CropPlot_T2-Description\", \"A general-purpose planter bed for your crops. Fully-grown crops left too long will eventually wither and only provide spoiled plants.\")"
+                },
+                {
+                    "Name": "Item_Fish_Chunks",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-DisplayName\", \"Fish Chunks\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-Description\", \"Generic Scraps of Fish Flesh. Has very little nutritional value.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-FlavorText\", \"Kind of Gross.\")",
+                    "Weight": 50,
+                    "MaxStack": 20
+                },
+                {
+                    "Name": "Item_Basic_Fish",
+                    "DisplayName": "INVTEXT(\"[DNT] Basic Fish\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+                    "Description": "INVTEXT(\"[DNT] Basic Fish. Can be filleted at a Fishing Bench\")",
+                    "FlavorText": "INVTEXT(\"[DNT] You caught this, with a rod or a trap.\")",
+                    "Weight": 250
+                },
+                {
+                    "Name": "Item_Basic_Fishing_Rod",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-DisplayName\", \"Basic Fishing Rod\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_FishingRod.ITEM_FishingRod",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-Description\", \"A basic fishing rod.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Basic_Fishing_Rod-FlavorText\", \"Gone Fishin\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Wooden_Fishing_Rod",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wooden_Fishing_Rod-DisplayName\", \"Wooden Fishing Rod\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Basic_Fishing_Trap",
+                    "DisplayName": "INVTEXT(\"[DNT] Basic Fishing Trap\")",
+                    "Description": "INVTEXT(\"[DNT] Catches Basic Low Quality Fish\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Advanced_Fishing_Trap",
+                    "DisplayName": "INVTEXT(\"[DNT] Advanced Fishing Trap\")",
+                    "Description": "INVTEXT(\"[DNT] Catches Fish\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Fishing_Bench",
+                    "DisplayName": "INVTEXT(\"[DNT] Fishing Bench\")",
+                    "Description": "INVTEXT(\"[DNT] Craft Rods and Lures and Fillet Fish\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Fish_Wall_Mount",
+                    "DisplayName": "INVTEXT(\"[DNT] Fish Trophy Mount\")",
+                    "Description": "INVTEXT(\"[DNT] Can put in fish to see them displayed\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Aquarium",
+                    "DisplayName": "INVTEXT(\"[DNT] Aquarium\")",
+                    "Description": "INVTEXT(\"[DNT] Can put in fish to see them displayed\")",
+                    "Weight": 1000
+                },
+                {
+                    "Name": "Item_Saltwater_Fish_Fillet",
+                    "DisplayName": "INVTEXT(\"[DNT] Saltwater Fish Fillet\")",
+                    "Description": "INVTEXT(\"[DNT] Cooking Ingrediant\")",
+                    "Weight": 250,
+                    "MaxStack": 25
+                },
+                {
+                    "Name": "Item_Freshwater_Fish_Fillet",
+                    "DisplayName": "INVTEXT(\"[DNT] Freshwater Fish Fillet\")",
+                    "Description": "INVTEXT(\"[DNT] Cooking Ingredient\")",
+                    "Weight": 250,
+                    "MaxStack": 25
+                },
+                {
+                    "Name": "Item_Fiber_Fishing_Lure",
+                    "DisplayName": "INVTEXT(\"[DNT] Fibre Fishing Lure\")",
+                    "Description": "INVTEXT(\"[DNT] Attaches to Fishing Rod to catch better Fish\")",
+                    "Weight": 250
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Meshable.json",
+            "File_Items": [
+                {
+                    "Name": "Mesh_Fishing_Trap",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Basic_Fishing_Trap.BP_Basic_Fishing_Trap_C"
+                },
+                {
+                    "Name": "Mesh_Gamey_Meat_Cooked",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Gamey_Cooked.SM_ITM_Meat_Gamey_Cooked"
+                },
+                {
+                    "Name": "Mesh_Gamey_Meat_Dried",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Gamey_Dried.SM_ITM_Meat_Gamey_Dried"
+                },
+                {
+                    "Name": "Mesh_Stringy_Meat_Dried",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Meat_Stringy_Dried.SM_ITM_Meat_Stringy_Dried"
+                },
+                {
+                    "Name": "Mesh_Item_Shield_Wooden",
+                    "ItemMesh": "/Game/ASS/ITM/SK_ITM_Shield_Wooden.SK_ITM_Shield_Wooden",
+                    "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Shield_Wooden.SK_ITM_Shield_Wooden",
+                    "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Shield.BP_SkeletalItem_Shield_C"
+                },
+                {
+                    "Name": "Mesh_Fishing_Bench",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Fish_Chunks",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fish_Raw.SM_ITM_Fish_Raw",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+                },
+                {
+                    "Name": "Mesh_Saltwater_Fish_Fillet",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fish_Raw.SM_ITM_Fish_Raw",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+                },
+                {
+                    "Name": "Mesh_Freshwater_Fish_Fillet",
+                    "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fish_Raw.SM_ITM_Fish_Raw",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+                },
+                {
+                    "Name": "Mesh_Basic_Fishing_Trap",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Advanced_Fishing_Trap",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Fish_Wall_Mount",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Aquarium",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Fiber_Fishing_Lure",
+                    "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+                    "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+                    "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+                },
+                {
+                    "Name": "Mesh_Basic_Fishing_Rod",
+                    "ItemMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
+                    "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
+                    "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Fishing_Rod.BP_SkeletalItem_Fishing_Rod_C"
+                },
+                {
+                    "Name": "Mesh_Wooden_Fishing_Rod",
+                    "ItemMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
+                    "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_FishingRod.SK_ITM_FishingRod",
+                    "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Fishing_Rod.BP_SkeletalItem_Fishing_Rod_C"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Processing.json",
+            "File_Items": [
+                {
+                    "Name": "Fishing_Bench_Filletting",
+                    "DefaultRecipeSet": {
+                        "RowName": "Fishing_Bench_Recipes"
+                    },
+                    "RequiresEnergy": false
+                },
+                {
+                    "Name": "Fishing_Bench_Crafting",
+                    "DefaultRecipeSet": {
+                        "RowName": "Fishing_Bench_Rods"
+                    },
+                    "RequiresEnergy": false,
+                    "QueueSize": 5
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
+
