@@ -12,15 +12,34 @@
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png"
     },
     {
-      "name": "Bear Mount_E",
+      "name": "CustomOptions_E",
       "author": "Jimk72",
       "version": "2.0",
-      "compatibility": "w56",
-      "description": "Allows the raising of cubs into full grown bear mounts.",
-      "fileType": "EXMOD",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount.zip",
-      "long_description": "This add Mount options to the bears! All saddles work on the bear. Just find a momma bear and finish it off and then escort the juvenile bear back to a safe place with water, and a bed until it grows up to be a full sized bear! Bears don’t jump but I set the stand/look around animation to the jump button. The left mouse button does a bear attack to rid those in your path. You can hand feed them but they will not eat on thier own so I removed the need so they wont die off from starvation.",
-      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png"
+      "compatibility": "All",
+      "description": "This is for testing, DONOT Download!",
+      "fileType": "EXMODZ",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions.EXMODZ",
+      "imageURL": ""
+    },
+    {
+      "name": "Custom_Puck_Lights_V2_E",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "This is for testing, DONOT Download!",
+      "fileType": "EXMODZ",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.EXMODZ",
+      "imageURL": ""
+    },
+    {
+      "name": "Jimk_Increased_Slots_E",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "This is for testing, DONOT Download!",
+      "fileType": "EXMODZ",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increased_Slots.EXMODZ",
+      "imageURL": ""
     },
     {
       "name": "Building Height and Strength",
@@ -32,28 +51,6 @@
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.pak",
       "long_description": "This modifies all structure UASSET files for added height ability and removes the building difference part so they are all the same. So wood can be built just as high as concrete and is interchangable. I could not change the amount of side build so spanning a large gap is still not possible without support But you can build extremely high! Just remember if you build with this mod and then load the level without the mod installed your structure may fail!",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png"
-    },
-    {
-      "name": "Building Height and Strength_E",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Changes all building materials to be stronger than concrete for super tall structures.",
-      "fileType": "EXMOD",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.zip",
-      "long_description": "This modifies all structure UASSET files for added height ability and removes the building difference part so they are all the same. So wood can be built just as high as concrete and is interchangable. I could not change the amount of side build so spanning a large gap is still not possible without support But you can build extremely high! Just remember if you build with this mod and then load the level without the mod installed your structure may fail!",
-      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png"
-    },
-    {
-      "name": "Camera Distance_E",
-      "author": "Jimk72",
-      "version": "1.0",
-      "compatibility": "w56",
-      "description": "Allows the photo camera to move far away from player to get better shots.",
-      "fileType": "EXMOD",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance.zip",
-      "long_description": "This is a UASSET mod that removes the short limit initialy added to the Photo Camera. You can get great far away shots of your buildings and structures.",
-      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.png"
     },
     {
       "name": "Camera Distance",
@@ -74,17 +71,6 @@
       "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
       "fileType": "pak",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2_P.pak",
-      "long_description": "Once added to game it will show up in the Workshop in the gels section. After you craft it in the workshop you just take it with you down to the planet and then consume it(Open crate). This will give you several of each of the 4 types of lights. There is a Light pole for lighting up your outdoor area, Short pole with light on top to light up caves, The basic ceiling light that you can mount on walls now, and the small puck light for placing under cabinets or ontop of mantel to highlight things.",
-      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png"
-    },
-    {
-      "name": "Custom Puck Lights_E",
-      "author": "Jimk72",
-      "version": "2.0",
-      "compatibility": "w56",
-      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
-      "fileType": "EXMOD",
-      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.zip",
       "long_description": "Once added to game it will show up in the Workshop in the gels section. After you craft it in the workshop you just take it with you down to the planet and then consume it(Open crate). This will give you several of each of the 4 types of lights. There is a Light pole for lighting up your outdoor area, Short pole with light on top to light up caves, The basic ceiling light that you can mount on walls now, and the small puck light for placing under cabinets or ontop of mantel to highlight things.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png"
     },
