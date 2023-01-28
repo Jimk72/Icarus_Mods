@@ -1,13 +1,34 @@
 {
   "mods": [
+{
+      "name": "Precision_Bow_E",
+      "displayName": "Precision Bow Crafted",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Craftable bow on the fabricator bench with a custom precision bow with scope. Scope has built in range finder and auto adjusts based off ammo used.",
+      "fileType": "EXMODZ",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow.EXMODZ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
+    },
+{
+      "name": "Precision_Bow_Workshop_E",
+      "displayName": "Precision Bow Workshop",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Replaces larkwell workshop bow with a custom precision bow with scope. Scope has built in range finder and auto adjusts based off ammo used.",
+      "fileType": "EXMODZ",
+      "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Workshop.EXMODZ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
+    },
     {
       "name": "Bear_Mount_E",
       "displayName": "Bear Mount",
       "author": "Jimk72",
       "version": "2.0",
       "compatibility": "All",
-      "description": "Allows the raising of cubs into full grown bear mounts.
-    ",
+      "description": "Allows the raising of cubs into full grown bear mounts.",
       "fileType": "EXMODZ",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount.EXMODZ",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount.png",
@@ -18,8 +39,7 @@
       "author": "Jimk72",
       "version": "1.0",
       "compatibility": "All",
-      "description": "Changes all building materials to be stronger than concrete for super tall structures.
-    ",
+      "description": "Changes all building materials to be stronger than concrete for super tall structures.",
       "fileType": "EXMODZ",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.EXMODZ",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.png",
@@ -41,8 +61,7 @@
       "author": "Jimk72",
       "version": "3.0",
       "compatibility": "All",
-      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).
-    ",
+      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
       "fileType": "EXMODZ",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.EXMODZ",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
@@ -53,8 +72,7 @@
       "author": "Jimk72",
       "version": "2.0",
       "compatibility": "All",
-      "description": "This is for testing, DONOT Download!
-    ",
+      "description": "This is for testing, DONOT Download!",
       "fileType": "EXMODZ",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions.EXMODZ",
     },
@@ -238,8 +256,7 @@
       "author": "Jimk72",
       "version": "1.0",
       "compatibility": "All",
-      "description": "Replaces the workshop armor textures with custom ones that uses a green kryptic pattern.
-    ",
+      "description": "Replaces the workshop armor textures with custom ones that uses a green kryptic pattern.",
       "fileType": "EXMODZ",
       "fileURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1.EXMODZ",
     },
