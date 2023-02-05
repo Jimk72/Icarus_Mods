@@ -1,377 +1,412 @@
 {
-	"mods": [{
-			"name": "Bear Mount",
-			"author": "Jimk72",
-			"version": "2.0",
-			"compatibility": "W60",
-			"description": "Allows the raising of cubs into full grown bear mounts.",
-			"fileName": "Bear_Mount",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount.EXMODZ"
-			}
-		},
-		{
-			"name": "Building Height Strength",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Changes all building materials to be stronger than concrete for super tall structures.",
-			"fileName": "Building_Height_Strength",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.EXMODZ"
-			}
-		},
-		{
-			"name": "Camera Distance",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Allows the photo camera to move far away from player to get better shots.",
-			"fileName": "Camera_Distance",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance.EXMODZ"
-			}
-		},
-		{
-			"name": "Custom Puck Lights",
-			"author": "Jimk72",
-			"version": "3.0",
-			"compatibility": "W60",
-			"description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).",
-			"fileName": "Custom_Puck_Lights_V2",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.EXMODZ"
-			}
-		},
-		{
-			"name": "Custom Options Menu",
-			"author": "Jimk72",
-			"version": "2.0",
-			"compatibility": "W60",
-			"description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms.    ",
-			"fileName": "CustomOptions",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions.EXMODZ"
-			}
-		},
-		{
-			"name": "Elevators",
-			"author": "Jimk72",
-			"version": "2.0",
-			"compatibility": "W60",
-			"description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure.",
-			"fileName": "Elevators",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.EXMODZ"
-			}
-		},
-		{
-			"name": "Extraction 10 Seconds",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Changes the extraction speed to 10 seconds per ore.",
-			"fileName": "Extraction_10_Seconds",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.EXMODZ"
-			}
-		},
-		{
-			"name": "Extraction 5 Seconds",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Changes the extraction speed to 5 seconds per ore.",
-			"fileName": "Extraction_5_Seconds",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.EXMODZ"
-			}
-		},
-		{
-			"name": "Halloween Pumpkins",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Allows crafting of several variations of Halloween Pumpkins to deploy around your home.",
-			"fileName": "HalloweenPumpkins",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins.EXMODZ"
-			}
-		},
-		{
-			"name": "Hard Mode",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This makes every zone of Icarus the same with very high level animals.",
-			"fileName": "HardMode",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode.EXMODZ"
-			}
-		},
-		{
-			"name": "Jimk_CompoundBow_Kryptic_Camo_Mod_V1",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This is a replacement skin for the compound bow that matches my armor skin.",
-			"fileName": "Jimk_CompoundBow_Kryptic_Camo_Mod_V1",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_CompoundBow_Kryptic_Camo_Mod_V1.EXMODZ"
-			}
-		},
-		{
-			"name": " Craftables",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard, metal cupboard, Statues(large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone) ",
-			"fileName": "Jimk_Craftables",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.EXMODZ"
-			}
-		},
-		{
-			"name": "Durability",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Bumps the durability to 120000 for almost all items.",
-			"fileName": "Jimk_Durability",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Durability.EXMODZ"
-			}
-		},
-		{
-			"name": "Easy Cave",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This prevents Caveworms from spawning and removes the cave debuff to change the game back to pre-release mode.",
-			"fileName": "Jimk_Easy_Cave",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Easy_Cave.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Easy_Cave.EXMODZ"
-			}
-		},
-		{
-			"name": "Increase Stacks",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "There are several versions people have made this is mine that I use. It bumps up almost all stack sizes to 100.",
-			"fileName": "Jimk_Increase_Stacks",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increase_Stacks.EXMODZ"
-			}
-		},
-		{
-			"name": "Increased Slots",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "There are several versions people have made this is mine that I use. It bumps up a few storage and firepits storage slots.",
-			"fileName": "Jimk_Increased_Slots",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increased_Slots.EXMODZ"
-			}
-		},
-		{
-			"name": "Scoped rifle",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Allows you to craft a scoped hunting rifle using the Fabricator bench. Has a 10x and 20x zoom option.",
-			"fileName": "JimK_Scoped_rifle",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.EXMODZ"
-			}
-		},
-		{
-			"name": "Slider",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction.",
-			"fileName": "Jimk_Slider",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.EXMODZ"
-			}
-		},
-		{
-			"name": "Teleporter",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Is a workshop item that when consumed will give you a base station and a hand held controller.",
-			"fileName": "Jimk_Teleporter",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.EXMODZ"
-			}
-		},
-		{
-			"name": "Weapons Pack 1",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This gives you 2 new handguns, 2 assault rifles They are all tier 4 so require the Fabricator bench to craft. ",
-			"fileName": "JimK_Weapons_Pack_1",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.png",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.EXMODZ"
-			}
-		},
-		{
-			"name": "Weapons Pack 2",
-			"author": "Jimk72",
-			"version": "2.0",
-			"compatibility": "W60",
-			"description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.",
-			"fileName": "JimK_Weapons_Pack_2",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.EXMODZ"
-			}
-		},
-		{
-			"name": "Workshop Armor Kryptic Camo",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Replaces the workshop armor textures with custom ones that uses a green kryptic pattern.",
-			"fileName": "Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1.EXMODZ"
-			}
-		},
-		{
-			"name": "LevelingMod Fix",
-			"author": "Jimk72",
-			"version": "2.0",
-			"compatibility": "W60",
-			"description": "Keeps adding points after level 50.",
-			"fileName": "LevelingMod_Temp_Fix",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/LevelingMod_Temp_Fix.EXMODZ"
-			}
-		},
-		{
-			"name": "Mini Generator",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Replaces the Biofuel generator model with a much smaller version so you can place it on top of items and allows them to be stacked.",
-			"fileName": "Mini_Generator",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.EXMODZ"
-			}
-		},
-		{
-			"name": "More Daylight",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Its supposed to add more daylight hours to the game. Seems to work sometimes.",
-			"fileName": "More_Daylight",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/More_Daylight.EXMODZ"
-			}
-		},
-		{
-			"name": "No Poison Fish",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Removes poisonous fish from all bodies of water.",
-			"fileName": "No_Poison_Fish",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/No_Poison_Fish.EXMODZ"
-			}
-		},
-		{
-			"name": "Prefilled Items",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "When liquid and oxygen containers are crafted they will come pre filled.",
-			"fileName": "Prefilled_Items",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Prefilled_Items.EXMODZ"
-			}
-		},
-		{
-			"name": "Remove G Slot Restrictions",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "This mod allows you to place normaly G slot only items(Extractors, radars, ect) in any slot including character inventory. Really helps out the solo players!",
-			"fileName": "Remove_G_Slot_Restrictions",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Remove_G_Slot_Restrictions.EXMODZ"
-			}
-		},
-		{
-			"name": "Thor Hammer",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Replaces the workshop item Meta Soda with the thor hammer. ",
-			"fileName": "ThorHammer",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/ThorHammer.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/ThorHammer.EXMODZ"
-			}
-		},
-		{
-			"name": "Tier 3 Electricity",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Moves the Biofuel generator and the spline tool to the Machining bench where it should be.",
-			"fileName": "Tier3Electricity",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Tier3Electricity.EXMODZ"
-			}
-		},
-		{
-			"name": "Windmill Generator",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. ",
-			"fileName": "Windmill_Generator",
-			"imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.EXMODZ"
-			}
-		},
-		{
-			"name": "Zombie Wolf Texture",
-			"author": "Jimk72",
-			"version": "1.0",
-			"compatibility": "W60",
-			"description": "Changes the Wolfs texture to make it look like a zombie wolf.",
-			"fileName": "ZombieWolf_Texture",
-			"readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/ZombieWolf_Texture.md",
-			"files": {
-				"exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/ZombieWolf_Texture.EXMODZ"
-			}
-		}
-	]
-}
+  "mods": [
+    {
+      "name": "Bear Mount",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "Allows the raising of cubs into full grown bear mounts.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount.EXMODZ"
+      }
+    },
+    {
+      "name": "Building Height Strength",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Changes all building materials to be stronger than concrete for super tall structures.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.EXMODZ"
+      }
+    },
+    {
+      "name": "Camera Distance",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows the photo camera to move far away from player to get better shots.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance.EXMODZ"
+      }
+    },
+    {
+      "name": "Custom Puck Lights",
+      "author": "Jimk72",
+      "version": "3.0",
+      "compatibility": "All",
+      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).             ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.EXMODZ"
+      }
+    },
+    {
+      "name": "Custom Options Menu",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions.EXMODZ"
+      }
+    },
+    {
+      "name": "Elevators",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.EXMODZ"
+      }
+    },
+    {
+      "name": "Extraction 10 Seconds",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Changes the extraction speed to 10 seconds per ore.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.EXMODZ"
+      }
+    },
+    {
+      "name": "Extraction 5 Seconds",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Changes the extraction speed to 5 seconds per ore.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.EXMODZ"
+      }
+    },
+    {
+      "name": "Halloween Pumpkins",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows crafting of several variations of Halloween Pumpkins to deploy around your home.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HalloweenPumpkins.EXMODZ"
+      }
+    },
+    {
+      "name": "Hard Mode",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This makes every zone of Icarus the same with very high level animals.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode.EXMODZ"
+      }
+    },
+    {
+      "name": "CompoundBow Kryptic Camo",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This is a replacement skin for the compound bow that matches my armor skin.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_CompoundBow_Kryptic_Camo_Mod_V1.EXMODZ"
+      }
+    },
+    {
+      "name": " Craftables",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard, metal cupboard, Statues(large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone)",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.EXMODZ"
+      }
+    },
+    {
+      "name": "Durability",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Bumps the durability to 120000 for almost all items.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Durability.EXMODZ"
+      }
+    },
+    {
+      "name": "Easy Cave",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This prevents Caveworms from spawning and removes the cave debuff to change the game back to pre-release mode.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Easy_Cave.EXMODZ"
+      }
+    },
+    {
+      "name": "Increase Stacks",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "There are several versions people have made this is mine that I use. It bumps up almost all stack sizes to 100.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increase_Stacks.EXMODZ"
+      }
+    },
+    {
+      "name": "Increased Slots",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "There are several versions people have made this is mine that I use. It bumps up a few storage and firepits storage slots.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Increased_Slots.EXMODZ"
+      }
+    },
+    {
+      "name": "Scoped rifle",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows you to craft a scoped hunting rifle using the Fabricator bench. Has a 10x and 20x zoom option.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Scoped_rifle.EXMODZ"
+      }
+    },
+    {
+      "name": "Slider",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.EXMODZ"
+      }
+    },
+    {
+      "name": "Teleporter",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Is a workshop item that when consumed will give you a base station and a hand held controller.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.EXMODZ"
+      }
+    },
+    {
+      "name": "Weapons Pack 1",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This gives you 2 new handguns, 2 assault rifles They are all tier 4 so require the Fabricator bench to craft. ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.EXMODZ"
+      }
+    },
+    {
+      "name": "Weapons Pack 2",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.require the Fabricator bench to craft.                 ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.EXMODZ"
+      }
+    },
+    {
+      "name": "Workshop Armor Kryptic Camo",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Replaces the workshop armor textures with custom ones that uses a green kryptic pattern.             ",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1.EXMODZ"
+      }
+    },
+    {
+      "name": "LevelingMod Fix",
+      "author": "Jimk72",
+      "version": "2.0",
+      "compatibility": "All",
+      "description": "Keeps adding points after level 50.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/LevelingMod_Temp_Fix.EXMODZ"
+      }
+    },
+    {
+      "name": "Mini Generator",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Replaces the Biofuel generator model with a much smaller version so you can place it on top of items and allows them to be stacked.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.EXMODZ"
+      }
+    },
+    {
+      "name": "More Daylight",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Its supposed to add more daylight hours to the game. Seems to work sometimes.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/More_Daylight.EXMODZ"
+      }
+    },
+    {
+      "name": "No Poison Fish",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Removes poisonous fish from all bodies of water.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/No_Poison_Fish.EXMODZ"
+      }
+    },
+    {
+      "name": "Prefilled Items",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "When liquid and oxygen containers are crafted they will come pre filled.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Prefilled_Items.EXMODZ"
+      }
+    },
+    {
+      "name": "Remove G Slot Restrictions",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "This mod allows you to place normaly G slot only items(Extractors, radars, ect) in any slot including character inventory. Really helps out the solo players!",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Remove_G_Slot_Restrictions.EXMODZ"
+      }
+    },
+    {
+      "name": "Thor Hammer",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Replaces the workshop item Meta Soda with the thor hammer. ",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/ThorHammer.EXMODZ"
+      }
+    },
+    {
+      "name": "Tier 3 Electricity",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Moves the Biofuel generator and the spline tool to the Machining bench where it should be.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Tier3Electricity.EXMODZ"
+      }
+    },
+    {
+      "name": "Windmill Generator",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. ",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.EXMODZ"
+      }
+    },
+    {
+      "name": "Zombie Wolf Texture",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Changes the Wolfs texture to make it look like a zombie wolf.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/ZombieWolf_Texture.EXMODZ"
+      }
+    },
+    {
+      "name": "Precision Bow",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Craftable bow on the fabricator bench with a custom precision bow with scope. Scope has built in range finder and auto adjusts based off ammo used.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow.EXMODZ"
+      }
+    },
+    {
+      "name": "Precision  Bow Workshop",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Replaces larkwell workshop bow with a custom precision bow with scope. Scope has built in range finder and auto adjusts based off ammo used.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Workshop.EXMODZ"
+      }
+    }
+   ]
+ }
