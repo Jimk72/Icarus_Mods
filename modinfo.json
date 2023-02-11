@@ -36,6 +36,18 @@
           "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance.EXMODZ"
       }
     },
+     {
+      "name": "Concrete with Wood Interior",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Gives more options when deploying concrete wall. Adds Interior wood option to the inside of concrete wall, door frame, window frame, double door frames.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Concrete_With_Wood.png",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Concrete_With_Wood.EXMODZ"
+      }
+    },
     {
       "name": "Custom Puck Lights",
       "author": "Jimk72",
