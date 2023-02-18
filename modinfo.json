@@ -63,9 +63,9 @@
     {
       "name": "Custom Options Menu",
       "author": "Jimk72",
-      "version": "2.0",
+      "version": "3.0",
       "compatibility": "All",
-      "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms.",
+      "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Now works in multiplayer and with Dedicated Server!",
       "imageURL": "",
       "readmeURL": "",
       "files": {
@@ -231,9 +231,9 @@
     {
       "name": "Teleporter",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Is a workshop item that when consumed will give you a base station and a hand held controller.",
+      "description": "Is a workshop item that when consumed will give you a base station and a hand held controller. Once on the planet just place the teleporter base on any floor piece and when you want to return to the base just click the left mouse button when the handheld controller is equiped. You can add a second one that will be activalted by using the right mouse button. If there is an issue you can press the R key with handheld equipped to reset view.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
       "readmeURL": "",
       "files": {
