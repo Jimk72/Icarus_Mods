@@ -1,0 +1,43 @@
+Metal cage mod by Jimk
+
+This mod adds 8 new items to the game with several variations. 
+
+All items are crafted at the Machining Bench, since they are built from solid Iron they are almost indestructible except for explosions. Here are the parts that are craftable with description:
+Cage Wall:
+ Variations:
+	Solid Collision: Standard cage wall with no open holes. Projectiles will not go through the openings and smaller animals will also not be able to go through.
+	Open Collision: Standard Cage Wall with realistic collision. Projectiles and smaller animals can go through the openings in the cage.
+	Door Frame: Standard door frame that will fit any existing door in game and the new standard cage door.
+	Double Door L and R: These are just like the standard game double door frames. Compatible with all standard doors.
+	Tall Double Door L and R: These are only the side parts, no top part. Compatible with all doors but designed for stacking(2 story) for very large/Tall door for large animals to go through(Mammoth).
+	
+Cage Floor:
+ Variations:
+	Solid Collision: Acts as a solid floor for walking on. Projectiles and small animals will not go through. Primarily used for the cage floor.
+	Open Collision: Has actual openings for projectiles and play to go through. When used as a roof for cage the player can drop through the openings to down below.
+
+Cage Beam:
+ Variations:
+	Horizontal: Designed to Add stability to Cage.
+	Vertical:Designed to Add stability to Cage.
+
+Doors:
+ Variations:
+	Cage Door: standard sized door, compatible with all original door frames and cage frames.
+	Tall Cage Door: Cage door that is as tall as the walls. Designed for the Cages Tall Double door frames.
+	Double Tall Cage Door: These doors are 2-story doors for very tall animals. Designed for the Cages Tall Double door frames when stacked.
+	Cage Door Full Wall: This door is compatible with All double door frames or can be used with the Cage Vertical Beam. Same size as the Cage Wall.
+
+Door Trigger: Door triggers work for all doors, even original game doors. 
+ Variations:
+	Person Momentary OpenDoor: Any player that steps on trigger will Open any door within 2 floor pieces. Once they step off trigger the door will Close.
+	Animals CloseDoor: Any animal that steps on trigger will Close any door within 2 floor pieces.
+	Person CloseDoor: Any Player that steps on trigger will Close any door within 2 floor pieces.
+	Animals + Person CloseDoor: Any animal or player that steps on trigger will Close any door within 2 floor pieces.
+	Animals OpenDoor: Any animal that steps on trigger will Open any door within 2 floor pieces.
+	Person OpenDoor: Any Player that steps on trigger will Open any door within 2 floor pieces.
+	Animals + Person OpenDoor: Any animal or player that steps on trigger will Open any door within 2 floor pieces.
+
+These Cage parts allow traps that can be setup on game trails, Or use live bait(Player!) to lure the creatures in and then setup an animal closedoor trigger inside the front door and a player CloseDoor outside the back door. So when the animal runs in to get the player it will trigger the door behind it to close and as the player runs out the back door they will trigger that door to close, capturing the animal. You can also just setup a small cage with 1 trigger and doors at both ends that are close to it(1x3 cage) so once the animal walks into it both doors close. Another Method is to build a large cage with different doors to different sections and place 2 sensors above on roof of cage that are triggered by person so you can open and close the door below depending on which trigger you step on. Many different options!
+
+This is part of a bigger mod to come. As soon as they add the new creatures I plan on adding a tranquilizer weapon to allow a way to capture, tranquilizer, then train animals.
