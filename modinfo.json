@@ -132,6 +132,18 @@
           "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode.EXMODZ"
       }
     },
+     {
+      "name": "Metal Cage",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Allows the crafting of cage building materials for animals.",
+      "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Metal_Cage.png",
+      "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Metal_Cage.txt",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Metal_Cage.EXMODZ"
+      }
+    },
     {
       "name": "CompoundBow Kryptic Camo",
       "author": "Jimk72",
