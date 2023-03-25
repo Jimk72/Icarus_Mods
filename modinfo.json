@@ -39,9 +39,9 @@
      {
       "name": "Clear Photo Lens",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Removes lens and frame when in Photo Mode.",
+      "description": "Removes Lens, frame, and text at bottom of screan for a clear view in photo mode.",
       "imageURL": "",
       "readmeURL": "",
       "files": {
