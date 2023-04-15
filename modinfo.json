@@ -171,9 +171,9 @@
     {
       "name": " Craftables",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard, metal cupboard, Statues(large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone)",
+      "description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard(Resized and snaps together), metal cupboard, Statues(Large Komodo,Large Buffalo, large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone)",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png",
       "readmeURL": "",
       "files": {
@@ -279,9 +279,9 @@
     {
       "name": "Weapons Pack 2",
       "author": "Jimk72",
-      "version": "2.0",
+      "version": "2.5",
       "compatibility": "All",
-      "description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.require the Fabricator bench to craft.                 ",
+      "description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.require the Fabricator bench to craft.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.png",
       "readmeURL": "",
       "files": {
