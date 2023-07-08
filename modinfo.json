@@ -75,9 +75,9 @@
     {
       "name": "Custom Options Menu",
       "author": "Jimk72",
-      "version": "3.1",
+      "version": "3.2",
       "compatibility": "All",
-      "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Now works in multiplayer and with Dedicated Server! Updated Clear caveworms and is now server compatible.",
+      "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Now works in multiplayer and with Dedicated Server! Updated Clear caveworms and is now server compatible. Fixed Pause game Issues. Return to ship now closes menu.",
       "imageURL": "",
       "readmeURL": "",
       "files": {
