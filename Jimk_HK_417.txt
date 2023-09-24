@@ -1,0 +1,18 @@
+HK_417 is a selectable semi and full auto rifle. 
+Commissioned from forkbomb
+Special Thanks to forkbomb for purchasing the rights to the weapon and his very generous donation!
+The Weapon model is courtesy of Rebel Thorp AAA assets.
+
+It is crafted in the Tier 4 Forge. 
+
+Has 20% critical hit bonus.
+Durability of 40,000.
+20 round Magazine with Magazine reload.
+Takes all Rifle Ammo.
+More accurate than the Hunting Rifle.
+Cost to craft:
+	22 Steel Screws
+	6 Epoxy
+	12 Carbon Fiber
+	30 Titanium Ingots
+	16 Aluminum Ingots
