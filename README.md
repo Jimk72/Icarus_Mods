@@ -1,6 +1,9 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+9/24/23
+Uploaded 3 new weapons mods. They are based off the HK 417 assault rifle. These were Commissioned from forkbomb. Special Thanks to forkbomb for purchasing the rights to the weapon and his very generous donation!
+
 1/7/23
 Just a heads up, many of my mods use uasset files for them to work. With the addition of dedicated servers these can cause problems as the servers are in beta. I will not be doing any further testing as my results so far have been so inconsistant. I am waiting until servers come out of beta before further testing as I feel most the issues will be resolved.
 
