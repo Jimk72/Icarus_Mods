@@ -15,9 +15,9 @@
     {
       "name": "Building Height Strength",
       "author": "Jimk72",
-      "version": "2.2",
+      "version": "2.3",
       "compatibility": "All",
-      "description": "Changes all building materials to be stronger than concrete for super tall structures. Vers 2.0 now has horizontal strength too. Ver. 2.1 updated to fix crashes and made all buildables resistive to damage. Ver 2.2 Redid mod to help with future issues.",
+      "description": "Changes all building materials to be stronger than concrete for super tall structures. Vers. 2.3 Fixed issue with week 96 update.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png",
       "readmeURL": "",
       "files": {
