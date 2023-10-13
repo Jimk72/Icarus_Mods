@@ -87,9 +87,9 @@
     {
       "name": "Elevators",
       "author": "Jimk72",
-      "version": "2.0",
+      "version": "2.1",
       "compatibility": "All",
-      "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure.",
+      "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure. Updated to use my custom floor piece from my upcoming Steel Buildables mod.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png",
       "readmeURL": "",
       "files": {
@@ -277,9 +277,9 @@
     {
       "name": "Slider",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "All",
-      "description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction.",
+      "description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction. Updated with New floor model as original was modified by Devs so I decided to use a custom floor piece from my Steel Buildables mod that will be released soon.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.png",
       "readmeURL": "",
       "files": {
