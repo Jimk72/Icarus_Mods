@@ -1,0 +1,67 @@
+Steel Buildables By: Jimk72  
+
+This mod adds a new tier of building materials. All pieces are crafted in the tier4 Forge. Holding R will display several different versions of each. There are 6 versions of ramps and floors. 7 different walls, 5 different frames, narrow floor pieces for bridges, all floor and horizontal beams have railing snap, Stairs have angled railing snaps. All pieces are compatible with any other building pieces. All Floors have all the snaps for fireplace as well as ladders.
+
+Steel Door:
+Titanium_Plate 2
+Steel_Ingot 10
+Iron_Ingot 10
+Steel_Screw 10
+Glass 4
+
+Steel Bed:
+Titanium_Plate 4
+Steel_Ingot 12
+Steel_Screw 10
+Fur 30
+Leather 10
+
+Steel Steps:
+Titanium_Plate 4
+Steel_Ingot 12
+Steel_Screw 10
+
+Steel Wall Angle:
+Titanium_Plate 2
+Steel_Ingot 6
+Steel_Screw 10
+
+Steel Floor:
+Titanium_Plate 4
+Steel_Ingot 12
+Steel_Screw 10
+
+Steel Railing:
+Steel_Ingot 12
+Steel_Screw 10
+
+Steel Ladder:
+Steel_Ingot 12
+Steel_Screw 10
+
+Steel Half Floor:
+Titanium_Plate 2
+Steel_Ingot 6
+Steel_Screw 10
+
+Steel Frame:
+Titanium_Plate 6
+Steel_Ingot 20
+Steel_Screw 18
+
+Steel Wall:
+Titanium_Plate 4
+Steel_Ingot 12
+Steel_Screw 10
+Glass 4
+
+Steel Ramp:
+Titanium_Plate 4
+Steel_Ingot 12
+Steel_Screw 10
+
+Steel Beam:
+Titanium_Plate 2
+Steel_Ingot 6
+Steel_Screw 5
+
