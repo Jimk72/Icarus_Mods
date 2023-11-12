@@ -299,18 +299,6 @@
       }
     },
     {
-      "name": "Steel Buildables Beta",
-      "author": "Jimk72",
-      "version": ".8",
-      "compatibility": "All",
-      "description": "This is a beta version of my Steel Buildables mod. As its a beta it will most likely mess up your map!! Dont use this unless you are testing on a new map and dont care about loosing items. ",
-      "imageURL": "",
-      "readmeURL": "",
-      "files": {
-          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Steel_Buildables.EXMODZ"
-      }
-    },
-    {
       "name": "Teleporter",
       "author": "Jimk72",
       "version": "2.0",
