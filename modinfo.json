@@ -111,9 +111,9 @@
     {
       "name": "Extraction 10 Seconds",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Changes the extraction speed to 10 seconds per ore.",
+      "description": "Changes the extraction speed to 10 seconds per ore. Updated to include all the new ores.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_10_Seconds.png",
       "readmeURL": "",
       "files": {
@@ -123,9 +123,9 @@
     {
       "name": "Extraction 5 Seconds",
       "author": "Jimk72",
-      "version": "1.0",
+      "version": "2.0",
       "compatibility": "All",
-      "description": "Changes the extraction speed to 5 seconds per ore.",
+      "description": "Changes the extraction speed to 5 seconds per ore. Updated to include all the new ores.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.png",
       "readmeURL": "",
       "files": {
