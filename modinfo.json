@@ -75,9 +75,9 @@
     {
       "name": "Custom Puck Lights",
       "author": "Jimk72",
-      "version": "4.1",
+      "version": "4.2",
       "compatibility": "All",
-      "description": "Workshop Item that when consumed give you a crate and 4 new types of deployable LED lights(No Power Needed).             ",
+      "description": "Workshop Item that when consumed give you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Lights switches to control then all with.",
       "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
       "readmeURL": "",
       "files": {
@@ -404,6 +404,18 @@
       "readmeURL": "",
       "files": {
           "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Prefilled_Items.EXMODZ"
+      }
+    },
+    {
+      "name": "Paintings Fix",
+      "author": "Jimk72",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "Fixes Paintings so they can be placed on other Deployables.",
+      "imageURL": "",
+      "readmeURL": "",
+      "files": {
+          "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Paintings_Fix.EXMODZ"
       }
     },
     {
