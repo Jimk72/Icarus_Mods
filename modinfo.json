@@ -527,6 +527,18 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Workshop.EXMODZ"
             }
+        },
+        {
+            "name": "Out Of Bounds Fix",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Replaces Out of Bounds UI with small Notification and Auto Pauses around 5 seconds.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/OutOfBoundsFix.EXMODZ"
+            }
         }
     ]
 }
