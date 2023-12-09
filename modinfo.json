@@ -15,7 +15,7 @@
         {
             "name": "Jimk Steel Buildables",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.4",
             "compatibility": "All",
             "description": "Adds new steel building pieces crafted in the tier4 Forge. Contains Walls, Angled Wall, Inverted Angled Wall, Floors, Half Floors, Ramps, Frames, Stairs, Beams, Railings, Ladders, Fireplace, Chimney cap, Extension, HalfCap, Glass Greenhouse Pieces and a Bed. Strongest Building material in game.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Steel_Buildables.png",
@@ -75,7 +75,7 @@
         {
             "name": "Custom Puck Lights",
             "author": "Jimk72",
-            "version": "4.2",
+            "version": "4.3",
             "compatibility": "All",
             "description": "Workshop Item that when consumed give you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Lights switches to control then all with.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
