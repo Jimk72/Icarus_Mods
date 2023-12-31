@@ -1,5 +1,11 @@
-Steel Buildables By: Jimk72 
-Ver 1.2
+Steel Buildables Cheaper By: Jimk72 
+Ver 1.5
+Added Large and Small steel Signs, Steel shelves, and wall placeable Crate with shelf, several new glass building pieces, and redid glass and beams.
+Ver 1.4
+Reduced crafting costs for Titanium, added Aluminium to reduce weight.
+Added:
+Double Door Pieces.
+Ver1.3
 Fixed:
 Snap placement for Fireplaces and ladders in floor pieces.
 Added:
@@ -11,92 +17,106 @@ Glass Wall, Ramp, Roof that is crafted in the Glassworking_Bench so it works as 
        This mod adds a new tier of building materials. All pieces are crafted in the tier4 Forge, crate and cupboard are also crafted in the Fabricator. Holding R will display several different versions of each. There are 6 versions of ramps and floors. 7 different walls, 5 different frames, narrow floor pieces for bridges, all floor and horizontal beams have railing snap, Stairs have angled railing snaps. All pieces are compatible with any other building pieces. All Floors have all the snaps for fireplace as well as ladders.
 
 Steel Door:
-Titanium_Plate 2
-Steel_Ingot 10
+Titanium_Ingot 2
+Aluminium 2
+Steel_Ingot 8
 Iron_Ingot 10
 Steel_Screw 10
 Glass 4
 
 Steel Bed:
-Titanium_Plate 4
-Steel_Ingot 12
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 10
 Steel_Screw 10
 Fur 30
 Leather 10
 
 Steel Steps:
-Titanium_Plate 4
-Steel_Ingot 12
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 10
 Steel_Screw 10
 
 Steel Wall Angle:
-Titanium_Plate 2
+Titanium_Ingot 4
+Aluminium 4
 Steel_Ingot 6
 Steel_Screw 10
 
 Steel Floor:
-Titanium_Plate 4
-Steel_Ingot 12
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 10
 Steel_Screw 10
 
 Steel Railing:
-Steel_Ingot 12
+Steel_Ingot 10
 Steel_Screw 10
 
 Steel Ladder:
-Steel_Ingot 12
+Steel_Ingot 10
 Steel_Screw 10
 
 Steel Half Floor:
-Titanium_Plate 2
-Steel_Ingot 6
+Titanium_Ingot 5
+Steel_Ingot 5
 Steel_Screw 10
 
 Steel Frame:
-Titanium_Plate 6
-Steel_Ingot 20
+Titanium_Ingot 6
+Aluminium 6
+Steel_Ingot 15
 Steel_Screw 18
 
 Steel Wall:
-Titanium_Plate 4
-Steel_Ingot 12
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 10
 Steel_Screw 10
-Glass 4
 
 Steel Ramp:
-Titanium_Plate 4
-Steel_Ingot 12
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 10
 Steel_Screw 10
 
 Steel Beam:
-Titanium_Plate 2
-Steel_Ingot 6
+Titanium_Ingot 2
+Aluminium 2
+Steel_Ingot 5
 Steel_Screw 5
 
 Fireplace:
-Titanium_Plate 4
-Steel_Ingot 18
+Titanium_Ingot 4
+Aluminium 4
+Steel_Ingot 15
 Steel_Screw 12
 
 Chimney Cap:
-Titanium_Plate 2
+Titanium_Ingot 4
+Aluminium 4
 Steel_Ingot 10
 
 Chimney Half Cap:
-Titanium_Plate 1
+Titanium_Ingot 2
+Aluminium 2
 Steel_Ingot 5
 
 Chimney Extension:
-Titanium_Plate 2
+Titanium_Ingot 4
+Aluminium 4
 Steel_Ingot 10
 
 Steel Crate:
-Titanium_Plate 1
-Steel_Ingot 12
+Titanium_Ingot 2
+Aluminium 2
+Steel_Ingot 8
 Steel_Screw 12
 
 Steel Cupboard:
-Titanium_Plate 1
-Steel_Ingot 18
+Titanium_Ingot 3
+Aluminium 3
+Steel_Ingot 16
 Steel_Screw 24
 
