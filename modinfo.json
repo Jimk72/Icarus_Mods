@@ -361,15 +361,15 @@
             }
         },
         {
-            "name": "LevelingMod Fix",
+            "name": "Jimk Leveling Mod",
             "author": "Jimk72",
-            "version": "2.0",
+            "version": "3.0",
             "compatibility": "All",
             "description": "Keeps adding points after level 50.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/LevelingMod_Temp_Fix.EXMODZ"
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_LevelingMod.EXMODZ"
             }
         },
         {
