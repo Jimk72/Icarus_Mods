@@ -37,6 +37,18 @@
             }
         },
         {
+            "name": "Better Glass",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Replaces Glass from original glass models.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Better_Glass.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Better_Glass.EXMODZ"
+            }
+        },
+         {
             "name": "Camera Distance",
             "author": "Jimk72",
             "version": "1.0",
