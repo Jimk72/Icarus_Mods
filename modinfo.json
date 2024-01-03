@@ -375,9 +375,9 @@
         {
             "name": "Jimk Leveling Mod",
             "author": "Jimk72",
-            "version": "3.0",
+            "version": "3.2",
             "compatibility": "All",
-            "description": "Keeps adding points after level 50.",
+            "description": "Increases Display Level to 500, Max talents at level 200. Follows games default curve.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
