@@ -36,12 +36,24 @@
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength.EXMODZ"
             }
         },
-        {
-            "name": "Better Glass",
+         {
+            "name": "Glass Buildables",
             "author": "Jimk72",
             "version": "1.0",
             "compatibility": "All",
-            "description": "Replaces Glass from original glass models.",
+            "description": "Updated original glass pieces to use new glass and steel textures and added full new tier of glass building pieces. All craftable on the glass bench.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Glass_Buildables.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Glass_Buildables.EXMODZ"
+            }
+        },
+        {
+            "name": "Better Glass",
+            "author": "Jimk72",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Replaces Glass from original glass building pieces. Fixed issues with destructables loosing textures. Already included with Glass Buildables.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Better_Glass.png",
             "readmeURL": "",
             "files": {
