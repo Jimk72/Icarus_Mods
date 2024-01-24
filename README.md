@@ -1,5 +1,7 @@
 # Icarus_Mods
 Mods for Icarus Game
+1/23/24
+Uploaded new Mods for Glass buildables and Steel buildables.
 
 9/24/23
 Uploaded 3 new weapons mods. They are based off the HK 417 assault rifle. These were Commissioned from forkbomb. Special Thanks to forkbomb for purchasing the rights to the weapon and his very generous donation!
