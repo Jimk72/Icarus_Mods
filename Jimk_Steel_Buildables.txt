@@ -1,4 +1,8 @@
 Steel Buildables Cheaper By: Jimk72 
+Ver 1.7
+Had to seperate all glass pieces into a seperate mod called Glass Buildables.
+Ver 1.6
+Added All the roof pieces including HalfPitch, Corner, Flat, Ramp, and Inverse pieces. Also added half/quarter pices. 
 Ver 1.5
 Added Large and Small steel Signs, Steel shelves, and wall placeable Crate with shelf, several new glass building pieces, and redid glass and beams.
 Ver 1.4
