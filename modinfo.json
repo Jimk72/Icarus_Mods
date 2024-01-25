@@ -156,6 +156,18 @@
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Extraction_5_Seconds.EXMODZ"
             }
         },
+         {
+            "name": "Faster Titanium",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Increases Titanium in the world and speeds up processing for Titanium, Steel, and Aluminum.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Faster_Titanium.EXMODZ"
+            }
+        },
         {
             "name": "Halloween Pumpkins",
             "author": "Jimk72",
