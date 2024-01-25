@@ -18,7 +18,7 @@ Steel Cupboard, Steel Crate.
 Inverted Angle pieces.
 Glass Wall, Ramp, Roof that is crafted in the Glassworking_Bench so it works as greenhouse. These are same as default glass buildables but use my models. The selectable window glass in the Steel Floor, Steel Wall, Steel Ramp are different from these and do not provide the greenhouse effect.
 
-       This mod adds a new tier of building materials. All pieces are crafted in the tier4 Forge, crate and cupboard are also crafted in the Fabricator. Holding R will display several different versions of each. There are 6 versions of ramps and floors. 7 different walls, 5 different frames, narrow floor pieces for bridges, all floor and horizontal beams have railing snap, Stairs have angled railing snaps. All pieces are compatible with any other building pieces. All Floors have all the snaps for fireplace as well as ladders.
+       This mod adds a new tier of building materials. All pieces are crafted in the tier4 Foundry, crate and cupboard are also crafted in the Fabricator. Holding R will display several different versions of each. There are 6 versions of ramps and floors. 7 different walls, 5 different frames, narrow floor pieces for bridges, all floor and horizontal beams have railing snap, Stairs have angled railing snaps. All pieces are compatible with any other building pieces. All Floors have all the snaps for fireplace as well as ladders.
 
 Steel Door:
 Titanium_Ingot 2
