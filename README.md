@@ -1,6 +1,12 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+1/24/24
+
+Uploaded fixes for the glass and steel buildables.
+
+Added Destructable meshes to the steel building pieces.
+
 1/23/24
 
 Uploaded new Mods for Glass buildables and Steel buildables.
