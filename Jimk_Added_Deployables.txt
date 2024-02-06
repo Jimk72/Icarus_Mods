@@ -1,0 +1,10 @@
+Adds 4 new Deployable Items to the game, all crafted on the Fabricator bench.
+
+Jimk_Xtra_Large_Aquarium - An Aquarium the size of 1 floor piece, and as high as a standard wall.
+
+Water Extractor -  A piece of equipment compresses the ground to access the water below.
+
+Vapor_Collector - Uses Electricity and a large aluminum cone to charge the air and remove all moisture from it.
+
+Large WindTurbine - A Large WindTurbine that produces three times the electricity of the regular turbine at about double the cost.
+
