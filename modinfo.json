@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Added Deployables",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Contains Xtra Large Aquarium, Water Extractor, Vapor Collector, and Large Wind Turbine. All crafted on the Fabricator bench.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.EXMODZ"
+            }
+        },
+        {
             "name": "Bear Mount",
             "author": "Jimk72",
             "version": "2.0",
