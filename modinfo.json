@@ -135,7 +135,7 @@
         {
             "name": "Elevators",
             "author": "Jimk72",
-            "version": "2.1",
+            "version": "2.2",
             "compatibility": "All",
             "description": "A craftable platform that will raise character 1,2,3,4,8,or 16 floors. When Deploying hold R for different variations. Must be deployed on a floor structure. Updated to use my custom floor piece from my upcoming Steel Buildables mod.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Elevators.png",
@@ -363,7 +363,7 @@
         {
             "name": "Teleporter",
             "author": "Jimk72",
-            "version": "2.0",
+            "version": "2.1",
             "compatibility": "All",
             "description": "Is a workshop item that when consumed will give you a base station and a hand held controller. Once on the planet just place the teleporter base on any floor piece and when you want to return to the base just click the left mouse button when the handheld controller is equiped. You can add a second one that will be activalted by using the right mouse button. If there is an issue you can press the R key with handheld equipped to reset view.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
