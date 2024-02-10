@@ -351,7 +351,7 @@
         {
             "name": "Slider",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
             "description": "This is similar to my Elevator mod but creates a platform that when standing on will slide out 4 or 8 floor spots in any direction. Updated with New floor model as original was modified by Devs so I decided to use a custom floor piece from my Steel Buildables mod that will be released soon.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Slider.png",
