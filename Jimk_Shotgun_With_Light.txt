@@ -1,0 +1,1 @@
+Adds A new Trench Shotgun with a Light attachment, increases ammo to 10 and has a slightly increased rate of fire.
