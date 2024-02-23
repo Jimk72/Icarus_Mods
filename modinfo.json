@@ -587,6 +587,18 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/OutOfBoundsFix.EXMODZ"
             }
+        },
+        {
+            "name": "Jimk Shotgun With Light",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Adds A new Trench Shotgun with a Light attachment, increases ammo to 10 and has a slightly increased rate of fire.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Shotgun_With_Light.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Shotgun_With_Light.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Shotgun_With_Light.EXMODZ"
+            }
         }
     ]
 }
