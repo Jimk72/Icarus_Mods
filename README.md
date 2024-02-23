@@ -1,6 +1,10 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+2/23/24
+
+Added new Shotgun, Same as Trench shotgun but has a Light mounted on it, 10 round capacity, and a little fast fire rate. When equiped use your light keymaping to turn light on and off.
+
 1/24/24
 
 Uploaded fixes for the glass and steel buildables.
