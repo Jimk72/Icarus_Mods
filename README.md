@@ -1,6 +1,10 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+2/24/24
+
+Updated Custom Puck Lights mod to include new switches. Hold R when deploying switches to select individual switch for spacific lights. Also now has an Auto switch that will turn on all lights at night and off in the morning.
+
 2/23/24
 
 Added new Shotgun, Same as Trench shotgun but has a Light mounted on it, 10 round capacity, and a little fast fire rate. When equiped use your light keymaping to turn light on and off.
