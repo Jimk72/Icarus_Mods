@@ -421,6 +421,18 @@
             }
         },
         {
+            "name": "Mini Fridge",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Made by JimK72 & CK_Dexterhaven, an additional option for refrigeration - the stackable mini-fridge.",
+            "imageURL": "https://github.com/ckdextergames/Icarus_mods/raw/MiniFridge/minifridge.png",
+            "readmeURL": "https://raw.githubusercontent.com/ckdextergames/Icarus_mods/MiniFridge/README.md",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Fridge.EXMODZ"
+            }
+        },
+        {
             "name": "Mini Generator",
             "author": "Jimk72",
             "version": "1.0",
