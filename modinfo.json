@@ -193,18 +193,6 @@
             }
         },
         {
-            "name": "Hard Mode",
-            "author": "Jimk72",
-            "version": "1.0",
-            "compatibility": "All",
-            "description": "This makes every zone of Icarus the same with very high level animals.",
-            "imageURL": "",
-            "readmeURL": "",
-            "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/HardMode.EXMODZ"
-            }
-        },
-        {
             "name": "HK 417",
             "author": "Jimk72",
             "version": "1.0",
