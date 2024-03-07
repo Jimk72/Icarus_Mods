@@ -25,6 +25,18 @@
             }
         },
         {
+            "name": "Better Lights",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Makes the flashlight, Torch, and Lantern bright to fill the darkness.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Better_Lights.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Steel Buildables",
             "author": "Jimk72",
             "version": "1.8",
