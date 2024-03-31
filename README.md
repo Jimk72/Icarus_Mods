@@ -1,6 +1,10 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+3/30/24
+
+Updated Custom Puck Lights to fix the crash caused my games default lights being used.
+
 2/24/24
 
 Updated Custom Puck Lights mod to include new switches. Hold R when deploying switches to select individual switch for spacific lights. Also now has an Auto switch that will turn on all lights at night and off in the morning.
