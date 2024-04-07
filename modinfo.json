@@ -25,6 +25,18 @@
             }
         },
         {
+            "name": "Battery Powered Storage",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "A workshop battery powered crate to keep your food fresh!",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Battery_Powered_Storage.EXMODZ"
+            }
+        },
+        {
             "name": "Better Lights",
             "author": "Jimk72",
             "version": "1.0",
