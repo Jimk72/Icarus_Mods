@@ -135,9 +135,9 @@
         {
             "name": "Custom Puck Lights",
             "author": "Jimk72",
-            "version": "4.6",
+            "version": "4.8",
             "compatibility": "All",
-            "description": "Workshop Item that when consumed give you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Lights switches to control then all with. Changes to flashlight.",
+            "description": "Now Found in the Workshop under Jimk Innovations. Looks like a crate with Lights around it. Item that when consumed gives you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Light switches to control them all with and various wall, floor, and ceiling lights. Added flashlight adjustments.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
             "readmeURL": "",
             "files": {
@@ -399,9 +399,9 @@
         {
             "name": "Teleporter",
             "author": "Jimk72",
-            "version": "2.1",
+            "version": "2.2",
             "compatibility": "All",
-            "description": "Is a workshop item that when consumed will give you a base station and a hand held controller. Once on the planet just place the teleporter base on any floor piece and when you want to return to the base just click the left mouse button when the handheld controller is equiped. You can add a second one that will be activalted by using the right mouse button. If there is an issue you can press the R key with handheld equipped to reset view.",
+            "description": "Now Added to Jimk Innovations tab! Is a workshop item that when consumed will give you a base station and a hand held controller. Once on the planet just place the teleporter base on any floor piece and when you want to return to the base just click the left mouse button when the handheld controller is equiped. You can add a second one that will be activalted by using the right mouse button. If there is an issue you can press the R key with handheld equipped to reset view.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
             "readmeURL": "",
             "files": {
