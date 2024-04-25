@@ -27,9 +27,9 @@
         {
             "name": "Battery Powered Storage",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "A workshop battery powered crate to keep your food fresh!",
+            "description": "A workshop battery powered crate to keep your food fresh! Found under Jimk Innovations tab in workshop.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
