@@ -1,6 +1,12 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+4/24/24
+
+Updated Custom Options menu to pause game upon opening if only one play is in game.
+
+Added Puck lights, Teleporter, Battery powered crate, and Precision Workshop bow to the Jimk Innovations tab in the workshop.
+
 3/30/24
 
 Updated Custom Puck Lights to fix the crash caused my games default lights being used.
