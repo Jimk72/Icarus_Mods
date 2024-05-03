@@ -444,6 +444,18 @@
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Armor_Kryptic_Camo_Mod_V1.EXMODZ"
             }
         },
+      {
+            "name": "Jimk Innovations",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.EXMODZ"
+            }
+        },
         {
             "name": "Jimk Leveling Mod",
             "author": "Jimk72",
