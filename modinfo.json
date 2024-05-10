@@ -39,9 +39,9 @@
         {
             "name": "Better Lights",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Makes the flashlight, Torch, and Lantern bright to fill the darkness.",
+            "description": "Makes the flashlight, Torch, and Lantern bright to fill the darkness. Fixed for week 127 update.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
@@ -447,9 +447,9 @@
       {
             "name": "Jimk Innovations",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.3",
             "compatibility": "All",
-            "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage.",
+            "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage. Fixed for week 127 update.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
