@@ -1,0 +1,13 @@
+A mod that adds several fences to the game and defensive razor wire. Has two types of wood fences each with a tall version for larger animals and chain link fencing for a more industrial look. Also includes matching gates for wood and chain link fences. Special thanks to Maxus! without his generous donation these would not be possible!
+
+The wooden pieces are crafted on the carpenters/Carpenters Tier 4 benches and the metal pieces are crafted on the Machining/Fabricator benches.
+
+The razor wire is a deployable defense just like the Hedgehogs. There is a ground version and a wall version and each is stackable.
+
+All the wood and metal fence pieces are based off the games walls NOT the games railings. I made this decision because of the placement limitations on railings. Using this method the fencing pieces will snap right into building systems and regular walls will also snap into these fence pieces. This also allows stacking of fences but only recommend stacking the full height chain fence pieces.
+
+The gates for the wooden fence are based off the wooden gates in the game. So these will snap into the railings sockets as well as the sockets built into the the custom fence pieces. So if your placing the gate into the wooden fence pieces just aim at the wood fence to the left or right and the gate will snap to the propper location.
+
+The metal fence pieces that have door openings will allow any door in the game to be placed and used with them.
+
+Once more a special thanks to Maxus for his generous donation to make this possible! 
