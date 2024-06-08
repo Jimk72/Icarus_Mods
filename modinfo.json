@@ -61,6 +61,18 @@
             }
         },
         {
+            "name": "Better Pistol Turret",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Increases fire rate, increases targeting rate and turret movement, increases inventory slots, increased durability, and reduced power requirements to 1000.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Better_Pistol_Turret.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Better_Pistol_Turret.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Better_Pistol_Turret.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Steel Buildables",
             "author": "Jimk72",
             "version": "1.9",
