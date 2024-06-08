@@ -1,0 +1,1 @@
+Increases fire rate, increases targeting rate and turret movement, increases inventory slots, increased durability, and reduced power requirements to 1000.
