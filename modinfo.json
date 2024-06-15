@@ -1,6 +1,18 @@
 {
     "mods": [
          {
+            "name": "All Ammo Turret",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Just for fun. Has custom turret model, fires full auto, shoots every type of ammo, arrows, and bolts. Goes through lots of ammo!",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/All_Ammo_Turret.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/All_Ammo_Turret.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Fences",
             "author": "Jimk72",
             "version": "1.3",
