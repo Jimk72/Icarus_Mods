@@ -447,7 +447,7 @@
         {
             "name": "Weapons Pack 1",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "This gives you 2 new handguns, 2 assault rifles They are all tier 4 so require the Fabricator bench to craft. ",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_1.png",
@@ -483,10 +483,10 @@
       {
             "name": "Jimk Innovations",
             "author": "Jimk72",
-            "version": "1.3",
+            "version": "1.5",
             "compatibility": "All",
-            "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage. Fixed for week 127 update.",
-            "imageURL": "",
+            "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage,Workshop Pistols.",
+            "imageURL": "https://github.com/ckdextergames/Icarus_mods/raw/MiniFridge/Jimk_Innovations.png",
             "readmeURL": "",
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.EXMODZ"
