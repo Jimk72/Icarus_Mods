@@ -19,7 +19,7 @@ Crafted on the following Benches:Crafting Bench, Machining Bench, and Fabricator
 
 
 Crafted on Player:
-Craftable Exotic Planting Soil. This soil has 4 different versions that effect the plants differently.
+Craftable Exotic Planting Soil. This soil has 5 different versions that effect the plants differently.
 -Reduces plant size by 50%
 -Keeps standard plant size
 -Increases plant size by 150%
