@@ -1,0 +1,30 @@
+Garden Planters
+Ver 1.0
+
+Adds several craftable planters to the game.
+
+Crafted in the Cement Mixer, or Masonry Bench:
+3 Square concrete planters
+3 Round concrete planters
+
+Crafted in the Machining Bench, or Fabricator:
+3 Barrels
+
+Crafted on Player:
+1 Ring of stones
+
+Crafted on the following Benches:Crafting Bench, Machining Bench, and Fabricator:
+7 Wooden planters
+2 Brazier Planters
+
+
+Crafted on Player:
+Craftable Exotic Planting Soil. This soil has 4 different versions that effect the plants differently.
+-Reduces plant size by 50%
+-Keeps standard plant size
+-Increases plant size by 150%
+-Increases plant size by 200%
+-Increases plant size by 400%
+
+All 5 types of soil grow at an extreme rate which damages the plants in a way that does not allow you to harvest them.So this is only for looks and will not effect gameplay.
+
