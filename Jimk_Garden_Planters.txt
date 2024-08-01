@@ -1,5 +1,5 @@
 Garden Planters
-Ver 1.0
+Ver 1.1
 
 Adds several craftable planters to the game.
 
@@ -19,12 +19,15 @@ Crafted on the following Benches:Crafting Bench, Machining Bench, and Fabricator
 
 
 Crafted on Player:
-Craftable Exotic Planting Soil. This soil has 5 different versions that effect the plants differently.
+Craftable Exotic Planting Soil. This soil has 6 different versions that effect the plants differently.
 -Reduces plant size by 50%
+-Reduces plant size by 25%
 -Keeps standard plant size
 -Increases plant size by 150%
 -Increases plant size by 200%
 -Increases plant size by 400%
 
-All 5 types of soil grow at an extreme rate which damages the plants in a way that does not allow you to harvest them.So this is only for looks and will not effect gameplay.
+All 6 types of soil grow at an extreme rate which damages the plants in a way that does not allow you to harvest them.So this is only for looks and will not effect gameplay.
+
+
 
