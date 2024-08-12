@@ -1,6 +1,17 @@
 {
     "mods": [
          {
+            "name": "Jimk Small Electrical wires",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Shrinks down the electrical wire and nodes.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Small_Electrical_wires.EXMODZ"
+            }
+        },{
             "name": "All Ammo Turret",
             "author": "Jimk72",
             "version": "1.0",
