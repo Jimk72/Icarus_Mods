@@ -531,9 +531,9 @@
         {
             "name": "Mini Generator",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Replaces the Biofuel generator model with a much smaller version so you can place it on top of items and allows them to be stacked.",
+            "description": "Replaces Biofuel generator models with a much smaller version so you can place it on top of items and allows them to be stacked.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Mini_Generator.png",
             "readmeURL": "",
             "files": {
