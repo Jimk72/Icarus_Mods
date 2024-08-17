@@ -1,0 +1,17 @@
+Garden Deployables
+Ver 1.0
+
+Adds several Garden Deployables.
+
+Crafted in the Machining Bench, or Fabricator:
+Garden Barrow
+Garden Lantern- 2 variations
+
+Crafted on Player:
+Garden Rocks- 6 variations
+
+Crafted in the Carpentry Bench, or Carpentry Bench T4:
+Garden  Archway- 2 variations
+Garden Birdhouse- 3 variations
+Garden Bridge- 2 variations
+

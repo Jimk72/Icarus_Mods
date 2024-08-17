@@ -1,7 +1,7 @@
 Garden Planters
-Ver 1.1
+Ver 1.3
 
-Adds several craftable planters to the game.
+Adds several craftable planters to the game and a custom exotic dirt mound that allows different sized plants.
 
 Crafted in the Cement Mixer, or Masonry Bench:
 3 Square concrete planters
@@ -16,6 +16,9 @@ Crafted on Player:
 Crafted on the following Benches:Crafting Bench, Machining Bench, and Fabricator:
 7 Wooden planters
 2 Brazier Planters
+
+Crafted on the following Benches:Carpentry Bench,Carpentry Bench T4:
+FlowerPot, Hanging Planter
 
 
 Crafted on Player:
