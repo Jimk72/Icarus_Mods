@@ -650,7 +650,7 @@
         {
             "name": "Tier 3 Electricity",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "Moves the Biofuel generator and the spline tool to the Machining bench where it should be.",
             "imageURL": "",
