@@ -1,6 +1,18 @@
 {
     "mods": [
          {
+            "name": "Jimk Precise Building Deployable",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Rightclick when deploying building pieces to pop up a menu that allow precise placement of pieces in relation to other pieces. Makes it easy to do round building and custom floor.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Small Electrical wires",
             "author": "Jimk72",
             "version": "1.0",
@@ -11,7 +23,8 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Small_Electrical_wires.EXMODZ"
             }
-        },{
+        },
+        {
             "name": "All Ammo Turret",
             "author": "Jimk72",
             "version": "1.0",
