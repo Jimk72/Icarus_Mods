@@ -1,0 +1,12 @@
+Precise building Deployable
+ver 1.0
+
+Rightclick when deploying building pieces to pop up a menu that allow precise placement of pieces in relation to other pieces. Makes it easy to do round building and custom floor.
+
+If aiming at a building piece when you right click it will display location of that piece. This can be used to help place the next piece and allow placing new floor at same spot with a rotation of a specified degree. Using this you can create round/curved buildings with exact precision. You can allso add building pieces in places you could not have done before using the Disable Grid button. There are 3 different save buttons for saving a reference to a position, 2 individual save buttons(Height and rotation) as weel as a paste all for pasting the selected building location to the new location and you can also paste just the height or rotation of selected building piece.
+
+Load Current Transform load the position you are looking at, Load Last Grid Base loads the last location of a building grid(last placed piece if snap was disabled), and 3 saved transforms that will load the location/rotations that were saved.
+
+When you have the transform you want just click the Place button and it will place the currently selected building piece where the entered transform is located.
+
+The top part is only enabled when right clicking while aimed at a building piece. The bottom part is only enable when snap grid is disabled. When using you will need to disable and renable the grid as this allows for the custom placement feature.
