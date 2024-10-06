@@ -13,6 +13,18 @@
             }
         },
         {
+            "name": "Jimk Larger Batteries",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Adds two new Battery racks. A double and a Quad Rack. A little cheaper to craft as they have less metal combined. These are also stackable.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Larger_Batteries.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Larger_Batteries.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Small Electrical wires",
             "author": "Jimk72",
             "version": "1.0",
