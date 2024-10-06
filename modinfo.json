@@ -615,9 +615,9 @@
         {
             "name": "No Weather",
             "author": "Jimk72",
-            "version": "2.1",
+            "version": "2.2",
             "compatibility": "All",
-            "description": "Removes all weather from game. Updated for new DLC.",
+            "description": "Removes all weather from game. Updated for new DLC and new Storm Systems.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
