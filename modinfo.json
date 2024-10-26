@@ -1,6 +1,18 @@
 {
     "mods": [
          {
+            "name": "Jimk Foundry Remake",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Replaces the Foundry with a slightly smaller model with all the extra models removed so it fits in your base like all the rest of the benches. Also Reduced its weight to adjust for less equipment.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Foundry_Remake.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Foundry_Remake.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Moa Upgrade",
             "author": "Jimk72",
             "version": "1.0",
