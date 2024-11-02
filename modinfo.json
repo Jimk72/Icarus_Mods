@@ -435,7 +435,7 @@
         {
             "name": "Craftables",
             "author": "Jimk72",
-            "version": "2.2",
+            "version": "2.3",
             "compatibility": "All",
             "description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard(Resized and snaps together), metal cupboard, Statues(Large Komodo,Large Buffalo, large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone)",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png",
@@ -711,13 +711,13 @@
         {
             "name": "Windmill Generator",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
-            "description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. ",
+            "description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. Updated for week 151!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png",
             "readmeURL": "",
             "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.EXMODZ"
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Windmill_Generator.EXMODZ"
             }
         },
         {
