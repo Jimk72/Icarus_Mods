@@ -1,6 +1,54 @@
 {
     "mods": [
          {
+            "name": "Jimk Foundry Remake",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Replaces the Foundry with a slightly smaller model with all the extra models removed so it fits in your base like all the rest of the benches. Also Reduced its weight to adjust for less equipment.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Foundry_Remake.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Foundry_Remake.EXMODZ"
+            }
+        },
+        {
+            "name": "Jimk Moa Upgrade",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Upgrades Moa and Actic Moa Talents to be faster, more storage, better to defend and have more usage! Makes fully leveling up a Moa worth it! Does not effect the base stats!",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Moa_Upgrade.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Moa_Upgrade.EXMODZ"
+            }
+        },
+        {
+            "name": "Jimk Precise Building Deployable",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Rightclick when deploying building pieces to pop up a menu that allow precise placement of pieces in relation to other pieces. Makes it easy to do round building and custom floor.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Precise_Building_Deployable.EXMODZ"
+            }
+        },
+        {
+            "name": "Jimk Larger Batteries",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Adds two new Battery racks. A double and a Quad Rack. A little cheaper to craft as they have less metal combined. These are also stackable.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Larger_Batteries.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Larger_Batteries.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Small Electrical wires",
             "author": "Jimk72",
             "version": "1.0",
@@ -11,7 +59,8 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Small_Electrical_wires.EXMODZ"
             }
-        },{
+        },
+        {
             "name": "All Ammo Turret",
             "author": "Jimk72",
             "version": "1.0",
@@ -26,9 +75,9 @@
         {
             "name": "Jimk Garden Planters",
             "author": "Jimk72",
-            "version": "1.3",
+            "version": "1.4",
             "compatibility": "All",
-            "description": "Adds several craftable planters to the game. Adds Craftable Exotic Planting Soil. This soil has 6 different versions that effect the plants differently. 1-Reduces plant size by 50% 2-Reduces plant size by 25% 3-Keeps standard plant size 4-Increases plant size by 150% 5-Increases plant size by 200% 6-Increases plant size by 400% The mutation prevents crops from being harvested so this is only for visual aesthetics!",
+            "description": "Adds several craftable planters to the game. Adds Craftable Exotic Planting Soil. This soil has 6 different versions that effect the plants differently. 1-Reduces plant size by 50% 2-Reduces plant size by 25% 3-Keeps standard plant size 4-Increases plant size by 150% 5-Increases plant size by 200% 6-Increases plant size by 400% The mutation prevents crops from being harvested so this is only for visual aesthetics! Fixed texture issues on concrete planters.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Garden_Planters.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Garden_Planters.txt",
             "files": {
@@ -62,9 +111,9 @@
         {
             "name": "Jimk Added Deployables",
             "author": "Jimk72",
-            "version": "1.6",
+            "version": "1.8",
             "compatibility": "All",
-            "description": "Updated for week 126. Contains Xtra Large Aquarium, Water Extractor, Vapor Collector, and Large Wind Turbine. All crafted on the Fabricator bench.",
+            "description": "Ver 1.8 Updated for week 151, Removed Damage Modifiers. Contains Xtra Large Aquarium, Water Extractor, Vapor Collector, and Large Wind Turbine. All crafted on the Fabricator bench.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.txt",
             "files": {
@@ -146,7 +195,7 @@
          {
             "name": "Glass Buildables",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
             "description": "Updated original glass pieces to use new glass and steel textures and added full new tier of glass building pieces. All craftable on the glass bench.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Glass_Buildables.png",
@@ -244,7 +293,7 @@
             "author": "Jimk72",
             "version": "1.1",
             "compatibility": "All",
-            "description": "Deployable Laptop that Gives you a Options menu when you open it. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added. Found under Jimk Innovations tab in workshop.",
+            "description": "Deployable Laptop available in the workshop under Jimk Innovations tab, that Gives you a Options menu when you open it. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions_Laptop.png",
             "readmeURL": "",
             "files": {
@@ -386,7 +435,7 @@
         {
             "name": "Craftables",
             "author": "Jimk72",
-            "version": "2.2",
+            "version": "2.3",
             "compatibility": "All",
             "description": "Allows crafting of large statues for display in your home or patio. Includes: Windmill(5000watts), wood cupboard, interior cupboard(Resized and snaps together), metal cupboard, Statues(Large Komodo,Large Buffalo, large caveworm, Superlarge caveworm, Deer stone, Deer wood, Elephant stone)",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Craftables.png",
@@ -590,9 +639,9 @@
         {
             "name": "No Weather",
             "author": "Jimk72",
-            "version": "2.1",
+            "version": "2.2",
             "compatibility": "All",
-            "description": "Removes all weather from game. Updated for new DLC.",
+            "description": "Removes all weather from game. Updated for new DLC and new Storm Systems.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
@@ -662,13 +711,13 @@
         {
             "name": "Windmill Generator",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.4",
             "compatibility": "All",
-            "description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. ",
+            "description": "Allows you to craft a windmill generator. Craftable in Machining/Fabricator Benches, Generates 5000watts. Updated for week 151! Ver 1.4 removed damage cycle!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png",
             "readmeURL": "",
             "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.EXMODZ"
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Windmill_Generator.EXMODZ"
             }
         },
         {

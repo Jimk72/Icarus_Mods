@@ -1,6 +1,18 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+11/5/24
+
+Updated Windmill mod to fix week 151 name conflict, also updated it to the latest game version of power generators. Now have green ring for air interference. Removed the damage cycle so it doesn't have storm issues.
+
+Updated Large Wind Turbine in my Added Deployables mod to fix week 151 changes. Also removed Damage modifiers from storms.
+
+Fixed texture issues in the Garden Planters mod for the Concrete Planters. Now shows dirt in the middle.
+
+Updated Bear Mount mod to the new UI with upgradable stats. This is in beta as I am still adjusting the stat perks!! Also fixed them not eating/drinking from feeders. PIA, had to redo the eating animations and add the propper notifications to add the food/water to the bears state.
+
+Doing testing on the new Custom options that will allow you to call your tames/mounts to you and intereact with thier states/talents from anywhere.
+
 4/24/24
 
 Updated Custom Options menu to pause game upon opening if only one play is in game.
