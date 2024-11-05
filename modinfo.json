@@ -111,9 +111,9 @@
         {
             "name": "Jimk Added Deployables",
             "author": "Jimk72",
-            "version": "1.7",
+            "version": "1.8",
             "compatibility": "All",
-            "description": "Updated for week 148. Contains Xtra Large Aquarium, Water Extractor, Vapor Collector, and Large Wind Turbine. All crafted on the Fabricator bench.",
+            "description": "Ver 1.8 Updated for week 151, Removed Damage Modifiers. Contains Xtra Large Aquarium, Water Extractor, Vapor Collector, and Large Wind Turbine. All crafted on the Fabricator bench.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Added_Deployables.txt",
             "files": {
@@ -711,9 +711,9 @@
         {
             "name": "Windmill Generator",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.4",
             "compatibility": "All",
-            "description": "Allows you to craft a windmill generator. Craftable in character menu, Generates 5000watts. Updated for week 151!",
+            "description": "Allows you to craft a windmill generator. Craftable in Machining/Fabricator Benches, Generates 5000watts. Updated for week 151! Ver 1.4 removed damage cycle!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Windmill_Generator.png",
             "readmeURL": "",
             "files": {

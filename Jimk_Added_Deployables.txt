@@ -1,3 +1,5 @@
+Ver 1.8 Updated for week 151, Removed Damage Modifiers.
+
 Adds 4 new Deployable Items to the game, all crafted on the Fabricator bench.
 
 Jimk_Xtra_Large_Aquarium - An Aquarium the size of 1 floor piece, and as high as a standard wall.
