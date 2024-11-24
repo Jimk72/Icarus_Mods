@@ -1,6 +1,7 @@
 Barn Buildables ver 1.1
 -Fixed Beams
 -Added Hidden trap door and Smaller Wooden Beams.
+-Added Hay Pile option to the feeder deployable.
 -Increased thickness of Roof to help Hide beams coming through.
 -Increased thickness of bottom wooden beam at the base of all walls.
 
