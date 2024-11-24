@@ -1,5 +1,10 @@
+Barn Buildables ver 1.1
+-Fixed Beams
+-Added Hidden trap door and Smaller Wooden Beams.
+-Increased thickness of Roof to help Hide beams coming through.
+-Increased thickness of bottom wooden beam at the base of all walls.
+
 Barn Buildables ver 1.0
-By Jimk
 
 Everything you need to build the Barn of your dreams! 
 
@@ -41,5 +46,7 @@ Extras:
 Hay Bale Feeder.
 Hay Bale Prop.
 45 Deg Beam Support Prop.
+3 Led Lights crafted on the fabricator bench.
+2 Light switches crafted on the fabricator bench.
 
 
