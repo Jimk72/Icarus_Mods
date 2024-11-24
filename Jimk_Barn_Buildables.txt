@@ -1,0 +1,45 @@
+Barn Buildables ver 1.0
+By Jimk
+
+Everything you need to build the Barn of your dreams! 
+
+All Items are crafted on the Carpentry Bench. All new wood grain texture, roof pieces with soffet hangovers, red painted exterior, sliding barn doors, hay bales for animals to eat from, custom doors and shutters, matching fences and gate pieces, matching interior deployables, stable walls with metal bars, and more will be added in future versions!
+
+
+Mod contains:
+New Red material for the exterior building pieces.
+New White material for the white beams and trim parts.
+New Dark wood material for all the barn interior sections and new craftables.
+
+Building Pieces:
+Floor, Half Floor, Floor with Trapdoor.
+
+Exterior:
+Wall, Half Wall, Door Frame, Window Frame, Double Door Frame.
+Wall Angle Left and Right.
+Roof, Roof with left overhang, Roof with Right overhang.
+Low Pitch Roof, Low Pitch Roof with left overhang, Low Pitch Roof with right overhang.
+Wood Beam, Vertical, Horizontal, and Diagonal.
+White Beam, Vertical, Horizontal, and Diagonal.
+Roof Extension, Roof Extension with left overhang, Roof Extension with right overhang.
+
+Interior:
+Wall, Half Wall, Stable with bars, Door Frame.
+Wall Angle Left and Right, Wall Angle Left and Right Inverted.
+Ramp, Stairs, Half Stairs Left, Half Stairs Right.
+Ladder
+Fence, Fence Gate.
+Railing
+
+Doors:
+Standard Dark wood door.
+Red painted barn door.
+Red painted sliding barn door.
+Red painted window.
+
+Extras:
+Hay Bale Feeder.
+Hay Bale Prop.
+45 Deg Beam Support Prop.
+
+
