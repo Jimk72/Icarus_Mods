@@ -1,6 +1,15 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+
+11/23/24
+
+Added New Barn Buildables Mod!
+
+Everything you need to build the Barn of your dreams! 
+
+All Items are crafted on the Carpentry Bench. All new wood grain texture, roof pieces with soffet hangovers, red painted exterior, sliding barn doors, hay bales for animals to eat from, custom doors and shutters, matching fences and gate pieces, matching interior deployables, stable walls with metal bars, and more will be added in future versions!
+
 11/5/24
 
 Updated Windmill mod to fix week 151 name conflict, also updated it to the latest game version of power generators. Now have green ring for air interference. Removed the damage cycle so it doesn't have storm issues.
