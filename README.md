@@ -1,6 +1,18 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+11/24/24
+
+Barn Buildables ver 1.1
+
+-Fixed Beams
+
+-Added Hidden trap door and Smaller Wooden Beams.
+
+-Increased thickness of Roof to help Hide beams coming through.
+
+-Increased thickness of bottom wooden beam at the base of all walls.
+
 
 11/23/24
 
