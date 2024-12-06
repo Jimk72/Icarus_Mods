@@ -3,9 +3,9 @@
           {
             "name": "Jimk Barn Buildables",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
-            "description": "Everything you need to build the Barn of your dreams! All Items are crafted on the Carpentry Bench. All new wood grain texture, roof pieces with soffet hangovers, red painted exterior, sliding barn doors, hay bales for animals to eat from, custom doors and shutters, matching fences and gate pieces, matching interior deployables, stable walls with metal bars, and more will be added in future versions!",
+            "description": "Everything you need to build the Barn of your dreams! All Items are crafted on the Carpentry Bench. All new wood grain texture, roof pieces with soffet hangovers, red painted exterior, sliding barn doors, hay bales for animals to eat from, custom doors and shutters, matching fences and gate pieces, matching interior deployables, stable walls with metal bars. Ver. 1.2, Added several more roof/wall pieces, several beam options. Re did Lights. Should help with FPS",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Barn_Buildables.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Barn_Buildables.txt",
             "files": {
@@ -267,9 +267,9 @@
         {
             "name": "Custom Puck Lights",
             "author": "Jimk72",
-            "version": "5.0",
+            "version": "6.0",
             "compatibility": "All",
-            "description": "Now Found in the Workshop under Jimk Innovations. Looks like a crate with Lights around it. Item that when consumed gives you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Light switches to control them all with and various wall, floor, and ceiling lights. Added flashlight adjustments. Remove player lights and added them to better lights mod due to week 127 update.",
+            "description": "Now Found in the Workshop under Jimk Innovations. Looks like a crate with Lights around it. Item that when consumed gives you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Light switches to control them all with and various wall, floor, and ceiling lights.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
             "readmeURL": "",
             "files": {
@@ -279,7 +279,7 @@
         {
             "name": "Custom Options Menu",
             "author": "Jimk72",
-            "version": "3.7",
+            "version": "3.8",
             "compatibility": "All",
             "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added. Now Pauses upon opening.",
             "imageURL": "",
@@ -291,7 +291,7 @@
         {
             "name": "Custom Options Handheld",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.4",
             "compatibility": "All",
             "description": "Handheld that Gives you a new menu when you open it. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions_Handheld.png",
