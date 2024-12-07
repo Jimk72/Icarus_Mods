@@ -1,0 +1,10 @@
+Mass Remote Storage
+
+ver 1.0 Beta
+
+Workshop Item found under JimK Innovations tab. When consumed gives a 100 slot storage container and a remote for accessing it when ever you are on the Planet. Can also be accessed locally. 
+
+Release- Costs 1000 Ren and 650 Exotics to research and then 50 Ren and 50 Exotics to craft.
+Beta- Costs 100 Ren and 100 Exotics to research and then 50 Ren and 50 Exotics to craft.
+
+You can access as many as you want locally but only 2 can be accessed remotely. With Controller in hand click left mouse to access the first starage device and right mouse to access second if more than one is used.
