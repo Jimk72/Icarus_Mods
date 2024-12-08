@@ -15,9 +15,9 @@
         {
             "name": "Jimk Mass Storage",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Workshop Item found under JimK Innovations tab. When consumed gives a 100 slot storage container and a remote for accessing it when ever you are on the Planet. Can also be accessed locally. Costs 1000 Ren and 650 Exotics(Discounted beta- 100 Ren and 100 Exotics) to research and then 50 Ren and 50 Exotics to craft.",
+            "description": "Workshop Item found under JimK Innovations tab. When consumed gives a 100 slot storage container and a remote for accessing it when ever you are on the Planet. Can also be accessed locally. Costs 1000 Ren and 650 Exotics to research and then 50 Ren and 50 Exotics to craft.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Mass_Storage.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Mass_Storage.txt",
             "files": {
