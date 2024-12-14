@@ -1,0 +1,54 @@
+Kryptic Camo set ver 1.0
+
+Includes a full set of custom Kryptic camo armor, Backpack, and Precision  compound bow. Available in the workshop under JimK Innovations tab. Also Includes a Kryptic camo version of the Recurve Bow Crafted in the Forge/Foundry.
+
+Kryptic Helmet:
+Damage Resistance +8%
+Exposure Resistance +8%
+Heat Resistance +10%
+Cold Resistance +10%
+Animal Threat Modifier -10%
+
+Kryptic Chest:
+Damage Resistance +12%
+Exposure Resistance +10%
+Heat Resistance +20%
+Cold Resistance +20%
+Animal Threat Modifier -10%
+
+Kryptic Arms:
+Damage Resistance +5%
+Exposure Resistance +8%
+Heat Resistance +6%
+Cold Resistance +6%
+Animal Threat Modifier -10%
+
+Kryptic Legs:
+Damage Resistance +11%
+Exposure Resistance +10%
+Heat Resistance +10%
+Cold Resistance +10%
+Animal Threat Modifier -10%
+
+Kryptic Feet:
+Damage Resistance +5%
+Exposure Resistance +8%
+Heat Resistance +6%
+Cold Resistance +6%
+Animal Threat Modifier -10%
+
+Kryptic Backpack:
+Item Wear -10%
+Backpack Slots +12
+Ore Weight -20%
+Wood Weight -25%
+Maximum Stamina +10%
+Movement Speed +10%
+Stamina Regen +10%
+Bow Reload Speed +25%
+Arrow Projectile Speed +20%
+Bow Aim Down Sights Speed +20%
+Animal Threat Modifier -15%
+
+Kryptic Compound Bow:
+Arrow Projectile Speed +20%
