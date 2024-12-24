@@ -302,7 +302,7 @@
         {
             "name": "Custom Options Menu",
             "author": "Jimk72",
-            "version": "3.8",
+            "version": "3.9",
             "compatibility": "All",
             "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added. Now Pauses upon opening.",
             "imageURL": "",
@@ -314,7 +314,7 @@
         {
             "name": "Custom Options Handheld",
             "author": "Jimk72",
-            "version": "1.4",
+            "version": "1.5",
             "compatibility": "All",
             "description": "Handheld that Gives you a new menu when you open it. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/CustomOptions_Handheld.png",
