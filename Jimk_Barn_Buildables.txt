@@ -1,3 +1,15 @@
+Barn Buildables ver 1.3
+-Complete Rebuild of destructable meshes.
+   This fixes the issues with not being able to repair some parts and the visual indication of severe damage is way better. Not all pieces have been updated to the new destructable meshes.
+
+Barn Buildables ver 1.2
+-Added Flat beam variations so outside beams don't show on inside.
+-Added standard Roof Peak with 3 variations for roof overhang.
+-Added Half Pitch Roof Peak with 3 variations for roof overhang.
+-Added lower Half Pitch wall peak and upper wall peak.
+-Added new Icons for all the new pieces.
+-Added new banner style image to show off IMMs new UI Changes.
+
 Barn Buildables ver 1.1
 -Fixed Beams
 -Added Hidden trap door and Smaller Wooden Beams.
