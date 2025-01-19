@@ -1,6 +1,12 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+1/19/25
+
+Concrete with Wood Interior ver 2.6
+
+-Fixed missing materials/textures
+
 11/24/24
 
 Barn Buildables ver 1.1
