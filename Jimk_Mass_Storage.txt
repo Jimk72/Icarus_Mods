@@ -1,6 +1,10 @@
 Mass Remote Storage
 
-ver 1.1
+Ver 1.2
+
+Rebuilt to enable Dedicated server compatibility! 
+
+Ver 1.1
 
 Workshop Item found under JimK Innovations tab. When consumed gives a 100 slot storage container and a remote for accessing it when ever you are on the Planet. Can also be accessed locally. 
 
