@@ -1,3 +1,10 @@
+Barn Buildables ver 1.5
+Added Half railings, hold R when placing and you will see a left and right version.
+
+Barn Buildables ver 1.4
+Fixed Left Overhang HalfPitch not taking overhang.
+Added a few more Custom Destructable Meshes.
+
 Barn Buildables ver 1.3
 -Complete Rebuild of destructable meshes.
    This fixes the issues with not being able to repair some parts and the visual indication of severe damage is way better. Not all pieces have been updated to the new destructable meshes.
