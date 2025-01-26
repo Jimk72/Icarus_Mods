@@ -1,0 +1,11 @@
+Jimk Multi Teleport
+
+Ver 1.0
+
+Handheld device available from workshop tab Jimk Innovations. Allows the saving of 18 locations each for Olympus, Styx and Prometheous. Right mouse button allows you to name and save locations and left mouse button recalls those locations.
+
+When loading locations just doubleclick the location you want to go and hold still till you teleport to it.To save a location, just use the right mouse button when you are at the location you want to save and then click the name section to add a unique name. I recommend the grid your in(Example C4 Base of large cave) and a description. Then click save. These will be used every time you load into that map, even when launching a different Open World or Mission. Keep in mind some missions have of limit areas that you dont want to teleport to.
+
+Available in the workshop under the Jimk Innovations tab.
+
+Cost is 1000 Ren and 1000 Exotics to research and 450 Ren to craft.
