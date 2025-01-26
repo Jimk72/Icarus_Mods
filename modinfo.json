@@ -1,6 +1,18 @@
 {
     "mods": [
-          {
+        {
+            "name": "Jimk Multi Teleport",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Handheld device available from workshop tab Jimk Innovations. Allows the saving of 18 locations each for Olympus, Styx and Prometheous. Right mouse button allows you to name and save locations and left mouse button recalls those locations.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_MultiTeleport.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_MultiTeleport.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_MultiTeleport.EXMODZ"
+            }
+        },  
+        {
             "name": "Precision Bow Variants",
             "author": "Jimk72",
             "version": "1.0",
