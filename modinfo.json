@@ -1,6 +1,18 @@
 {
     "mods": [
           {
+            "name": "Precision Bow Variants",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "A Desert and Forest Camo remake of my Precision Bow Designed by Dist7action. He did an amazing job on the new textures for these Bows! Both are crafted on the Fabricator.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Variants.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Variants.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Variants.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Kryptic Camo Kit",
             "author": "Jimk72",
             "version": "1.1",
