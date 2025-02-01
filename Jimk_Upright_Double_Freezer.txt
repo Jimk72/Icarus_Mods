@@ -1,0 +1,12 @@
+Upright Double Freezer
+
+Ver. 1.0
+
+Crafted on the Fabricator this Freezer uses 3000 power and gives you 60 slots to store your food.
+
+Cost:
+Aluminium: 36
+Electronics: 15
+Carbon_Fiber: 20
+Steel_Screw: 30
+Platinum_Ingot: 36
