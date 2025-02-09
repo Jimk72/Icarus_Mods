@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Prometheus Map Full",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Adds the missing Map image files for the Null zone in Prometheus.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Prometheus_Map_Full.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Upright Double Freezer",
             "author": "Jimk72",
             "version": "1.0",
