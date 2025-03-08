@@ -770,9 +770,9 @@
         {
             "name": "Thor Hammer",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "2.0",
             "compatibility": "All",
-            "description": "Replaces the workshop item Meta Soda with the thor hammer. ",
+            "description": "Allows Thors Hammer to be crafted on player for free. This hammer has been reduced in size so it is not visible on screen. This was done for creating videos so there is no hammer visible. Thors Hammer when equiped will allow you to Fly around(Left mouse button) and float in air(Right mouse button).",
             "imageURL": "",
             "readmeURL": "",
             "files": {
