@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Window Fix",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Allows Windows to be placed next to each other for double windows, Fixes games double windows.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Window_Fix.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Prometheus Map Full",
             "author": "Jimk72",
             "version": "1.0",
