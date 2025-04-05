@@ -1,6 +1,12 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+4/5/25
+
+-Redid Scope for the Precision Bow as week 174 added liquid ammo causing my bow to crash game when aiming. Fixed all versions of the bow.
+
+-Fixed the Metal Cage mod doors from not having textures.
+
 1/19/25
 
 Concrete with Wood Interior ver 2.6
