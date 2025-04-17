@@ -146,9 +146,9 @@
         {
             "name": "Jimk Small Electrical wires",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Shrinks down the electrical wire and nodes.",
+            "description": "Shrinks down the electrical wire and nodes. Added Water Lines and Nodes.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
