@@ -1,0 +1,10 @@
+Adds a Bear Cub and Raccoon pet available in the workshop under the Jimk Innovations tab. Has the similar talents as the cat. Max level is 25.
+
+Bear Cub Will not grow into a full sized bear!
+
+Research:
+500 Ren
+250 Exotics
+
+Crafting:
+250 Ren
