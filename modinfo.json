@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Kryptic Workshop Tent",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Adds a Kryptic camo tent to the JimK Innovations tab in the workshop.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Kryptic_Workshop_Tent.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Kryptic_Workshop_Tent.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Kryptic_Workshop_Tent.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Workshop Pets",
             "author": "Jimk72",
             "version": "1.1",
@@ -11,7 +23,8 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Pets.EXMODZ"
             }
-        },{
+        },
+        {
             "name": "Jimk Prometheus Map Full",
             "author": "Jimk72",
             "version": "1.0",
