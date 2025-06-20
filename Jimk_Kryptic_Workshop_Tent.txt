@@ -1,0 +1,11 @@
+Adds a Deployable Kryptic camo tent to the JimK Innovations tab in the workshop.
+Cost to Research:
+100 ren
+50 Exotics
+
+Cost to Craft:
+50 Ren
+25 Exotics
+
+Once deployed, interact to open/close the tent.
+
