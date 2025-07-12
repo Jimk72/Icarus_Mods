@@ -886,6 +886,18 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Shotgun_With_Light.EXMODZ"
             }
+        },
+        {
+            "name": "Scope For CrossBows",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Adds scope UI when aiming to Titanium and Platinum Crossbow.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Scope_For_CrossBows.EXMODZ"
+            }
         }
     ]
 }
