@@ -1,6 +1,17 @@
 {
     "mods": [
         {
+            "name": "Jimk Higher Base Payouts For Missions",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Bump All mission rewards up to 650 base for Ren and 600 base for Exotics if mission has exotic rewards! Licence up to 5 and Biomass up to 30.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Higher_Base_Payouts_For_Missions.EXMODZ"
+            }
+        },{
             "name": "Jimk Kryptic Workshop Tent",
             "author": "Jimk72",
             "version": "1.1",
