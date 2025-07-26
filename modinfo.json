@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Free Crafting Module",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "A handy Workshop module(Under Jimk Innovations) that allows you to craft everything in Icarus for free. Adds New slot when Equipped!",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Crafting_Module.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Crafting_Module.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Higher Base Payouts For Missions",
             "author": "Jimk72",
             "version": "1.0",
