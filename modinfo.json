@@ -578,9 +578,9 @@
         {
             "name": "Easy Cave",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.2",
             "compatibility": "All",
-            "description": "This prevents Caveworms from spawning and removes the cave debuff to change the game back to pre-release mode.",
+            "description": "Prevents worms from spawning and automaticly give your the Dehumidifier buff in all caves. Ver 1.2 added all new missions from the Great Hunts.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
