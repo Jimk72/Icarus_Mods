@@ -590,9 +590,9 @@
         {
             "name": "Increase Stacks",
             "author": "Jimk72",
-            "version": "3.5",
+            "version": "3.6",
             "compatibility": "All",
-            "description": "3.5 Added new Items from the Great Hunt. Increases all lower stacks to 100. Ver. 3.4 Added all new Items and increased refined wood, concrete mix, and Electronics to 1000.",
+            "description": "3.6 Added new Items from the Great Hunt. Increases all lower stacks to 100. Ver. 3.4 Added all new Items and increased refined wood, concrete mix, and Electronics to 1000.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
@@ -602,7 +602,7 @@
         {
             "name": "Increased Slots",
             "author": "Jimk72",
-            "version": "2.0",
+            "version": "2.1",
             "compatibility": "All",
             "description": "There are several versions people have made this is mine that I use. It bumps up a few storage and firepits storage slots.",
             "imageURL": "",
