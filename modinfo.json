@@ -612,6 +612,18 @@
             }
         },
         {
+            "name": "Jimk Reduced Weight,
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "All Items over 5000 become 5000, all Items between 1000 and 5000 become 1000.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Reduced_Weight.EXMODZ"
+            }
+        },
+        {
             "name": "Scoped rifle",
             "author": "Jimk72",
             "version": "1.1",
