@@ -314,9 +314,9 @@
         {
             "name": "Building Height Strength",
             "author": "Jimk72",
-            "version": "2.5",
+            "version": "2.6",
             "compatibility": "All",
-            "description": "Changes all building materials to be stronger than concrete for super tall structures. Vers. 2.5 Added missing Building Types.",
+            "description": "Changes all building materials to be stronger than concrete for super tall structures. Ver 2.6 Added Sandworm buildings.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Building_Height_Strength_P.png",
             "readmeURL": "",
             "files": {
