@@ -134,9 +134,9 @@
         {
             "name": "Jimk Foundry Remake",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Replaces the Foundry with a slightly smaller model with all the extra models removed so it fits in your base like all the rest of the benches. Also Reduced its weight to adjust for less equipment.",
+            "description": "Replaces the Foundry with a slightly smaller model with all the extra models removed so it fits in your base like all the rest of the benches. Also Reduced its weight to adjust for less equipment. Ver 1.1 Fixed for game changes.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Foundry_Remake.png",
             "readmeURL": "",
             "files": {
