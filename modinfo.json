@@ -326,9 +326,9 @@
          {
             "name": "Glass Buildables",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.3",
             "compatibility": "All",
-            "description": "Updated original glass pieces to use new glass and steel textures and added full new tier of glass building pieces. All craftable on the glass bench.",
+            "description": "Updated original glass pieces to use new glass and steel textures and added full new tier of glass building pieces. All craftable on the glass bench. Ver 1.3 Updated To Reinforced Glass Stats.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Glass_Buildables.png",
             "readmeURL": "",
             "files": {
