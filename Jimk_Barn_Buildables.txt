@@ -1,3 +1,6 @@
+Barn Buildables ver 1.6
+Removed talent requirements
+
 Barn Buildables ver 1.5
 Added Half railings, hold R when placing and you will see a left and right version.
 
