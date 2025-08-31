@@ -87,7 +87,7 @@
         {
             "name": "Precision Bow Variants",
             "author": "Jimk72",
-            "version": "1.1",
+            "version": "1.2",
             "compatibility": "All",
             "description": "A Desert and Forest Camo remake of my Precision Bow Designed by Dist7action. He did an amazing job on the new textures for these Bows! Both are crafted on the Fabricator.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Precision_Bow_Variants.png",
@@ -99,7 +99,7 @@
         {
             "name": "Jimk Kryptic Camo Kit",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.4",
             "compatibility": "All",
             "description": "New set of Workshop Armor using custom meshes which is a combination of my 2 favorite armours, Backpack, and Precision Compound Bow. All three have Kryptic camo design. Available in the Workshop under JimK Innovations tab. Also Includes a Kryptic camo Recurve Bow craftable in the Forge/Foundry.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Kryptic_Camo_Kit.png",
@@ -878,7 +878,7 @@
         {
             "name": "Precision Bow",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.3",
             "compatibility": "All",
             "description": "Craftable bow on the fabricator bench with a custom precision bow with scope. Scope has built in range finder and auto adjusts based off ammo used. Must have unlocked the Compound Bow talent to be able to craft!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
@@ -890,7 +890,7 @@
         {
             "name": "Precision Bow Workshop",
             "author": "Jimk72",
-            "version": "2.2",
+            "version": "2.3",
             "compatibility": "All",
             "description": "Workshop custom precision bow with scope. Located in the Workshop under the JimK Innovations tab. Scope has built in range finder and auto adjusts based off ammo used.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/PrecisionBow.png",
