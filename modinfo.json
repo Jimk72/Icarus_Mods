@@ -602,9 +602,9 @@
         {
             "name": "Increase Stacks",
             "author": "Jimk72",
-            "version": "3.6",
+            "version": "3.7",
             "compatibility": "All",
-            "description": "3.6 Added new Items from the Great Hunt. Increases all lower stacks to 100. Ver. 3.4 Added all new Items and increased refined wood, concrete mix, and Electronics to 1000.",
+            "description": "3.7 Added a few new Items by request. 3.6 Added new Items from the Great Hunt. Increases all lower stacks to 100. Ver. 3.4 Added all new Items and increased refined wood, concrete mix, and Electronics to 1000.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
@@ -937,3 +937,4 @@
         }
     ]
 }
+
