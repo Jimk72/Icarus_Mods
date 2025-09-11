@@ -1,6 +1,10 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+9/10/25
+
+-Added new Legendary HK 417 mod.
+
 4/5/25
 
 -Redid Scope for the Precision Bow as week 174 added liquid ammo causing my bow to crash game when aiming. Fixed all versions of the bow.
