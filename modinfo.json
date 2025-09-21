@@ -698,9 +698,9 @@
         {
             "name": "Weapons Pack 2",
             "author": "Jimk72",
-            "version": "2.6",
+            "version": "2.7",
             "compatibility": "All",
-            "description": "Fixed assault rifle with scope and sniper rifle that was originaly in game.require the Fabricator bench to craft.",
+            "description": "Ver. 2.7 Updated Scopes and animations to new ones in game. Sniper now uses new sniper ammo in game. Fixed assault rifle with scope and sniper rifle that was originaly in game.require the Fabricator bench to craft.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/JimK_Weapons_Pack_2.png",
             "readmeURL": "",
             "files": {
@@ -949,5 +949,6 @@
         }
     ]
 }
+
 
 
