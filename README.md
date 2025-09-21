@@ -1,6 +1,10 @@
 # Icarus_Mods
 Mods for Icarus Game
 
+9/21/25
+
+-Updated Weapons Pack 2 to use new ingame scopes and added better sounds to both. Sniper now uses ingame sniper ammo. Assault rifle now does magazine reload.
+
 9/10/25
 
 -Added new Legendary HK 417 mod.
