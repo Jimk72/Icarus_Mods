@@ -938,7 +938,7 @@
         {
             "name": "Scope For CrossBows",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "Adds scope UI when aiming to Titanium and Platinum Crossbow.",
             "imageURL": "",
@@ -949,6 +949,7 @@
         }
     ]
 }
+
 
 
 
