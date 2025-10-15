@@ -290,9 +290,9 @@
         {
             "name": "Better Lights",
             "author": "Jimk72",
-            "version": "1.2",
+            "version": "1.3",
             "compatibility": "All",
-            "description": "Makes the flashlight, Torch, and Lantern bright to fill the darkness. Fixed for week 127 update.",
+            "description": "Makes the flashlight, Torch, and Lantern bright to fill the darkness. 1.3 Added More Lights!",
             "imageURL": "",
             "readmeURL": "",
             "files": {
@@ -949,6 +949,7 @@
         }
     ]
 }
+
 
 
 
