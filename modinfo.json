@@ -398,7 +398,7 @@
         {
             "name": "Custom Puck Lights",
             "author": "Jimk72",
-            "version": "6.0",
+            "version": "6.1",
             "compatibility": "All",
             "description": "Now Found in the Workshop under Jimk Innovations. Looks like a crate with Lights around it. Item that when consumed gives you a crate and 6 new types of deployable LED lights(No Power Needed). Including an Anti-Gravity light and Deployable Light switches to control them all with and various wall, floor, and ceiling lights.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Custom_Puck_Lights_V2.png",
@@ -949,6 +949,7 @@
         }
     ]
 }
+
 
 
 
