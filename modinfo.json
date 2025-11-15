@@ -75,9 +75,9 @@
         {
             "name": "Jimk Upright Double Freezer",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "A Double Wide Upright Freezer. Consumes 3000 power and has 60 slots.",
+            "description": "A Double Wide Upright Freezer. Consumes 3000 power and has 60 slots. Ver 1.1 Added a defrost cycle to prevent Ice Buildup.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Upright_Double_Freezer.png",
             "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Upright_Double_Freezer.txt",
             "files": {
@@ -949,6 +949,7 @@
         }
     ]
 }
+
 
 
 
