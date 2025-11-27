@@ -590,7 +590,7 @@
         {
             "name": "Durability",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "Bumps the durability to 120000 for almost all items.",
             "imageURL": "",
@@ -949,6 +949,7 @@
         }
     ]
 }
+
 
 
 
