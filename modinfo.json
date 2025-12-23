@@ -1,6 +1,17 @@
 {
     "mods": [
         {
+            "name": "Jimk Free Water and Electric",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Adds deployable Outlets, Water tap, and water pump that are free to craft and give 10000 output. No more wires/hoses all over.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Water_and_Electric.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Water_and_Electric.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Water_and_Electric.EXMODZ"
+            }
+        },{
             "name": "Jimk Legendary HK 417",
             "author": "Jimk72",
             "version": "1.2",
@@ -949,6 +960,7 @@
         }
     ]
 }
+
 
 
 
