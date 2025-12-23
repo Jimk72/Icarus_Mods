@@ -1,0 +1,13 @@
+Free Resources for those times when you dont have time!
+
+Wall Outlet:
+Crafted on Character
+Provides 10000 power
+
+Wall Water Outlet:
+Crafted on Character
+Provides 10000 water
+
+Hand Pump:
+Crafted on Character
+Provides 10000 water
