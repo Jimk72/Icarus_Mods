@@ -1,6 +1,18 @@
 {
     "mods": [
         {
+            "name": "Jimk Free Lights",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Adds A free Lantern, Deployable Light(3 types) and light switch(1 for each light) to your characters crafting menu. Lights uses Exotic lithium system for power so they never run out.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Lights.png",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Lights.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Free Water and Electric",
             "author": "Jimk72",
             "version": "1.0",
@@ -11,7 +23,8 @@
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Free_Water_and_Electric.EXMODZ"
             }
-        },{
+        },
+        {
             "name": "Jimk Legendary HK 417",
             "author": "Jimk72",
             "version": "1.2",
@@ -960,6 +973,7 @@
         }
     ]
 }
+
 
 
 
