@@ -412,7 +412,7 @@ Workshop tent with Kryptic camo pattern.
 
 ---
 
-## 📝 Changelog
+##  Changelog
 
 ### 2025
 
