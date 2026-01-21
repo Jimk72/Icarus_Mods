@@ -10,17 +10,17 @@ A comprehensive collection of mods for **Icarus** by JimK72 — creator of [Icar
 
 | Category | Mods |
 |----------|------|
-| [🔫 Weapons](#-weapons) | HK 417 series, Precision Bows, Weapons Packs, Shotgun |
-| [🏗️ Building & Construction](#️-building--construction) | Barn, Steel, Glass, Concrete, Fences |
-| [💡 Deployables & Decorative](#-deployables--decorative) | Lights, Planters, Freezers, Generators |
-| [⚡ Quality of Life](#-quality-of-life) | Custom Options, Teleporter, Elevators, Extraction Speed |
-| [🐻 Mounts & Creatures](#-mounts--creatures) | Bear Mount, Pets, Mount Upgrades |
-| [🛒 Workshop Items](#-workshop-items) | Mass Storage, Camo Kits, Pistols |
-| [📝 Changelog](#-changelog) | Update history |
+| [ Weapons](#-weapons) | HK 417 series, Precision Bows, Weapons Packs, Shotgun |
+| [ Building & Construction](#️-building--construction) | Barn, Steel, Glass, Concrete, Fences |
+| [ Deployables & Decorative](#-deployables--decorative) | Lights, Planters, Freezers, Generators |
+| [ Quality of Life](#-quality-of-life) | Custom Options, Teleporter, Elevators, Extraction Speed |
+| [ Mounts & Creatures](#-mounts--creatures) | Bear Mount, Pets, Mount Upgrades |
+| [ Workshop Items](#-workshop-items) | Mass Storage, Camo Kits, Pistols |
+| [ Changelog](#-changelog) | Update history |
 
 ---
 
-## 🔫 Weapons
+##  Weapons
 
 ### Legendary HK 417
 **Highly customizable assault rifle with modular upgrades.**
@@ -86,7 +86,7 @@ Turret compatible with multiple ammunition types.
 
 ---
 
-## 🏗️ Building & Construction
+##  Building & Construction
 
 ### Jimk Barn Buildables
 **Complete barn building set for the Carpentry Bench.**
@@ -146,7 +146,7 @@ Smaller, less obtrusive electrical wire models.
 
 ---
 
-## 💡 Deployables & Decorative
+##  Deployables & Decorative
 
 ### Custom Puck Lights
 **Advanced LED lighting system with smart controls.**
@@ -223,7 +223,7 @@ Decorative garden items and outdoor furnishings.
 
 ---
 
-## ⚡ Quality of Life
+##  Quality of Life
 
 ### Custom Options Laptop
 **In-game settings menu via deployable laptop.**
@@ -307,7 +307,7 @@ Under *JimK Innovations* tab:
 
 ---
 
-## 🐻 Mounts & Creatures
+##  Mounts & Creatures
 
 ### Bear Mount
 **Raise bear cubs into rideable mounts!**
@@ -353,7 +353,7 @@ All pets have talents similar to cat, max level 25.
 
 ---
 
-## 🛒 Workshop Items
+##  Workshop Items
 
 ### Jimk Mass Storage
 **Remote-accessible mega storage.**
@@ -400,7 +400,7 @@ Workshop tent with Kryptic camo pattern.
 
 ---
 
-## 📦 Mod Packs
+##  Mod Packs
 
 ### JimK Innovations Workshop Pack
 **Bundle including:**
@@ -490,7 +490,7 @@ Workshop tent with Kryptic camo pattern.
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### Recommended: Icarus Mod Manager
 1. Download [Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
