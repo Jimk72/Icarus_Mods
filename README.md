@@ -3,6 +3,7 @@
 A comprehensive collection of mods for **Icarus** by JimK72 — creator of [Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software).
 
 > **Tip:** Install mods easily using [Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software) — it handles updates, merging, and compatibility automatically!
+> Thanks to MightyDemiGod for redoing my readme!
 
 ---
 
