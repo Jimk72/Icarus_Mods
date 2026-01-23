@@ -1,4 +1,6 @@
 Steel Buildables Cheaper By: Jimk72 
+Ver 2.0
+Added several new building part. Sliding doors, Glass tubes.
 Ver 1.7
 Had to seperate all glass pieces into a seperate mod called Glass Buildables.
 Ver 1.6
