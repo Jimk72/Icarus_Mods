@@ -710,11 +710,11 @@
         {
             "name": "Teleporter",
             "author": "Jimk72",
-            "version": "2.3",
+            "version": "3.0",
             "compatibility": "All",
-            "description": "Now Added to Jimk Innovations tab! Is a workshop item that when consumed will give you a base station and a hand held controller. Once on the planet just place the teleporter base on any floor piece and when you want to return to the base just click the left mouse button when the handheld controller is equiped. You can add a second one that will be activalted by using the right mouse button. If there is an issue you can press the R key with handheld equipped to reset view.",
+            "description": "New Teleporter that allows as many base stations as you want. When you walk into it you can select what other base station you want to travel to. Also has a handheld that will allow you to travel to a base station from anywhere.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.png",
-            "readmeURL": "",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.txt",
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Teleporter.EXMODZ"
             }
@@ -758,11 +758,11 @@
       {
             "name": "Jimk Innovations",
             "author": "Jimk72",
-            "version": "1.9",
+            "version": "2.0",
             "compatibility": "All",
             "description": "Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage,Workshop Pistols.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.png",
-            "readmeURL": "",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.txt",
             "files": {
                 "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.EXMODZ"
             }
@@ -985,6 +985,7 @@
         }
     ]
 }
+
 
 
 
