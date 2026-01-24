@@ -1,0 +1,10 @@
+Ver 2.0
+Updated Teleporter to the new version.
+Ver 1.9
+Updated Custom Puck Lights for multiplayer/dedicated servers. All lights and switches now stay in synch.
+
+Adds a new tab in the workshop called Jimk Innovations. 
+Includes the following mods:Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage,Workshop Pistols.
+
+Led Lights:
+Total remake of all lights to help with FPS hit. These lights are based off the games default lights so they should be about the same FPS hit as the games lights. Replaced The Light pole with mini Anti-Gravity lights as I was tired of dealing with the Devs changing wood materials in the game and loosing the materials for the pole. One crate comes with 4 Mini Anti Gravity Lights, 2 regular Anti-Gravity lights, 4 Wall lights, 4 Floor lights, 8 Puck Lights, 8 Ceiling Lights, and 8 Lights switches to control them. I also included alternative motion detection lights for the Wall Lights, Ceiling Lights, Floor Lights, and Puck Lights. Just hold R when deploying these lights and select the motion detector ones. These are to help when playing on a lower end PC.

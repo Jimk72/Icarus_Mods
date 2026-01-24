@@ -1,0 +1,13 @@
+New Teleporter that allows as many base stations as you want. When you walk into it you can select what other base station you want to travel to. Also has a handheld that will allow you to travel to a base station from anywhere. When using the handheld, the lights on the Teleporter will turn blue showing there is a return location. Click the return button in the UI and you will be returned to the place you used the handheld remote. To get the handheld, just request it in the teleportation menu. You will see there is a remote on the side of the teleporter and requesting the remote will give you that remote. Each base contains 1 remote for each client and is respawned when you reload incase you loose it. 
+
+If only 1 base station is used the remote will instantly take you there, If more than 1 then a menu will display allowing you to choose.
+
+If only 2 base stations are used, walking into the teleporter will automaticaly teleport you to the other base station unless you teleported there from the handheld in that case a menu will show.
+
+Lights:
+Red - Teleporter is in use or does not have a location to teleport to, only 1 base station deployed.
+Green - Teleporter has multiple base stations and is ready to go.
+Blue - Teleport has a saved "Return" location and that option is available in the UI. 
+
+When deploying the base station you can interact with it and select an Icon for the base station as well as a name and color(Similar to the beacons). Those options will effect how the Base station appears in the menu and on the map.
+If the teleporter base is in use you will see active next to the base in the list. That means you will have to wait and refresh the list until the other player is no longer using that teleporter.
