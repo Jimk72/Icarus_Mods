@@ -302,7 +302,7 @@
         {
             "name": "Bear Mount",
             "author": "Jimk72",
-            "version": "3.1",
+            "version": "3.2",
             "compatibility": "All",
             "description": "Allows the raising of cubs into full grown bear mounts. Bear now eats and drinks from deployables. Fully updated to use the new talents system for mounts. Created Custom Talent tree with Bear background image and center Icon. Still can only use the standard saddle and the cargo saddle.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Bear_Mount_P.png",
@@ -985,6 +985,7 @@
         }
     ]
 }
+
 
 
 
