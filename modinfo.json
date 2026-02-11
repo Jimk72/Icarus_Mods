@@ -446,7 +446,7 @@
         {
             "name": "Custom Options Menu",
             "author": "Jimk72",
-            "version": "4.0",
+            "version": "4.1",
             "compatibility": "All",
             "description": "Gives you a new menu when you right click with fists equiped. Includes custom jump heights, double jump, tripple jump, and adjusts out of bounds timer as well as clear vegitation and clear all storms. Can clear cave worms, server compatible now. Turn Lights On/Off, Fire sources, and Find corpses added. Now Pauses upon opening.",
             "imageURL": "",
@@ -985,6 +985,7 @@
         }
     ]
 }
+
 
 
 
