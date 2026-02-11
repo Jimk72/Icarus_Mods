@@ -398,9 +398,9 @@
          {
             "name": "Camera Distance",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Allows the photo camera to move far away from player to get better shots.",
+            "description": "Allows the photo camera to move far away from player to get better shots. Ver. 1.1 Increased Speed and Distance and removed Collision from camera!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Camera_Distance_P.png",
             "readmeURL": "",
             "files": {
@@ -985,6 +985,7 @@
         }
     ]
 }
+
 
 
 
