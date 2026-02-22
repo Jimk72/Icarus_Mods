@@ -1,3 +1,6 @@
+Barn Buildables ver. 1.8 
+Added 2X Tall sliding doors for mammoths. Just do the side only frames two stories and place door at top section.
+
 Barn Buildables ver. 1.7 
 Updated Lights and switches for dedicated server synch.
 

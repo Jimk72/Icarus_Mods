@@ -1,5 +1,18 @@
 {
     "mods": [
+        
+          {
+            "name": "Jimk Fixed Weather Vane",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Fixes the weather vane from snapping to angles when deploying.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Fixed_Weather_Vane.EXMODZ"
+            }
+        },
         {
             "name": "Jimk Mammoth Upgrade",
             "author": "Jimk72",
@@ -158,7 +171,7 @@
         },{
             "name": "Jimk Barn Buildables",
             "author": "Jimk72",
-            "version": "1.7",
+            "version": "1.8",
             "compatibility": "All",
             "description": "Everything you need to build the Barn of your dreams! All Items are crafted on the Carpentry Bench. All new wood grain texture, roof pieces with soffet hangovers, red painted exterior, sliding barn doors, hay bales for animals to eat from, custom doors and shutters, matching fences and gate pieces, matching interior deployables, stable walls with metal bars. Ver. 1.2, Added several more roof/wall pieces, several beam options. Re did Lights. Should help with FPS",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Barn_Buildables.png",
