@@ -363,7 +363,7 @@
         {
             "name": "Jimk Steel Buildables",
             "author": "Jimk72",
-            "version": "2.0",
+            "version": "2.1",
             "compatibility": "All",
             "description": "Has reduced crafting costs for all items. Adds new steel building pieces crafted in the tier4 Forge. Contains Walls, Door, Double Door, Angled Wall, HalfPitches, Corner Pieces, Floors, Half Floors, Ramps, Frames, Stairs, Beams, Railings, Ladders, and a Bed. Strongest Building material in game.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Steel_Buildables.png",
@@ -998,6 +998,7 @@
         }
     ]
 }
+
 
 
 
