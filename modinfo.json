@@ -267,7 +267,7 @@
         {
             "name": "Jimk Garden Planters",
             "author": "Jimk72",
-            "version": "1.4",
+            "version": "1.5",
             "compatibility": "All",
             "description": "Adds several craftable planters to the game. Adds Craftable Exotic Planting Soil. This soil has 6 different versions that effect the plants differently. 1-Reduces plant size by 50% 2-Reduces plant size by 25% 3-Keeps standard plant size 4-Increases plant size by 150% 5-Increases plant size by 200% 6-Increases plant size by 400% The mutation prevents crops from being harvested so this is only for visual aesthetics! Fixed texture issues on concrete planters.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Garden_Planters.png",
@@ -279,7 +279,7 @@
        {
             "name": "Jimk Garden Deployables",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
             "description": "Adds several Garden Deployables.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Garden_Deployables.png",
