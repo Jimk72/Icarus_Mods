@@ -1,5 +1,9 @@
 Jimk Multi Teleport
 
+Ver 1.1
+
+Added Support for Elysium.
+
 Ver 1.0
 
 Handheld device available from workshop tab Jimk Innovations. Allows the saving of 18 locations each for Olympus, Styx and Prometheous. Right mouse button allows you to name and save locations and left mouse button recalls those locations.
