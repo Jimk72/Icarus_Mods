@@ -26,6 +26,19 @@
             }
         },
         {
+            "name": "Jimk Clear Biomes",
+            "author": "Jimk72",
+            "version": "1.1",
+            "compatibility": "All",
+            "description": "Added New Elysium Biomes",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Clear_Biomes.EXMODZ"
+            }
+        },
+
+        {
             "name": "Jimk Free Lights",
             "author": "Jimk72",
             "version": "1.3",
