@@ -877,18 +877,6 @@
             }
         },
         {
-            "name": "Paintings Fix",
-            "author": "Jimk72",
-            "version": "1.0",
-            "compatibility": "All",
-            "description": "Fixes Paintings so they can be placed on other Deployables.",
-            "imageURL": "",
-            "readmeURL": "",
-            "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Paintings_Fix.EXMODZ"
-            }
-        },
-        {
             "name": "Remove G Slot Restrictions",
             "author": "Jimk72",
             "version": "1.0",
