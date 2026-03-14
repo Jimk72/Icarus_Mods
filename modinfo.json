@@ -2,15 +2,15 @@
     "mods": [
         
           {
-            "name": "Jimk Fixed Weather Vane",
+            "name": "Jimk Fixed Deployables",
             "author": "Jimk72",
             "version": "1.0",
             "compatibility": "All",
-            "description": "Fixes the weather vane from snapping to angles when deploying.",
+            "description": "Allows doors to be placed when ground or items in the way. Allows many Deployables to be placed on top of others(Paintings, Pots). Fixes Weather Vane.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
-                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Fixed_Weather_Vane.EXMODZ"
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Fixed_Deployables.EXMODZ"
             }
         },
         {
