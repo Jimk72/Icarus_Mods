@@ -2,6 +2,18 @@
     "mods": [
         
           {
+            "name": "Jimk No Cave Sickness",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Removes the chance of cave sickness and adds an underground safety Buff.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_No_Cave_Sickness.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Fixed Deployables",
             "author": "Jimk72",
             "version": "1.0",
@@ -783,7 +795,7 @@
       {
             "name": "Jimk Innovations",
             "author": "Jimk72",
-            "version": "2.1",
+            "version": "2.2",
             "compatibility": "All",
             "description": "Includes the following mods Jimk Teleporter, Custom Puck Lights, Precision Bow Workshop, Battery Powered Storage, Workshop Pistols.",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Innovations.png",
