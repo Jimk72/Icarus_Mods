@@ -1,10 +1,23 @@
-Adds a Bear Cub and Raccoon pet available in the workshop under the Jimk Pets tab. Has the similar talents as the cat. Max level is 25.
-
+Adds a Bear Cub, Raccoon, and Rabbit pets plus Moa and Actic Moa mounts and saddle, available in the workshop under the Jimk Pets tab. Pets have similar talents as the cat. Max level is 25.
+Includes Moa Upgrade Mod!
 Bear Cub Will not grow into a full sized bear!
 
-Research:
-500 Ren
+Bear Cub, Racoon:
+Research:		Crafting:		
+500 Ren			250 Ren
 250 Exotics
 
-Crafting:
-250 Ren
+Rabbits(Beta): Rabbits are still in beta!
+Research:		Crafting:		
+100 Ren			50 Ren
+50 Exotics
+
+Moa Mounts:
+Research:		Crafting:		
+250 Ren			75 Ren
+200 Exotics
+
+Upgraded Basic Saddle:
+Research:		Crafting:		
+250 Ren			75 Ren
+200 Exotics
