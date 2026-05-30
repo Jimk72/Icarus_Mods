@@ -124,7 +124,7 @@
         {
             "name": "Jimk Workshop Pets",
             "author": "Jimk72",
-            "version": "2.0",
+            "version": "2.2",
             "compatibility": "All",
             "description": "Adds a Bear Cub, Raccoon, and Rabbit pets plus Moa and Actic Moa mounts and saddle, available in the workshop under the Jimk Pets tab. Pets have similar talents as the cat. Max level is 25. V1.3 Fixed issue with new workshop Creatures not spawning. V1.2 Updated rabbits AI. Rabbits are still in beta!",
             "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Workshop_Pets.png",
@@ -136,9 +136,9 @@
         {
             "name": "Jimk Workshop Pets 2",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.2",
             "compatibility": "All",
-            "description": "Adds a Pet Fawn, available in the workshop under the Jimk Pets tab. Pets have similar talents as the cat. Max level is 25.",
+            "description": "Adds a pet Fawn, Miniature Wolf, Miniature Arctic Wolf, and Chick available in the workshop under the Jimk Pets tab. Pets have similar talents as the cat. Max level is 25.",
             "imageURL": "",
             "readmeURL": "",
             "files": {
