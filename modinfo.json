@@ -16,9 +16,9 @@
         {
             "name": "Jimk Fixed Deployables",
             "author": "Jimk72",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Allows doors to be placed when ground or items in the way. Allows many Deployables to be placed on top of others(Paintings, Pots). Fixes Weather Vane.",
+            "description": "Allows doors to be placed when ground or items in the way. Allows many Deployables to be placed on top of others. V 1.1 Removed placement checks so now any deployable(Not Buildings) can be placed anywhere! Be aware of deployables taking damage from placing partialy outside base!",
             "imageURL": "",
             "readmeURL": "",
             "files": {
