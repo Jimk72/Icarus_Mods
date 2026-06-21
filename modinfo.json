@@ -2,6 +2,18 @@
     "mods": [
         
           {
+            "name": "Jimk Eden Buildable Base",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Removes Building restrictions inside Eden and Clears out two rooms for you to build in and opens the door for access to a large opening behind MO that you can build a very nice base, all inside Eden.",
+            "imageURL": "",
+            "readmeURL": "",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Eden_Buildable_Base.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk No Cave Sickness",
             "author": "Jimk72",
             "version": "1.0",
