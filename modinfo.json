@@ -1,7 +1,19 @@
 {
     "mods": [
         
-          {
+         {
+            "name": "Jimk Cupboard Layout Placement",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Craftable on player, This will allow you to place either a side by side grid for 3 storage cupboards or front to back for 5 storage cupboards. These snap to each other so you can do up to 9 side by side or 15 front to back.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Layout_Placement.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Layout_Placement.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Layout_Placement.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Eden Buildable Base",
             "author": "Jimk72",
             "version": "1.1",
