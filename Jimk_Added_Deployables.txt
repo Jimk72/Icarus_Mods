@@ -1,4 +1,8 @@
-Ver 1.8 Updated for week 151, Removed Damage Modifiers.
+Ver 2.1 Updated for week 241 and added 2 new versions of the Aquarium. 
+
+Ver 1.9 Updated for Manufacturer Bench
+
+Ver 1.8 Updated for week 151, Removed Damage Modifiers. 
 
 Adds 4 new Deployable Items to the game, all crafted on the Fabricator bench.
 
