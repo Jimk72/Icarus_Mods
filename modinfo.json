@@ -2,6 +2,18 @@
     "mods": [
         
          {
+            "name": "Jimk Cupboard Signs",
+            "author": "Jimk72",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "This adds 4 new signs and new custom Icons to the game, including 2 variations of 3 of them for 7 total signs. They were designed to fit on the side of cupboards and displaying Icons of whats inside. The New Icons are to the far right when scrolling through Icons.",
+            "imageURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Signs.png",
+            "readmeURL": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Signs.txt",
+            "files": {
+                "exmodz": "https://github.com/Jimk72/Icarus_Mods/raw/main/Jimk_Cupboard_Signs.EXMODZ"
+            }
+        },
+        {
             "name": "Jimk Cupboard Layout Placement",
             "author": "Jimk72",
             "version": "1.0",
