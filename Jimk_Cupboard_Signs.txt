@@ -1,0 +1,20 @@
+Jimk Cupboard Signs
+
+Version 1.0
+
+This adds 4 new signs and new custom Icons to the game, including 2 variations of 3 of them for 7 total signs. They were designed to fit on the side of cupboards and displaying Icons of whats inside. The New Icons are to the far right when scrolling through Icons. I don't recommend using for text as I wanted the Icons to be as large as can be for the signs.
+
+The Projection Sign is crafted on the Machining bench/Fabricator/Manufacturer and projects the Icon image above to the Deployable/Wall above it. When Deploying it will be just a rectangle that will be where the Icon will Show. Once deployed there will be a very small projection bar that you will interact with to select the Icon.
+Cost for the Projection Sign:
+1 Refined Metal
+2 Epoxy
+1 Glass
+1 Electronics
+1 Copper Wire
+
+The other 3 signs add variations to existing sign that are in the game already.
+
+The two Wood signs are avail as variants of the standard Small Wood Sign in the game. Hold R and select the version you want to deploy. Each sign has a Dark and White variation.
+
+The Composite Sign is a Variation of the small Composite sign in the game. Hold R and you will see the two versions Dark and White.
+
